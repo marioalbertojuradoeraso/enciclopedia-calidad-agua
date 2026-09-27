@@ -36,3 +36,10 @@ En total: 13 páginas, 41 narraciones (23 min de audio), unas 50 imágenes gener
 - **Generadores guardados** en `scripts/generadores/`; la guía de uso está en `LEEME.md`.
 - **ICA del IDEAM** en la sección 6 y en `calculadoras.html`; línea de tiempo con 20 normas, cada una con cuándo se usa.
 - **Nuevo pendiente:** cotejar con la norma oficial los puntajes del IRCA y los límites de la Resolución 2115 que se escribieron de memoria (hierro, cloruros, sulfatos, nitritos, nitratos, aluminio y fluoruros).
+
+## Publicación en la web (2026-09-27)
+- **Dirección para compartir:** https://marioalbertojuradoeraso.github.io/enciclopedia-calidad-agua/
+- **Repositorio:** https://github.com/marioalbertojuradoeraso/enciclopedia-calidad-agua (público, rama `main`, GitHub Pages).
+- **Imágenes:** convertidas a WebP (de 78,7 MB a 4,8 MB); los PNG originales quedan en `MQAT/originales_imagenes/`. El sitio completo pesa unos 39 MB.
+- **Verificación sobre la dirección publicada:** 19 páginas a 1280 y 390 px, 0 fallas; navegación y audios reproducidos en Edge.
+- **Para actualizar:** editar los archivos y luego ejecutar `git add -A`, `git commit -m "…"` y `git push` desde la carpeta `Enciclopedia`. GitHub Pages vuelve a publicar solo, en uno o dos minutos.
