@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dureza del agua</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/estilos.css">
+  <script src="../../js/enciclopedia.js" defer></script>
+  <script src="../../js/laboratorio.js" defer></script>
+</head>
+<body>
+
+  <header class="barra">
+    <div class="contenedor">
+      <a class="marca" href="../../index.html">💧 Enciclopedia del Agua</a>
+      <nav aria-label="Secciones">
+        <ul class="menu">
+          <li><a href="../01-introduccion/index.html">1. Introducción</a></li>
+          <li><a href="../02-hidrosfera-ciclos/index.html">2. Hidrosfera y ciclos</a></li>
+          <li><a href="../03-cantidad-calidad/index.html">3. Cantidad y calidad</a></li>
+          <li><a href="index.html" aria-current="page">4. Parámetros</a></li>
+          <li><a href="../05-otros-parametros/index.html">5. Otros parámetros</a></li>
+          <li><a href="../06-normatividad/index.html">6. Normatividad</a></li>
+          <li><a href="../../calculadoras.html">🧮 Calculadoras</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <div class="contenedor">
+        <a class="volver" href="index.html">← Todos los parámetros</a><br><span class="etiqueta">Parámetro 5 de 6</span>
+        <h1>Dureza del agua</h1>
+        <p>Calcio, magnesio, espuma y sarro.</p>
+      </div>
+    </section>
+
+    <section class="bloque" id="que-es">
+      <div class="contenedor">
+        <h2>¿Qué es la dureza?</h2>
+        <div class="parrafo">
+            <p>Para empezar, la dureza indica cuánto calcio y magnesio hay disueltos en el agua. Estos minerales llegan cuando el agua atraviesa rocas como la caliza. Por ejemplo, un agua dura deja una costra blanca, llamada sarro, dentro de ollas, duchas y tuberías. Además, con ella el jabón hace poca espuma, por lo que se gasta más. Sin embargo, el agua dura no suele causar daño a la salud.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p1-dureza.mp3" hidden>🔊 Escuchar</button>
+          </div>
+        <div class="duo" style="margin-top:24px">
+          <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/04-parametros/dureza-sarro.webp" alt="Corte de una tubería con una costra blanca y dura en su interior, junto a una regadera con los orificios tapados de sarro."></div><figcaption>El sarro estrecha las tuberías y tapa las regaderas.</figcaption></figure>
+          <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/04-parametros/dureza-jabon.webp" alt="Dos lavamanos: en uno el jabón hace mucha espuma; en el otro casi no hace espuma y deja una capa gris."></div><figcaption>Con agua blanda hay mucha espuma; con agua dura, poca.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="comic">
+      <div class="contenedor">
+        <h2>Un viaje para entender los tres tipos</h2>
+        <figure class="comic-completo">
+          <a href="../../assets/images/04-parametros/comic-dureza-viaje.jpg" target="_blank" rel="noopener"><img src="../../assets/images/04-parametros/comic-dureza-viaje.jpg" alt="Cómic «El viaje microscópico por el río»: Sara y Gotita conocen a los pasajeros calcio y magnesio, miden la dureza total con EDTA, separan el magnesio para medir la dureza cálcica y calculan la magnésica con una resta." loading="lazy"></a>
+          <figcaption>Cómic «El viaje microscópico por el río»: dureza total, cálcica y magnésica. Toca la imagen para verla en grande.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="bloque" id="tipos">
+      <div class="contenedor">
+        <h2>Total, cálcica y magnésica</h2>
+        <div class="parrafo">
+            <p>Además, la dureza se divide en tres tipos. La dureza total suma el calcio y el magnesio juntos. En cambio, la dureza cálcica cuenta solo el calcio; para medirla, se sube mucho el pH, de modo que el magnesio se separa y no participa. Finalmente, la dureza magnésica no se mide directamente, sino que se calcula con una resta: dureza total menos dureza cálcica.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p2-tipos.mp3" hidden>🔊 Escuchar</button>
+          </div>
+        <div class="tarjetas" style="margin-top:24px">
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">🧺</span><strong>Dureza total</strong><small>calcio + magnesio</small></span>
+              <span class="cara reverso">Por ejemplo, se mide con EDTA a pH 10 y el indicador cambia de rojo vino a azul.</span>
+            </span>
+          </button>
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">🥚</span><strong>Dureza cálcica</strong><small>solo calcio</small></span>
+              <span class="cara reverso">En cambio, se mide a pH muy alto, con otro indicador llamado murexida, para que el magnesio no participe.</span>
+            </span>
+          </button>
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">➖</span><strong>Dureza magnésica</strong><small>total − cálcica</small></span>
+              <span class="cara reverso">Así, no necesita otra prueba: basta con restar la dureza cálcica a la dureza total.</span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="titular">
+      <div class="contenedor">
+        <h2>Laboratorio virtual: dureza total</h2>
+        <p class="instruccion">Agrega EDTA hasta que el color cambie a azul.</p>
+        <div class="parrafo">
+            <p>Por ejemplo, la dureza total se mide por titulación con EDTA, una sustancia que atrapa al calcio y al magnesio como una red. Antes, se agrega un indicador llamado negro de eriocromo T, que tiñe la muestra de rojo vino mientras hay minerales libres. Luego, cuando el EDTA ya atrapó todos los minerales, el color cambia a azul. Así, con el volumen gastado se calcula la dureza en mg CaCO₃/L.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p3-edta.mp3" hidden>🔊 Escuchar</button>
+          </div>
+        
+      </div>
+    </section>
+
+
+    <section class="bloque" id="laboratorio-dt">
+      <div class="contenedor">
+        <h2>Laboratorio virtual: dureza total</h2>
+        <p class="instruccion">Sigue los pasos con el botón azul.</p>
+        <div class="lab" id="lab-dureza"><script type="application/json">{"escena": "titulacion", "equipo": "Dureza total", "pasos": [{"titulo": "Llenar la bureta", "texto": "Se enjuaga y se llena la bureta con EDTA 0,01 M, y se enrasa en 0,00 mL.", "boton": "Llenar y enrasar", "volumen": 0}, {"titulo": "Medir la muestra", "texto": "Se miden 50,0 mL de muestra con pipeta volumétrica.", "boton": "Medir 50 mL", "vaso": ["Erlenmeyer:", "50,0 mL de muestra"], "liquido": "#eef6fa", "registro": ["Volumen de muestra (Vm)", "50,0 mL"]}, {"titulo": "Buffer pH 10", "texto": "Se agregan 2 mL de buffer amoniacal de pH 10, que mantiene el pH donde el EDTA atrapa bien al calcio y al magnesio.", "boton": "Agregar buffer", "vaso": ["50,0 mL de muestra", "+ 2 mL buffer pH 10"]}, {"titulo": "Indicador", "texto": "Se agregan 3 gotas de negro de eriocromo T: se une a los minerales y tiñe la muestra de rojo vino.", "boton": "Agregar indicador", "vaso": ["50,0 mL de muestra", "+ buffer pH 10", "+ negro de eriocromo T"], "liquido": "#8e1b3a"}, {"titulo": "Titular", "texto": "Se agrega EDTA gota a gota, agitando: pasa de rojo vino a morado y, al final, a azul puro que dura 30 segundos.", "boton": "Titular con EDTA", "titular": {"hasta": 12.0, "colorCerca": "#6a3d9a", "colorFinal": "#2a6fdb"}}, {"titulo": "Leer la bureta", "texto": "Se lee el volumen gastado.", "boton": "Leer el volumen", "registro": ["EDTA gastado (V)", "12,0 mL"]}, {"titulo": "Calcular", "texto": "Se aplica la fórmula de la guía.", "boton": "Calcular", "resultado": "Dureza total = (V × M × 100 090) ÷ Vm = (12,0 × 0,01 × 100 090) ÷ 50 = <strong>240,2 mg CaCO₃/L<\/strong>: agua dura. Cumple el máximo de 300 mg CaCO₃/L de la Resolución 2115."}], "final": "Práctica terminada.", "titulante": "EDTA 0,01 M", "indicadores": ["Buffer pH 10 (amoniacal)", "Negro de eriocromo T"], "vaso": ["Erlenmeyer vacío"], "liquido": "#f3f6f8"}</script></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="laboratorio-dc">
+      <div class="contenedor">
+        <h2>Laboratorio virtual: dureza cálcica</h2>
+        <div class="lab" id="lab-calcica"><script type="application/json">{"escena": "titulacion", "equipo": "Dureza cálcica", "pasos": [{"titulo": "Llenar la bureta", "texto": "Se llena la bureta con EDTA 0,01 M y se enrasa en 0,00 mL.", "boton": "Llenar y enrasar", "volumen": 0}, {"titulo": "Medir la muestra", "texto": "Se miden otros 50,0 mL de la misma muestra.", "boton": "Medir 50 mL", "vaso": ["Erlenmeyer:", "50,0 mL de muestra"], "liquido": "#eef6fa"}, {"titulo": "Subir el pH", "texto": "Se agregan 2 mL de NaOH 1 N para llevar el pH a 12 o 13: el magnesio forma un sólido y queda fuera del conteo.", "boton": "Agregar NaOH", "vaso": ["50,0 mL de muestra", "+ NaOH 1 N (pH 12-13)"], "liquido": "#f1f3f4"}, {"titulo": "Indicador", "texto": "Se agrega una pizca de murexida, que tiñe la muestra de rosado mientras hay calcio libre.", "boton": "Agregar murexida", "vaso": ["50,0 mL de muestra", "+ NaOH 1 N", "+ murexida"], "liquido": "#e9669a"}, {"titulo": "Titular", "texto": "Se agrega EDTA gota a gota hasta que el rosado cambie a violeta.", "boton": "Titular con EDTA", "titular": {"hasta": 8.0, "colorCerca": "#b56bb0", "colorFinal": "#7b3fa0"}}, {"titulo": "Leer la bureta", "texto": "Se lee el volumen gastado.", "boton": "Leer el volumen", "registro": ["EDTA gastado (V)", "8,0 mL"]}, {"titulo": "Calcular", "texto": "Se usa la misma fórmula y luego se resta.", "boton": "Calcular", "resultado": "Dureza cálcica = (8,0 × 0,01 × 100 090) ÷ 50 = <strong>160,1 mg CaCO₃/L<\/strong>. Dureza magnésica = 240,2 − 160,1 = <strong>80,1 mg CaCO₃/L<\/strong>."}], "final": "Práctica terminada.", "titulante": "EDTA 0,01 M", "indicadores": ["NaOH 1 N (pH 12 a 13)", "Murexida"], "vaso": ["Erlenmeyer vacío"], "liquido": "#f3f6f8"}</script></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="calculadora-dureza">
+      <div class="contenedor">
+        <h2>Calculadoras de dureza</h2>
+        <div class="duo" style="align-items:start"><div class="calculadora" id="calc-dureza"><script type="application/json">{"titulo": "Dureza total o cálcica", "entradas": [{"id": "V", "etiqueta": "Volumen de EDTA gastado", "unidad": "mL", "valor": 12.0, "paso": 0.1}, {"id": "M", "etiqueta": "Molaridad del EDTA", "unidad": "M", "valor": 0.01, "paso": 0.001}, {"id": "Vm", "etiqueta": "Volumen de muestra", "unidad": "mL", "valor": 50, "paso": 1}], "pasos": ["Dureza = (V × M × 100 090) ÷ Vm", "Dureza = ({V} × {M} × 100 090) ÷ {Vm}", "= {=V*M*100090} ÷ {Vm}", "= {=V*M*100090/Vm} mg CaCO₃/L", "Nota: 100 090 es la masa del carbonato de calcio, 100,09 g/mol, escrita en mg/mol."], "resultado": {"expr": "V*M*100090/Vm", "etiqueta": "Dureza", "unidad": "mg CaCO₃/L", "decimales": 1}, "interpretar": [{"hasta": 75, "texto": "Agua blanda."}, {"hasta": 150, "texto": "Agua moderadamente dura."}, {"hasta": 300, "texto": "Agua dura; cumple el máximo de 300 de la Resolución 2115."}, {"hasta": null, "texto": "Agua muy dura; supera el máximo de 300 mg CaCO₃/L."}]}</script></div><div class="calculadora" id="calc-magnesica"><script type="application/json">{"titulo": "Dureza magnésica", "entradas": [{"id": "DT", "etiqueta": "Dureza total", "unidad": "mg CaCO₃/L", "valor": 240.2, "paso": 0.1}, {"id": "DC", "etiqueta": "Dureza cálcica", "unidad": "mg CaCO₃/L", "valor": 160.1, "paso": 0.1}], "pasos": ["Dureza magnésica = dureza total − dureza cálcica", "= {DT} − {DC}", "= {=DT-DC} mg CaCO₃/L"], "resultado": {"expr": "DT-DC", "etiqueta": "Dureza magnésica", "unidad": "mg CaCO₃/L", "decimales": 1}, "interpretar": []}</script></div></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="clases">
+      <div class="contenedor">
+        <h2>¿Qué tan dura es?</h2>
+        <div class="barra-clases">
+          <div><strong>Blanda</strong>0 a 75</div>
+          <div><strong>Moderadamente dura</strong>75 a 150</div>
+          <div><strong>Dura</strong>150 a 300</div>
+          <div><strong>Muy dura</strong>más de 300</div>
+        </div>
+        <p class="instruccion" style="margin-top:14px">Valores en mg CaCO₃/L. En Colombia, el agua para beber puede tener como máximo 300 mg CaCO₃/L (Resolución 2115 de 2007).</p>
+      </div>
+    </section>
+
+    <section class="bloque" id="reto">
+      <div class="contenedor">
+        <h2>Mini-reto</h2>
+        <div class="reto">
+          <p class="pregunta">Un agua tiene dureza total de 240 mg CaCO₃/L y dureza cálcica de 160. ¿Cuál es su dureza magnésica?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! 240 − 160 = 80.">80 mg CaCO₃/L</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. La magnésica se obtiene restando, no sumando.">400 mg CaCO₃/L</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Ese es el valor del calcio; falta restarlo de la dureza total.">160 mg CaCO₃/L</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div><div class="reto">
+          <p class="pregunta">¿Por qué con agua dura se gasta más jabón?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! Esos minerales reaccionan con el jabón y forman una capa gris en lugar de espuma.">Porque el calcio y el magnesio impiden que el jabón haga espuma.</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. En realidad, un agua dura puede verse muy limpia; lo que tiene son minerales disueltos.">Porque el agua dura está más sucia.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="contenedor entre-parametros">
+      <a class="btn-siguiente" href="alcalinidad-acidez.html">← Alcalinidad y acidez</a>
+      <a class="btn-siguiente" href="solidos.html">Sólidos →</a>
+    </div>
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Color del agua</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/estilos.css">
+  <script src="../../js/enciclopedia.js" defer></script>
+  <script src="../../js/laboratorio.js" defer></script>
+</head>
+<body>
+
+  <header class="barra">
+    <div class="contenedor">
+      <a class="marca" href="../../index.html">💧 Enciclopedia del Agua</a>
+      <nav aria-label="Secciones">
+        <ul class="menu">
+          <li><a href="../01-introduccion/index.html">1. Introducción</a></li>
+          <li><a href="../02-hidrosfera-ciclos/index.html">2. Hidrosfera y ciclos</a></li>
+          <li><a href="../03-cantidad-calidad/index.html">3. Cantidad y calidad</a></li>
+          <li><a href="index.html" aria-current="page">4. Parámetros</a></li>
+          <li><a href="../05-otros-parametros/index.html">5. Otros parámetros</a></li>
+          <li><a href="../06-normatividad/index.html">6. Normatividad</a></li>
+          <li><a href="../../calculadoras.html">🧮 Calculadoras</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <div class="contenedor">
+        <a class="volver" href="index.html">← Todos los parámetros</a><br><span class="etiqueta">Parámetro 2 de 6</span>
+        <h1>Color del agua</h1>
+        <p>El caso de los dos colores y la regla que traduce la luz en números.</p>
+      </div>
+    </section>
+
+    <section class="bloque" id="dos-colores">
+      <div class="contenedor">
+        <h2>Color aparente y color real</h2>
+        <div class="parrafo">
+            <p>Para empezar, el color del agua se debe a sustancias disueltas, como restos de hojas descompuestas o hierro. Sin embargo, al mirar una muestra sin tratar, también se ven partículas que flotan y la enturbian. Por eso, se distinguen dos colores: el color aparente, que es el que se ve en la muestra tal como llega, y el color real, que es el que queda después de filtrarla para quitar esas partículas.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p1-dos-colores.mp3" hidden>🔊 Escuchar</button>
+          </div>
+        <div style="margin-top:28px">
+        <figure class="comic-completo">
+          <a href="../../assets/images/04-parametros/comic-dos-colores.jpg" target="_blank" rel="noopener"><img src="../../assets/images/04-parametros/comic-dos-colores.jpg" alt="Cómic «El caso de los dos colores»: dos detectives observan agua de río amarilla y nublada, la iluminan, la filtran y comparan el color aparente con el color real." loading="lazy"></a>
+          <figcaption>Cómic «El caso de los dos colores»: primero se observa, luego se ilumina y al final se filtra. Toca la imagen para verla en grande.</figcaption>
+        </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="comparar">
+      <div class="contenedor">
+        <h2>Compara los dos colores</h2>
+        <p class="instruccion">Toca cada tarjeta.</p>
+        <div class="tarjetas dos">
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">👀</span><strong>Color aparente</strong><small>antes de filtrar</small></span>
+              <span class="cara reverso">Por ejemplo, incluye todo lo que se ve: el color de lo disuelto más el efecto de las partículas que flotan.</span>
+            </span>
+          </button>
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">🔎</span><strong>Color real</strong><small>después de filtrar</small></span>
+              <span class="cara reverso">En cambio, solo muestra el color de lo disuelto, porque las partículas quedaron en el filtro.</span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="unidades">
+      <div class="contenedor">
+        <h2>¿En qué se mide el color?</h2>
+        <div class="duo">
+          <div>
+            <div class="parrafo">
+            <p>Además, el color se expresa en unidades de color (UC), también llamadas unidades platino-cobalto. Esto se debe a que se compara con mezclas preparadas con esos dos metales, que tienen un tono amarillo conocido. Por ejemplo, una mezcla de 10 UC es casi transparente y una de 50 UC ya es claramente amarilla. Así, esos tubos de referencia, llamados estándares, funcionan como las marcas de una regla.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p2-unidades.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          </div>
+          <div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/04-parametros/color-tubos.webp" alt="Una gradilla con tubos de ensayo que van de transparentes a color ámbar, y un tubo suelto con una muestra amarillenta para comparar."></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="espectro">
+      <div class="contenedor">
+        <h2>Medir con luz</h2>
+        <div class="duo">
+          <div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/04-parametros/espectrofotometro.webp" alt="Gotita introduce una cubeta de vidrio en un espectrofotómetro; un haz de luz atraviesa la cubeta."></div>
+          <div>
+            <div class="parrafo">
+            <p>Por otra parte, el espectrofotómetro es un aparato que ilumina la muestra y mide cuánta luz se queda atrapada en ella; ese número se llama absorbancia. Mientras más color tiene el agua, más luz retiene y mayor es la absorbancia. Sin embargo, el aparato no entrega unidades de color, sino solo absorbancia. Por eso, se necesita una curva de calibración que traduzca un número en el otro.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p3-espectrofotometro.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="comic-curva">
+      <div class="contenedor">
+        <h2>La curva de calibración, contada como cuento</h2>
+        <p class="instruccion">Mira las viñetas en orden.</p>
+        <div class="comic">
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/04-parametros/curva-1.webp" alt="Gotita ordena en una gradilla seis tubos con líquido de transparente a amarillo oscuro."></div>
+            <figcaption>Primero, se preparan estándares de color conocido, de 0 a 50 UC, como las marcas de una regla.</figcaption>
+          </figure>
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/04-parametros/curva-2.webp" alt="Gotita coloca una cubeta con líquido amarillo en un espectrofotómetro; al lado está la gradilla de tubos."></div>
+            <figcaption>Después, el espectrofotómetro mide cuánta luz absorbe cada estándar.</figcaption>
+          </figure>
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/04-parametros/curva-3.webp" alt="Gotita traza con una regla una recta que une seis puntos en una hoja de papel milimetrado."></div>
+            <figcaption>Luego, los puntos se dibujan en una gráfica y se unen con una sola recta que pasa por el cero.</figcaption>
+          </figure>
+          <figure class="vineta">
+            <div class="imagen"><svg viewBox="0 0 300 300" role="img" aria-label="Gráfica: desde una absorbancia en el eje vertical, una línea punteada avanza hasta la recta y baja al eje del color." style="width:100%;height:100%;background:#fff8ec">
+              <g stroke="#e3f5fb" stroke-width="2"><line x1="50" x2="280" y1="210" y2="210"/><line x1="50" x2="280" y1="170" y2="170"/><line x1="50" x2="280" y1="130" y2="130"/><line x1="50" x2="280" y1="90" y2="90"/><line x1="50" x2="280" y1="50" y2="50"/></g>
+              <line x1="50" y1="250" x2="280" y2="250" stroke="#0b3954" stroke-width="3"/>
+              <line x1="50" y1="30" x2="50" y2="250" stroke="#0b3954" stroke-width="3"/>
+              <line x1="50" y1="250" x2="270" y2="60" stroke="#087e8b" stroke-width="5"/>
+              <circle cx="50" cy="250" r="6" fill="#0b3954"/><circle cx="94" cy="212" r="6" fill="#0b3954"/><circle cx="138" cy="174" r="6" fill="#0b3954"/><circle cx="182" cy="136" r="6" fill="#0b3954"/><circle cx="226" cy="98" r="6" fill="#0b3954"/><circle cx="270" cy="60" r="6" fill="#0b3954"/>
+              <path d="M50 158 L157 158" stroke="#ff6f59" stroke-width="4" stroke-dasharray="9 6"/>
+              <path d="M157 158 L157 250" stroke="#ff6f59" stroke-width="4" stroke-dasharray="9 6"/>
+              <circle cx="157" cy="158" r="9" fill="#ff6f59" stroke="#fff" stroke-width="3"/>
+              <g font-family="Nunito, Segoe UI, sans-serif" font-weight="800" font-size="15" fill="#0b3954">
+                <text x="58" y="148">1. absorbancia</text>
+                <text x="165" y="215">2. la recta</text>
+                <text x="120" y="280">3. el color</text>
+              </g>
+              <path d="M235 40 Q245 20 255 40 Q258 55 245 58 Q232 55 235 40 Z" fill="#1fa2c4"/>
+            </svg></div>
+            <figcaption>Finalmente, se mide la muestra y, desde su absorbancia, se sigue la recta para leer su color.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="pasos">
+      <div class="contenedor">
+        <h2>La curva de calibración, paso a paso</h2>
+        <ol class="flujo">
+            <li><strong>Preparar</strong>Seis estándares: 0, 10, 20, 30, 40 y 50 UC.</li>
+            <li><strong>Medir</strong>La absorbancia de cada estándar.</li>
+            <li><strong>Graficar</strong>Marcar los puntos y trazar una recta desde el cero.</li>
+            <li><strong>Medir la muestra</strong>Leer su absorbancia en el aparato.</li>
+            <li><strong>Interpolar</strong>Buscar ese valor en la recta y leer el color abajo.</li>
+          </ol>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="datos-curva">
+      <div class="contenedor">
+        <h2>La curva con datos reales de laboratorio</h2>
+        <div class="tabla-desplazable"><table class="tabla-datos"><thead><tr><th>Estándar</th><th>Color (UC)</th><th>Absorbancia a 455 nm</th></tr></thead><tbody><tr><td>Blanco (agua destilada)</td><td>0</td><td>0,000</td></tr><tr><td>2 mL de madre en 100 mL</td><td>10</td><td>0,010</td></tr><tr><td>4 mL</td><td>20</td><td>0,020</td></tr><tr><td>6 mL</td><td>30</td><td>0,030</td></tr><tr><td>8 mL</td><td>40</td><td>0,040</td></tr><tr><td>10 mL</td><td>50</td><td>0,050</td></tr></tbody></table></div><p class="instruccion" style="margin-top:8px">Datos del ejemplo de la guía de laboratorio N.° 2 (estándares preparados con una solución madre de 500 UC).</p>
+        <div style="margin-top:24px"><div class="ejemplo"><strong>✏️ Ejemplo resuelto: de la tabla al resultado</strong><p style="margin:0">Con esos datos se calcula la pendiente de la recta, es decir, cuánta absorbancia aporta cada unidad de color.</p><ol><li>Pendiente = (0,050 − 0,000) ÷ (50 − 0) = <span class='cuenta'>0,0010 por UC</span>.</li><li>Ecuación de la recta: Absorbancia = 0,0010 × Color. Despejando: Color = Absorbancia ÷ 0,0010.</li><li>Muestra con absorbancia 0,027: <span class='cuenta'>0,027 ÷ 0,0010 = 27 UC</span>.</li><li>Muestra con absorbancia 0,068: supera 0,050, así que está fuera de la curva. Se diluye a la mitad (25 mL de muestra en 50 mL) y da 0,031.</li><li>Color de la muestra diluida: <span class='cuenta'>0,031 ÷ 0,0010 = 31 UC</span>; color original: <span class='cuenta'>31 × 2 = 62 UC</span>.</li></ol></div></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="interpolar">
+      <div class="contenedor">
+        <h2>Interpolar: leer la curva</h2>
+        <p class="instruccion">Mueve el control y sigue la línea punteada.</p>
+        <div class="parrafo">
+            <p>Finalmente, interpolar significa encontrar un valor desconocido que está entre dos valores conocidos. Por ejemplo, si la muestra da una absorbancia de 0,027, se ubica ese número en el eje vertical, se avanza en línea recta hasta tocar la recta y luego se baja hasta el eje horizontal, donde se lee 27 UC. Además, la curva solo vale entre 0 y 50 UC; por eso, si la muestra pasa ese límite, se diluye con agua destilada y el resultado se multiplica.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p4-interpolar.mp3" hidden>🔊 Escuchar</button>
+          </div>
+        <div class="curva" style="margin-top:24px" data-pendiente="0.0010" data-max-x="50" data-max-y="0.060"
+             data-dentro="La muestra tiene {v} UC. El punto cae dentro de la curva, así que el resultado es confiable."
+             data-fuera="Fuera de rango: la absorbancia supera 0,050, que corresponde a 50 UC. Se diluye la muestra a la mitad, se mide otra vez y el resultado se multiplica por 2.">
+          <svg viewBox="0 0 400 320" role="img" aria-label="Curva de calibración: recta que va de absorbancia 0 con 0 UC hasta absorbancia 0,050 con 50 UC.">
+            <g font-family="Nunito, Segoe UI, sans-serif" font-size="12" fill="#4f6272">
+              <line x1="70" x2="380" y1="220" y2="220" stroke="#e3f5fb" stroke-width="2"/><line x1="70" x2="380" y1="180" y2="180" stroke="#e3f5fb" stroke-width="2"/><line x1="70" x2="380" y1="140" y2="140" stroke="#e3f5fb" stroke-width="2"/><line x1="70" x2="380" y1="100" y2="100" stroke="#e3f5fb" stroke-width="2"/><line x1="70" x2="380" y1="60" y2="60" stroke="#e3f5fb" stroke-width="2"/><line x1="70" x2="380" y1="20" y2="20" stroke="#e3f5fb" stroke-width="2"/>
+              <line x1="70" y1="260" x2="380" y2="260" stroke="#0b3954" stroke-width="2"/>
+              <line x1="70" y1="20" x2="70" y2="260" stroke="#0b3954" stroke-width="2"/>
+              <text x="64" y="264" text-anchor="end">0,000</text><text x="64" y="224" text-anchor="end">0,010</text><text x="64" y="184" text-anchor="end">0,020</text><text x="64" y="144" text-anchor="end">0,030</text><text x="64" y="104" text-anchor="end">0,040</text><text x="64" y="64" text-anchor="end">0,050</text><text x="64" y="24" text-anchor="end">0,060</text><text x="70.0" y="280" text-anchor="middle">0</text><text x="132.0" y="280" text-anchor="middle">10</text><text x="194.0" y="280" text-anchor="middle">20</text><text x="256.0" y="280" text-anchor="middle">30</text><text x="318.0" y="280" text-anchor="middle">40</text><text x="380.0" y="280" text-anchor="middle">50</text>
+              <text x="225" y="306" text-anchor="middle" font-weight="800" fill="#0b3954">Color (UC)</text>
+              <text x="14" y="140" text-anchor="middle" font-weight="800" fill="#0b3954" transform="rotate(-90 14 140)">Absorbancia</text>
+            </g>
+            <line x1="70" y1="260" x2="380" y2="60" stroke="#087e8b" stroke-width="4"/>
+            <circle cx="70.0" cy="260.0" r="5" fill="#0b3954"/><circle cx="132.0" cy="220.0" r="5" fill="#0b3954"/><circle cx="194.0" cy="180.0" r="5" fill="#0b3954"/><circle cx="256.0" cy="140.0" r="5" fill="#0b3954"/><circle cx="318.0" cy="100.0" r="5" fill="#0b3954"/><circle cx="380.0" cy="60.0" r="5" fill="#0b3954"/>
+            <line class="guia-h" x1="70" y1="152" x2="228" y2="152" stroke="#ff6f59" stroke-width="3" stroke-dasharray="7 5"/>
+            <line class="guia-v" x1="228" y1="152" x2="228" y2="260" stroke="#ff6f59" stroke-width="3" stroke-dasharray="7 5"/>
+            <circle class="punto" cx="228" cy="152" r="8" fill="#ff6f59" stroke="#fff" stroke-width="3"/>
+          </svg>
+          <div>
+            <label for="absorbancia">Absorbancia de la muestra: <span class="abs">0,027</span></label>
+            <input id="absorbancia" type="range" min="0" max="0.060" step="0.001" value="0.027">
+            <p class="resultado">Color: <strong class="valor">27</strong> UC</p>
+            <p class="mensaje" aria-live="polite"></p>
+          </div>
+        </div>
+        <p style="margin-top:16px"><a href="../../assets/diagrams/04-parametros/color-interpolacion.html" target="_blank" rel="noopener" style="font-weight:800;color:var(--agua-700)">Ver la versión ampliada, con la tabla de estándares y el ejemplo de dilución →</a></p>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="calculadora-color">
+      <div class="contenedor">
+        <h2>Calculadora de color</h2>
+        <div class="calculadora" id="calc-color"><script type="application/json">{"titulo": "De absorbancia a unidades de color", "entradas": [{"id": "A", "etiqueta": "Absorbancia de la muestra", "unidad": "", "valor": 0.027, "paso": 0.001}, {"id": "m", "etiqueta": "Pendiente de la curva", "unidad": "por UC", "valor": 0.001, "paso": 0.0001}, {"id": "F", "etiqueta": "Factor de dilución (1 si no se diluyó)", "unidad": "", "valor": 1, "paso": 1}], "pasos": ["Color = (Absorbancia ÷ pendiente) × factor", "Color = ({A} ÷ {m}) × {F}", "Color = {=A/m} × {F} = {=A/m*F} UC"], "resultado": {"expr": "A/m*F", "etiqueta": "Color", "unidad": "UC", "decimales": 0}, "interpretar": [{"hasta": 15, "texto": "Si se midió el color aparente, cumple el máximo de 15 UC de la Resolución 2115."}, {"hasta": null, "texto": "Si se midió el color aparente, supera el máximo de 15 UC: el agua necesita tratamiento."}]}</script></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="laboratorio-color">
+      <div class="contenedor">
+        <h2>Laboratorio virtual: color aparente y color real</h2>
+        <p class="instruccion">Sigue los pasos con el botón azul.</p>
+        <div class="lab" id="lab-color"><script type="application/json">{"escena": "caja", "equipo": "Espectrofotómetro · 455 nm", "pasos": [{"titulo": "Encender", "texto": "Se enciende el espectrofotómetro y se espera 10 minutos a que la lámpara se estabilice.", "boton": "Encender", "pantalla": "---"}, {"titulo": "Elegir la luz", "texto": "Se ajusta la longitud de onda en 455 nm, el tono de luz que más absorbe el color amarillo del agua.", "boton": "Ajustar 455 nm", "pantalla": "455 nm"}, {"titulo": "Hacer el blanco", "texto": "Se llena la cubeta con agua destilada y se ajusta el cero: sin color, no hay absorbancia.", "boton": "Ajustar el cero", "vaso": ["Blanco:", "agua destilada"], "liquido": "#f4fbfd", "pantalla": "0,000", "registro": ["Blanco", "0,000"]}, {"titulo": "Leer estándares", "texto": "Se leen los estándares de 10 a 50 UC, del más claro al más oscuro.", "boton": "Leer los estándares", "vaso": ["Estándares", "10 a 50 UC"], "liquido": "#f1dc7a", "animar": {"de": 0.01, "a": 0.05, "decimales": 3}, "registro": ["Estándares", "0,010 · 0,020 · 0,030 · 0,040 · 0,050"]}, {"titulo": "Muestra sin filtrar", "texto": "Se lee la muestra tal como llegó, con sus partículas: esa lectura corresponde al color aparente.", "boton": "Leer sin filtrar", "vaso": ["M1 sin filtrar"], "liquido": "#d9c778", "animar": {"de": 0, "a": 0.041, "decimales": 3}, "registro": ["M1 sin filtrar (aparente)", "0,041 → 41 UC"]}, {"titulo": "Muestra filtrada", "texto": "Se filtra otra porción por una membrana de 0,45 µm para quitar las partículas y se lee: esa lectura corresponde al color real.", "boton": "Filtrar y leer", "vaso": ["M1 filtrada", "(0,45 µm)"], "liquido": "#efe39a", "animar": {"de": 0, "a": 0.027, "decimales": 3}, "registro": ["M1 filtrada (real)", "0,027 → 27 UC"]}, {"titulo": "Calcular", "texto": "Se divide cada absorbancia entre la pendiente, 0,0010.", "boton": "Calcular", "resultado": "Color aparente = 0,041 ÷ 0,0010 = <strong>41 UC<\/strong>. Color real = 0,027 ÷ 0,0010 = <strong>27 UC<\/strong>. La diferencia, 14 UC, se debía a las partículas. El color aparente supera el máximo de 15 UC de la Resolución 2115: el agua necesita tratamiento."}], "final": "Práctica terminada: las cubetas se lavan con agua destilada.", "unidad": "absorbancia", "vaso": ["Cubeta vacía"]}</script></div>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="reto">
+      <div class="contenedor">
+        <h2>Mini-reto</h2>
+        <p class="instruccion">Todas las respuestas se encuentran en esta página.</p>
+        <div class="reto">
+          <p class="pregunta">Con la curva de esta página (pendiente 0,0010 por UC), una muestra da absorbancia 0,035. ¿Cuál es su color?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Se divide entre la pendiente: 0,035 ÷ 0,0010 = 35.">3,5 UC</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! Además, cae dentro de la curva, entre 30 y 40 UC.">35 UC</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Esa cifra quedaría muy fuera de la curva, que llega hasta 50.">350 UC</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+        <div class="reto">
+          <p class="pregunta">En el laboratorio virtual, ¿qué lectura corresponde al color real?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Esa incluye partículas: es el color aparente.">La de la muestra sin filtrar.</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! Sin partículas, solo queda el color de lo disuelto.">La de la muestra filtrada por 0,45 µm.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="contenedor entre-parametros">
+      <a class="btn-siguiente" href="ph-conductividad.html">← pH y conductividad</a>
+      <a class="btn-siguiente" href="turbiedad.html">Turbiedad →</a>
+    </div>
+  </main>
+
+</body>
+</html>

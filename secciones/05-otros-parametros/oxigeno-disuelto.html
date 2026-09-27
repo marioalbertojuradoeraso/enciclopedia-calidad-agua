@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oxígeno disuelto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/estilos.css">
+  <script src="../../js/enciclopedia.js" defer></script>
+  <script src="../../js/laboratorio.js" defer></script>
+</head>
+<body>
+
+  <header class="barra">
+    <div class="contenedor">
+      <a class="marca" href="../../index.html">💧 Enciclopedia del Agua</a>
+      <nav aria-label="Secciones">
+        <ul class="menu">
+          <li><a href="../01-introduccion/index.html">1. Introducción</a></li>
+          <li><a href="../02-hidrosfera-ciclos/index.html">2. Hidrosfera y ciclos</a></li>
+          <li><a href="../03-cantidad-calidad/index.html">3. Cantidad y calidad</a></li>
+          <li><a href="../04-parametros/index.html">4. Parámetros</a></li>
+          <li><a href="index.html" aria-current="page">5. Otros parámetros</a></li>
+          <li><a href="../06-normatividad/index.html">6. Normatividad</a></li>
+          <li><a href="../../calculadoras.html">🧮 Calculadoras</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <div class="contenedor">
+        <a class="volver" href="index.html">← Otros parámetros</a><br><span class="etiqueta">Sección 5 · Parámetro de la norma</span>
+        <h1>Oxígeno disuelto</h1>
+        <p>El aire que respiran los peces.</p>
+      </div>
+    </section>
+
+    <section class="bloque" id="que-es">
+      <div class="contenedor">
+        <h2>¿Qué es el oxígeno disuelto?</h2>
+        <div class="duo">
+          <div class="parrafo">
+            <p>Para empezar, el oxígeno disuelto es el oxígeno del aire que queda mezclado dentro del agua, en forma de moléculas invisibles. Los peces lo toman con sus branquias, igual que las personas lo toman del aire con los pulmones. Por eso, un río sano suele tener entre 7 y 10 miligramos por litro, mientras que con menos de 4 muchos peces sufren. Además, el agua fría guarda más oxígeno que el agua caliente.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/05-otros-parametros/od-p1.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/05-otros-parametros/oxigeno-peces.webp" alt="Bajo el agua de un río limpio, peces nadan entre burbujas de oxígeno mientras Gotita mide con una sonda."></div><figcaption>Gotita mide el oxígeno con una sonda, un sensor que se sumerge en el agua.</figcaption></figure>
+        </div>
+        <div style="margin-top:20px"><div class="tabla-desplazable"><table class="tabla-datos"><thead><tr><th>Unidad</th><th>Método estándar</th><th>Qué dice la norma</th></tr></thead><tbody><tr><td>mg O₂/L</td><td>Winkler (SM 4500-O C) o electrodo de oxígeno (SM 4500-O G)</td><td>Para preservar la flora y la fauna acuática, la Resolución 0565 de 2026 pide al menos 5 mg/L.</td></tr></tbody></table></div></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="winkler">
+      <div class="contenedor">
+        <h2>El método de Winkler</h2>
+        <p class="instruccion">Sigue los pasos con el botón azul.</p>
+        <div class="parrafo">
+            <p>Por otra parte, el método de Winkler mide el oxígeno con reactivos. Primero, se agregan sulfato de manganeso y una mezcla alcalina de yoduro, que atrapan el oxígeno y forman un sólido café. Luego, el ácido sulfúrico disuelve ese sólido y libera yodo, que tiñe el agua de amarillo. Finalmente, se titula con tiosulfato de sodio usando almidón, que se pone azul y se vuelve incoloro cuando se acaba el yodo.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/05-otros-parametros/od-p2.mp3" hidden>🔊 Escuchar</button>
+          </div><div style="margin-top:24px"><div class="lab" id="lab-od"><script type="application/json">{"escena": "titulacion", "equipo": "Método de Winkler", "pasos": [{"titulo": "Tomar la muestra", "texto": "Se llena una botella de 300 mL hasta rebosar y se tapa sin dejar burbujas, para que no entre oxígeno del aire.", "boton": "Llenar la botella", "vaso": ["Botella de 300 mL", "con la muestra"], "liquido": "#e3f3f9"}, {"titulo": "Fijar el oxígeno", "texto": "Se agregan 1 mL de sulfato de manganeso y 1 mL de álcali-yoduro-azida, se tapa y se invierte: el oxígeno queda atrapado en un sólido café.", "boton": "Agregar reactivos", "vaso": ["+ sulfato de manganeso", "+ álcali-yoduro-azida"], "liquido": "#b8864b"}, {"titulo": "Liberar el yodo", "texto": "Se agrega 1 mL de ácido sulfúrico concentrado: el sólido se disuelve y el agua queda amarilla por el yodo liberado.", "boton": "Agregar ácido", "vaso": ["+ ácido sulfúrico", "(yodo liberado)"], "liquido": "#f2c94c"}, {"titulo": "Medir 200 mL", "texto": "Se pasan 200 mL al erlenmeyer y se llena la bureta con tiosulfato de sodio 0,025 N.", "boton": "Medir y llenar la bureta", "vaso": ["Erlenmeyer:", "200 mL de la botella"], "volumen": 0, "registro": ["Volumen titulado (Vm)", "200 mL"]}, {"titulo": "Titular hasta amarillo pálido", "texto": "Se agrega tiosulfato hasta que el amarillo casi desaparezca.", "boton": "Titular", "titular": {"hasta": 5.4, "colorFinal": "#f7eaa8"}}, {"titulo": "Agregar almidón", "texto": "Se agregan unas gotas de almidón: el poco yodo que queda tiñe la muestra de azul.", "boton": "Agregar almidón", "vaso": ["200 mL", "+ almidón"], "liquido": "#2b3d8f"}, {"titulo": "Titular hasta incoloro", "texto": "Se sigue titulando gota a gota hasta que el azul desaparezca.", "boton": "Terminar de titular", "titular": {"desde": 5.4, "hasta": 7.2, "colorCerca": "#9aa6d6", "colorFinal": "#f3f6f8"}}, {"titulo": "Calcular", "texto": "Con 200 mL de muestra y tiosulfato 0,025 N, cada mililitro gastado equivale a 1 mg/L de oxígeno.", "boton": "Calcular", "registro": ["Tiosulfato gastado (V)", "7,2 mL"], "resultado": "OD = (V × N × 8000) ÷ Vm = (7,2 × 0,025 × 8000) ÷ 200 = <strong>7,2 mg/L<\/strong>. Es un agua bien oxigenada, buena para los peces."}], "final": "Práctica terminada.", "titulante": "Tiosulfato de sodio 0,025 N", "indicadores": ["Sulfato de manganeso", "Álcali-yoduro-azida", "Ácido sulfúrico", "Almidón"], "vaso": ["Botella vacía"], "liquido": "#f3f6f8"}</script></div></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="calculadora">
+      <div class="contenedor">
+        <h2>Calculadora de oxígeno disuelto</h2>
+        <div class="calculadora" id="calc-od"><script type="application/json">{"titulo": "Oxígeno disuelto por Winkler", "entradas": [{"id": "V", "etiqueta": "Tiosulfato gastado", "unidad": "mL", "valor": 7.2, "paso": 0.1}, {"id": "N", "etiqueta": "Normalidad del tiosulfato", "unidad": "N", "valor": 0.025, "paso": 0.001}, {"id": "Vm", "etiqueta": "Volumen titulado", "unidad": "mL", "valor": 200, "paso": 1}], "pasos": ["OD = (V × N × 8000) ÷ Vm", "OD = ({V} × {N} × 8000) ÷ {Vm}", "= {=V*N*8000} ÷ {Vm} = {=V*N*8000/Vm} mg/L", "Nota: 8000 sale de 8 g de oxígeno por equivalente × 1000 mg por gramo."], "resultado": {"expr": "V*N*8000/Vm", "etiqueta": "Oxígeno disuelto", "unidad": "mg/L", "decimales": 1}, "interpretar": [{"hasta": 3.9999, "texto": "Muy poco oxígeno: muchos peces no sobreviven."}, {"hasta": 4.9999, "texto": "Por debajo del mínimo de 5 mg/L de la Resolución 0565 para la vida acuática."}, {"hasta": null, "texto": "Cumple el mínimo de 5 mg/L para la vida acuática."}]}</script></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="reto">
+      <div class="contenedor">
+        <h2>Mini-reto</h2>
+        <div class="reto">
+          <p class="pregunta">Un río tiene 3 mg/L de oxígeno disuelto. La Resolución 0565 pide al menos 5 mg/L para la vida acuática. ¿Es suficiente para los peces?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. 3 es menor que el mínimo de 5 mg/L.">Sí.</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! Con tan poco oxígeno, muchos peces sufren.">No.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div><div class="reto">
+          <p class="pregunta">En la titulación de Winkler con 200 mL y tiosulfato 0,025 N se gastan 5,0 mL. ¿Cuál es el oxígeno disuelto?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! (5,0 × 0,025 × 8000) ÷ 200 = 5,0.">5,0 mg/L</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Revisa la fórmula: (V × N × 8000) ÷ Vm.">0,5 mg/L</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="contenedor entre-parametros">
+      <a class="btn-siguiente" href="index.html">← Otros parámetros</a>
+      <a class="btn-siguiente" href="cloro-residual.html">Cloro residual →</a>
+    </div>
+  </main>
+
+</body>
+</html>

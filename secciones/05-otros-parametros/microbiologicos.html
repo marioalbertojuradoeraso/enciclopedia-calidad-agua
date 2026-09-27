@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coliformes y E. coli</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/estilos.css">
+  <script src="../../js/enciclopedia.js" defer></script>
+  <script src="../../js/laboratorio.js" defer></script>
+</head>
+<body>
+
+  <header class="barra">
+    <div class="contenedor">
+      <a class="marca" href="../../index.html">💧 Enciclopedia del Agua</a>
+      <nav aria-label="Secciones">
+        <ul class="menu">
+          <li><a href="../01-introduccion/index.html">1. Introducción</a></li>
+          <li><a href="../02-hidrosfera-ciclos/index.html">2. Hidrosfera y ciclos</a></li>
+          <li><a href="../03-cantidad-calidad/index.html">3. Cantidad y calidad</a></li>
+          <li><a href="../04-parametros/index.html">4. Parámetros</a></li>
+          <li><a href="index.html" aria-current="page">5. Otros parámetros</a></li>
+          <li><a href="../06-normatividad/index.html">6. Normatividad</a></li>
+          <li><a href="../../calculadoras.html">🧮 Calculadoras</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <div class="contenedor">
+        <a class="volver" href="index.html">← Otros parámetros</a><br><span class="etiqueta">Sección 5 · Parámetro de la norma</span>
+        <h1>Coliformes y E. coli</h1>
+        <p>Buscar microbios que no se ven.</p>
+      </div>
+    </section>
+
+    <section class="bloque" id="que-son">
+      <div class="contenedor">
+        <h2>¿Qué son los coliformes?</h2>
+        <div class="duo">
+          <div class="parrafo">
+            <p>Para empezar, los coliformes son un grupo de bacterias que viven en el suelo, en las plantas y en el intestino de las personas y los animales. Entre ellos está Escherichia coli, o E. coli, que vive casi solo en el intestino; por eso, encontrarla en el agua prueba que el agua tuvo contacto con heces. Además, donde hay E. coli pueden estar microbios que causan diarrea. Por esta razón, la norma exige que no haya ni una en 100 mL.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/05-otros-parametros/mb-p1.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/05-otros-parametros/colonias.webp" alt="Una placa de Petri con una membrana blanca y varias colonias; al lado, un embudo de filtración; Gotita las cuenta con su lupa."></div><figcaption>Cada puntito es una colonia que creció a partir de una sola bacteria.</figcaption></figure>
+        </div>
+        <div style="margin-top:20px"><div class="parrafo">
+            <p>Por otra parte, se miden con el método de filtración por membrana. Se hacen pasar 100 mL de agua por un filtro con poros tan pequeños, de 0,45 micrómetros, que las bacterias quedan atrapadas. Luego, el filtro se coloca sobre un alimento especial, llamado medio de cultivo, y se incuba 24 horas a unos 35 °C. Así, cada bacteria se multiplica hasta formar un puntito visible, llamado colonia, que se puede contar.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/05-otros-parametros/mb-p2.mp3" hidden>🔊 Escuchar</button>
+          </div></div>
+        <div style="margin-top:20px"><div class="tabla-desplazable"><table class="tabla-datos"><thead><tr><th>Unidad</th><th>Método estándar</th><th>Qué dice la norma</th></tr></thead><tbody><tr><td>UFC/100 mL (unidades formadoras de colonias)</td><td>Filtración por membrana (SM 9222)</td><td>Resolución 2115 de 2007: 0 UFC/100 mL de coliformes totales y 0 de E. coli.</td></tr></tbody></table></div></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="laboratorio">
+      <div class="contenedor">
+        <h2>Laboratorio virtual: filtración por membrana</h2>
+        <p class="instruccion">Sigue los pasos con el botón azul.</p>
+        <div class="lab" id="lab-micro"><script type="application/json">{"escena": "filtracion", "equipo": "Placa con medio cromogénico", "pasos": [{"titulo": "Preparar el embudo", "texto": "Se desinfecta el embudo y, con pinzas estériles, se coloca una membrana de poros de 0,45 µm.", "boton": "Colocar la membrana", "pantalla": "Placa vacía", "colonias": 0}, {"titulo": "Filtrar", "texto": "Se filtran 100 mL de muestra: las bacterias, más grandes que los poros, quedan atrapadas en la membrana.", "boton": "Filtrar 100 mL", "registro": ["Volumen filtrado", "100 mL"]}, {"titulo": "Sembrar", "texto": "Con las pinzas se pasa la membrana a una placa con medio de cultivo, el alimento donde crecerán las bacterias.", "boton": "Pasar a la placa", "pantalla": "Sembrada"}, {"titulo": "Incubar", "texto": "Se incuba la placa 24 horas a unos 35 °C: cada bacteria se multiplica hasta formar un puntito visible llamado colonia.", "boton": "Incubar 24 h", "pantalla": "24 h · 35 °C", "colonias": 23}, {"titulo": "Contar", "texto": "Se cuentan las colonias: en este medio, las rojizas son coliformes y las azul oscuro son E. coli.", "boton": "Contar colonias", "pantalla": "23 colonias", "registro": ["Coliformes totales", "23 UFC/100 mL"]}, {"titulo": "Contar E. coli", "texto": "Se cuentan aparte las colonias azul oscuro.", "boton": "Contar E. coli", "pantalla": "5 azules", "registro": ["E. coli", "5 UFC/100 mL"], "resultado": "La norma exige <strong>0 UFC/100 mL<\/strong> de coliformes totales y de E. coli. Esta agua <strong>no cumple<\/strong>: tuvo contacto con heces y no debe beberse sin desinfectarla."}], "final": "Práctica terminada: las placas se esterilizan antes de desecharlas.", "liquido": "#f3e6c4", "vaso": ["Membrana sobre el medio de cultivo"]}</script></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="calculadora">
+      <div class="contenedor">
+        <h2>Calculadora de colonias</h2>
+        <div class="calculadora" id="calc-ufc"><script type="application/json">{"titulo": "Pasar colonias a UFC/100 mL", "entradas": [{"id": "n", "etiqueta": "Colonias contadas", "unidad": "", "valor": 23, "paso": 1}, {"id": "V", "etiqueta": "Volumen filtrado", "unidad": "mL", "valor": 100, "paso": 1}], "pasos": ["UFC/100 mL = colonias × 100 ÷ volumen filtrado", "= {n} × 100 ÷ {V}", "= {=n*100/V} UFC/100 mL"], "resultado": {"expr": "n*100/V", "etiqueta": "Resultado", "unidad": "UFC/100 mL", "decimales": 0}, "interpretar": [{"hasta": 0, "texto": "Cumple: no se encontraron colonias."}, {"hasta": null, "texto": "No cumple la Resolución 2115, que exige 0 UFC/100 mL."}]}</script></div><div style="margin-top:20px"><div class="ejemplo"><strong>✏️ Ejemplo resuelto: filtrar menos agua</strong><p style="margin:0">Si el agua está muy sucia, se filtran solo 10 mL para poder contar las colonias.</p><ol><li>Se cuentan 12 colonias en 10 mL.</li><li>UFC/100 mL = <span class='cuenta'>12 × 100 ÷ 10 = 120</span>.</li></ol></div></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="reto">
+      <div class="contenedor">
+        <h2>Mini-reto</h2>
+        <div class="reto">
+          <p class="pregunta">Al filtrar 100 mL de agua de la llave aparecen 2 colonias de E. coli. ¿Se puede beber sin tratarla?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. La norma exige 0: una sola indica contaminación fecal.">Sí, porque son muy pocas.</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! Hay que desinfectarla antes de beberla.">No, porque la norma exige 0 UFC/100 mL.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="contenedor entre-parametros">
+      <a class="btn-siguiente" href="cloro-residual.html">← Cloro residual</a>
+      <a class="btn-siguiente" href="iones.html">Cloruros, hierro y otros iones →</a>
+    </div>
+  </main>
+
+</body>
+</html>

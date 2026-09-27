@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" role="img" aria-labelledby="titulo descripcion">
+<title id="titulo">Del valor de absorbancia al color</title>
+<desc id="descripcion">Ejemplo didáctico: una absorbancia de 0,027 se busca en el eje vertical. Se avanza horizontalmente hasta la recta y se baja al eje de color: 27 unidades Pt-Co. Los patrones van de 0 a 50 unidades.</desc>
+<defs><marker id="punta" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#b45309"/></marker></defs>
+<rect width="960" height="660" rx="24" fill="#f8fafc"/>
+<g font-family="Arial, sans-serif" fill="#16324f" font-size="18">
+<text x="40" y="48" font-size="29" font-weight="bold">Del valor de absorbancia al color</text>
+<text x="40" y="80">Un recorrido por la recta de calibración</text>
+<text x="120" y="122">Absorbancia a 455 nm (sin unidades)</text>
+<path d="M120 150V450 M120 450H720" stroke="#dbe7ee"/><text x="120" y="476" text-anchor="middle">0</text><text x="105" y="456" text-anchor="end">0,000</text><path d="M240 150V450 M120 390H720" stroke="#dbe7ee"/><text x="240" y="476" text-anchor="middle">10</text><text x="105" y="396" text-anchor="end">0,010</text><path d="M360 150V450 M120 330H720" stroke="#dbe7ee"/><text x="360" y="476" text-anchor="middle">20</text><text x="105" y="336" text-anchor="end">0,020</text><path d="M480 150V450 M120 270H720" stroke="#dbe7ee"/><text x="480" y="476" text-anchor="middle">30</text><text x="105" y="276" text-anchor="end">0,030</text><path d="M600 150V450 M120 210H720" stroke="#dbe7ee"/><text x="600" y="476" text-anchor="middle">40</text><text x="105" y="216" text-anchor="end">0,040</text><path d="M720 150V450 M120 150H720" stroke="#dbe7ee"/><text x="720" y="476" text-anchor="middle">50</text><text x="105" y="156" text-anchor="end">0,050</text>
+<path d="M120 142V450H736" fill="none" stroke="#16324f" stroke-width="3"/>
+<path d="M120 450L720 150" fill="none" stroke="#075985" stroke-width="4"/>
+<circle cx="120" cy="450" r="7" fill="#075985" stroke="white" stroke-width="2"/><circle cx="240" cy="390" r="7" fill="#075985" stroke="white" stroke-width="2"/><circle cx="360" cy="330" r="7" fill="#075985" stroke="white" stroke-width="2"/><circle cx="480" cy="270" r="7" fill="#075985" stroke="white" stroke-width="2"/><circle cx="600" cy="210" r="7" fill="#075985" stroke="white" stroke-width="2"/><circle cx="720" cy="150" r="7" fill="#075985" stroke="white" stroke-width="2"/>
+<path id="horizontal" d="M120 288H437" fill="none" stroke="#b45309" stroke-width="3" stroke-dasharray="9 5" marker-end="url(#punta)"/>
+<path id="vertical" d="M444 288V443" fill="none" stroke="#b45309" stroke-width="3" stroke-dasharray="9 5" marker-end="url(#punta)"/>
+<circle id="muestra" cx="444" cy="288" r="9" fill="#b45309" stroke="white" stroke-width="3"/>
+<text id="lectura" x="130" y="274" fill="#92400e" font-weight="bold">1. Buscar 0,027</text>
+<text x="750" y="195" font-size="17">2. Llegar</text><text x="750" y="218" font-size="17">a la recta</text>
+<text id="resultado" x="444" y="510" text-anchor="middle" fill="#92400e" font-weight="bold">3. Leer 27 UC</text>
+<text x="420" y="548" text-anchor="middle">Color: unidades Pt-Co (UC)</text>
+<text x="40" y="590" font-size="17">Ejemplo: A = 0,001 × color. Para A = 0,027: color = 27 UC.</text>
+<text x="40" y="620" font-size="16">Datos didácticos. En el laboratorio se usa la recta obtenida con sus propios patrones.</text>
+</g></svg>

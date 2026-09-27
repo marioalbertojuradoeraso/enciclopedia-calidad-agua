@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Introducción a la química ambiental</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/estilos.css">
+  <script src="../../js/enciclopedia.js" defer></script>
+  <script src="../../js/laboratorio.js" defer></script>
+</head>
+<body>
+
+  <header class="barra">
+    <div class="contenedor">
+      <a class="marca" href="../../index.html">💧 Enciclopedia del Agua</a>
+      <nav aria-label="Secciones">
+        <ul class="menu">
+          <li><a href="index.html" aria-current="page">1. Introducción</a></li>
+          <li><a href="../02-hidrosfera-ciclos/index.html">2. Hidrosfera y ciclos</a></li>
+          <li><a href="../03-cantidad-calidad/index.html">3. Cantidad y calidad</a></li>
+          <li><a href="../04-parametros/index.html">4. Parámetros</a></li>
+          <li><a href="../05-otros-parametros/index.html">5. Otros parámetros</a></li>
+          <li><a href="../06-normatividad/index.html">6. Normatividad</a></li>
+          <li><a href="../../calculadoras.html">🧮 Calculadoras</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <div class="contenedor">
+        <span class="etiqueta">Sección 1</span>
+        <h1>Introducción a la química ambiental</h1>
+        <p>Un viaje para conocer las sustancias que hay en el agua.</p>
+      </div>
+    </section>
+
+    <!-- Bloque 1: concepto -->
+    <section class="bloque" id="que-es">
+      <div class="contenedor duo">
+        <div>
+          <h2>¿Qué es la química ambiental?</h2>
+          <div class="parrafo">
+            <p>Para empezar, la química ambiental es la ciencia que estudia las sustancias presentes en el aire, el suelo y el agua. Es decir, observa qué materiales hay en la naturaleza, cómo cambian y cómo pasan de un lugar a otro. Por ejemplo, cuando una gota de lluvia cae sobre un campo, lleva polvo y sales hasta el río. De esta manera, la química ambiental permite saber si esa agua sigue limpia o si necesita un tratamiento antes de usarse.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/01-introduccion/p1-que-es.mp3" hidden>🔊 Escuchar</button>
+          </div>
+        </div>
+        <div class="imagen" data-pendiente="Imagen pendiente (Codex): Gotita científica observa la naturaleza con una lupa.">
+          <img src="../../assets/images/01-introduccion/gotita-lupa.webp" alt="Gotita, una gota de agua con bata de laboratorio, observa un paisaje con una lupa.">
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 2: mini-cómic -->
+    <section class="bloque" id="comic">
+      <div class="contenedor">
+        <h2>El viaje de Gotita</h2>
+        <p class="instruccion">Mira las viñetas en orden.</p>
+        <div class="comic">
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta 1 pendiente (Codex)">
+              <img src="../../assets/images/01-introduccion/comic-1.webp" alt="Gotita cae desde una nube sobre una montaña.">
+            </div>
+            <figcaption>Primero, Gotita cae de una nube sobre la montaña.</figcaption>
+          </figure>
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta 2 pendiente (Codex)">
+              <img src="../../assets/images/01-introduccion/comic-2.webp" alt="Gotita baja por el suelo y recoge granitos de tierra y sal.">
+            </div>
+            <figcaption>Después, en el camino, recoge granitos de tierra y sales del suelo.</figcaption>
+          </figure>
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta 3 pendiente (Codex)">
+              <img src="../../assets/images/01-introduccion/comic-3.webp" alt="Una científica toma una muestra de agua del río donde está Gotita.">
+            </div>
+            <figcaption>Luego, en el río, una científica toma una muestra de agua.</figcaption>
+          </figure>
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta 4 pendiente (Codex)">
+              <img src="../../assets/images/01-introduccion/comic-4.webp" alt="En el laboratorio, Gotita y la científica revisan un matraz con agua usando una lupa.">
+            </div>
+            <figcaption>Finalmente, en el laboratorio se analiza la muestra; es decir, se realizan pruebas para conocer la calidad del agua. La lupa del dibujo representa esa investigación.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 3: tarjetas volteables -->
+    <section class="bloque" id="lugares">
+      <div class="contenedor">
+        <h2>Tres lugares que estudia la química ambiental</h2>
+        <p class="instruccion">Toca cada tarjeta para darle la vuelta.</p>
+        <div class="tarjetas">
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">☁️</span><strong>El aire</strong><small>Atmósfera</small></span>
+              <span class="cara reverso">Por ejemplo, el aire lleva oxígeno, vapor de agua y, a veces, humo de fábricas y carros.</span>
+            </span>
+          </button>
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">⛰️</span><strong>El suelo</strong><small>Litosfera</small></span>
+              <span class="cara reverso">Asimismo, el suelo guarda minerales que la lluvia disuelve, es decir, que mezcla con el agua hasta que no se ven.</span>
+            </span>
+          </button>
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">🌊</span><strong>El agua</strong><small>Hidrosfera</small></span>
+              <span class="cara reverso">Finalmente, la hidrosfera es toda el agua del planeta, o sea, ríos, lagos, mares, nubes y agua bajo la tierra.</span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 4: importancia del agua -->
+    <section class="bloque" id="por-que">
+      <div class="contenedor duo">
+        <figure class="ilustracion-explicada">
+          <div class="imagen" data-pendiente="Ilustración del contenido del agua.">
+            <img src="../../assets/images/01-introduccion/vaso-lupa.webp" alt="Representación del contenido del agua mediante puntos de colores y una lupa simbólica." aria-describedby="nota-ampliacion">
+          </div>
+          <figcaption id="nota-ampliacion">En este dibujo, los puntos representan materiales presentes en el agua; es decir, son símbolos. Una lupa común no permite ver las sales disueltas ni comprobar si el agua es segura para beber.</figcaption>
+        </figure>
+        <div>
+          <h2>¿Por qué revisar el agua?</h2>
+          <div class="parrafo">
+            <p>Además, el agua es la sustancia más importante para la vida en el planeta. Por esta razón, las personas, los animales y las plantas la necesitan todos los días para beber, crecer y mantenerse sanos. Sin embargo, no toda el agua transparente es segura, porque puede llevar sustancias invisibles, como sales o microbios. Así, revisar el agua con la química se parece a revisar una fruta por dentro antes de comerla.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/01-introduccion/p2-por-que.mp3" hidden>🔊 Escuchar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 5: botones de descubrir -->
+    <section class="bloque" id="sabias-que">
+      <div class="contenedor">
+        <h2>Datos para descubrir</h2>
+        <p class="instruccion">Presiona cada botón para descubrir un dato.</p>
+        <div class="descubrir">
+          <div>
+            <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="dato-1">¿Cuánta agua dulce hay para beber?</button>
+            <div class="revelado" id="dato-1" hidden>
+              <p>De hecho, si toda el agua del planeta cupiera en una botella de un litro, el agua dulce llenaría menos de dos cucharadas. Además, casi toda esa agua dulce está congelada en los polos o guardada bajo tierra.</p>
+              <svg viewBox="0 0 560 250" role="img" aria-label="Una botella de un litro llena de agua; al lado, un vasito con 25 mililitros de agua dulce, dividido en hielo, agua subterránea y un poquito de ríos y lagos." style="width:100%;max-width:620px">
+                <g font-family="Nunito, Segoe UI, sans-serif" font-size="13" fill="#0b3954">
+                  <rect x="40" y="30" width="90" height="190" rx="18" fill="#1fa2c4" stroke="#0b3954" stroke-width="4"/>
+                  <rect x="65" y="12" width="40" height="22" rx="4" fill="#0b3954"/>
+                  <text x="85" y="130" text-anchor="middle" fill="#fff" font-weight="800">1000 mL</text>
+                  <text x="85" y="242" text-anchor="middle" font-weight="800">Toda el agua del planeta</text>
+                  <path d="M150 125 L200 125" stroke="#0b3954" stroke-width="3" marker-end="url(#fl-ad)"/>
+                  <defs><marker id="fl-ad" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0b3954"/></marker></defs>
+                  <text x="175" y="115" text-anchor="middle">2,5 %</text>
+                  <rect x="215" y="150" width="60" height="70" rx="6" fill="#fff" stroke="#0b3954" stroke-width="3"/>
+                  <rect x="218" y="196" width="54" height="21" fill="#cfeefc"/>
+                  <text x="245" y="242" text-anchor="middle" font-weight="800">25 mL de agua dulce</text>
+                  <path d="M290 205 L330 205" stroke="#0b3954" stroke-width="3" marker-end="url(#fl-ad)"/>
+                  <rect x="345" y="60" width="200" height="40" fill="#e3f5fb" stroke="#0b3954"/><text x="445" y="85" text-anchor="middle">🧊 Hielo y glaciares: 69 %</text>
+                  <rect x="345" y="100" width="200" height="40" fill="#d7c4a8" stroke="#0b3954"/><text x="445" y="125" text-anchor="middle">⛰️ Bajo tierra: 30 %</text>
+                  <rect x="345" y="140" width="200" height="40" fill="#7fd3ea" stroke="#0b3954"/><text x="445" y="165" text-anchor="middle">🏞️ Ríos y lagos: 1 %</text>
+                  <text x="445" y="205" text-anchor="middle" font-weight="800">¿Dónde está esa agua dulce?</text>
+                </g>
+              </svg>
+              <div class="ejemplo"><strong>✏️ Ejemplo resuelto: del litro a unas pocas gotas</strong><p style="margin:0">Se parte de una botella de 1000 mL que representa toda el agua de la Tierra.</p><ol><li>Agua dulce, el 2,5 %: <span class='cuenta'>1000 mL × 0,025 = 25 mL</span>. Como una cucharada tiene unos 15 mL, son menos de dos cucharadas.</li><li>Hielo, el 69 % de esos 25 mL: <span class='cuenta'>25 × 0,69 ≈ 17 mL</span>.</li><li>Agua bajo tierra, el 30 %: <span class='cuenta'>25 × 0,30 = 7,5 mL</span>.</li><li>Ríos y lagos, cerca del 1 %: <span class='cuenta'>25 × 0,01 = 0,25 mL</span>, es decir, unas cinco gotas.</li></ol><p style=margin-bottom:0>Así, el agua fácil de tomar de ríos y lagos equivale a unas cinco gotas de toda la botella.</p></div>
+            </div>
+          </div>
+          <div>
+            <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="dato-2">¿Qué se hace con el agua en un laboratorio?</button>
+            <div class="revelado" id="dato-2" hidden>
+              <p>Por otra parte, en el laboratorio se miden propiedades como el pH, el color y la turbiedad. En otras palabras, se le hace al agua un chequeo, igual que un médico revisa a un paciente.</p>
+              <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/01-introduccion/lab-chequeo.webp" alt="Gotita, sentada en una camilla, recibe un chequeo con estetoscopio; en la mesa hay un pHmetro y tubos de ensayo."></div><figcaption>Como en un chequeo médico, cada prueba revisa una parte distinta de la salud del agua.</figcaption></figure>
+              <div class="tabla-desplazable"><table class="tabla-datos"><thead><tr><th>En el médico</th><th>En el laboratorio del agua</th><th>Qué revela</th><th>Se explica en</th></tr></thead><tbody><tr><td>Tomar la temperatura</td><td>Medir el pH</td><td>Si el agua es ácida, neutra o básica</td><td>Sección 4</td></tr><tr><td>Mirar el color de la piel</td><td>Medir el color</td><td>Sustancias disueltas, como restos de hojas</td><td>Sección 4</td></tr><tr><td>Revisar si hay inflamación</td><td>Medir la turbiedad</td><td>Partículas que flotan</td><td>Sección 4</td></tr><tr><td>Buscar una infección</td><td>Buscar E. coli</td><td>Contaminación con heces</td><td>Sección 5</td></tr></tbody></table></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 6: mini-reto -->
+    <section class="bloque" id="reto">
+      <div class="contenedor">
+        <h2>Mini-reto</h2>
+        <div class="reto">
+          <p class="pregunta">¿Qué estudia la química ambiental?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Además de la contaminación, también estudia las sustancias naturales, como las sales que la lluvia arrastra del suelo.">Solo la contaminación que producen las fábricas.</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! Estudia las sustancias del aire, el suelo y el agua, y también cómo pasan de un lugar a otro.">Las sustancias del aire, el suelo y el agua, y cómo cambian.</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. En realidad, el agua del grifo es solo una parte; también se estudian ríos, mares, el aire y el suelo.">Solo el agua que sale del grifo de la casa.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="contenedor siguiente">
+      <a class="btn-siguiente" href="../02-hidrosfera-ciclos/index.html">Siguiente: Hidrosfera y ciclos →</a>
+    </div>
+  </main>
+
+</body>
+</html>

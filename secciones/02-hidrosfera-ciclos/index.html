@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hidrosfera y ciclos biogeoquímicos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/estilos.css">
+  <script src="../../js/enciclopedia.js" defer></script>
+  <script src="../../js/laboratorio.js" defer></script>
+</head>
+<body>
+
+  <header class="barra">
+    <div class="contenedor">
+      <a class="marca" href="../../index.html">💧 Enciclopedia del Agua</a>
+      <nav aria-label="Secciones">
+        <ul class="menu">
+          <li><a href="../01-introduccion/index.html">1. Introducción</a></li>
+          <li><a href="index.html" aria-current="page">2. Hidrosfera y ciclos</a></li>
+          <li><a href="../03-cantidad-calidad/index.html">3. Cantidad y calidad</a></li>
+          <li><a href="../04-parametros/index.html">4. Parámetros</a></li>
+          <li><a href="../05-otros-parametros/index.html">5. Otros parámetros</a></li>
+          <li><a href="../06-normatividad/index.html">6. Normatividad</a></li>
+          <li><a href="../../calculadoras.html">🧮 Calculadoras</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <div class="contenedor">
+        <span class="etiqueta">Sección 2</span>
+        <h1>Hidrosfera y ciclos biogeoquímicos</h1>
+        <p>La materia no desaparece: viaja, cambia y regresa.</p>
+      </div>
+    </section>
+
+    <!-- Bloque 1: idea central -->
+    <section class="bloque" id="idea">
+      <div class="contenedor duo">
+        <div>
+          <h2>Una ruta que siempre regresa</h2>
+          <div class="parrafo">
+            <p>Para comenzar, un ciclo biogeoquímico es el camino que recorre una sustancia entre el aire, el agua, el suelo, las rocas y los seres vivos, para luego volver al inicio. En otras palabras, la materia no desaparece, sino que cambia de lugar y de forma. Por ejemplo, funciona como una ruta de bus: tiene paradas, llamadas depósitos, y trayectos entre ellas. Así, los mismos pasajeros, que son las sustancias, suben y bajan una y otra vez.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/02-hidrosfera-ciclos/p1-idea.mp3" hidden>🔊 Escuchar</button>
+          </div>
+        </div>
+        <svg viewBox="0 0 360 300" role="img" aria-labelledby="ruta-titulo" style="width:100%;max-width:420px;justify-self:center">
+          <title id="ruta-titulo">Ruta circular con cuatro paradas: aire, agua, suelo y seres vivos, unidas por flechas.</title>
+          <defs>
+            <marker id="flecha" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0 0 L10 5 L0 10 z" fill="#087e8b"/>
+            </marker>
+          </defs>
+          <circle cx="180" cy="150" r="100" fill="none" stroke="#1fa2c4" stroke-width="6" stroke-dasharray="14 10"/>
+          <path d="M238 70 A100 100 0 0 1 270 110" fill="none" stroke="#087e8b" stroke-width="5" marker-end="url(#flecha)"/>
+          <path d="M260 210 A100 100 0 0 1 220 240" fill="none" stroke="#087e8b" stroke-width="5" marker-end="url(#flecha)"/>
+          <path d="M122 230 A100 100 0 0 1 90 190" fill="none" stroke="#087e8b" stroke-width="5" marker-end="url(#flecha)"/>
+          <path d="M100 90 A100 100 0 0 1 140 60" fill="none" stroke="#087e8b" stroke-width="5" marker-end="url(#flecha)"/>
+          <g font-family="Nunito, Segoe UI, sans-serif" font-weight="800" font-size="15" text-anchor="middle" fill="#0b3954">
+            <circle cx="180" cy="50" r="34" fill="#ffffff" stroke="#0b3954" stroke-width="3"/><text x="180" y="47" font-size="22">☁️</text><text x="180" y="68" font-size="12">Aire</text>
+            <circle cx="280" cy="150" r="34" fill="#ffffff" stroke="#0b3954" stroke-width="3"/><text x="280" y="147" font-size="22">🌊</text><text x="280" y="168" font-size="12">Agua</text>
+            <circle cx="180" cy="250" r="34" fill="#ffffff" stroke="#0b3954" stroke-width="3"/><text x="180" y="247" font-size="22">⛰️</text><text x="180" y="268" font-size="12">Suelo</text>
+            <circle cx="80" cy="150" r="34" fill="#ffffff" stroke="#0b3954" stroke-width="3"/><text x="80" y="147" font-size="22">🌱</text><text x="80" y="165" font-size="11">Seres</text><text x="80" y="177" font-size="11">vivos</text>
+            <text x="180" y="146" font-size="14" fill="#087e8b">Paradas =</text><text x="180" y="164" font-size="14" fill="#087e8b">depósitos</text>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Bloque 1b: la ruta de bus explicada -->
+    <section class="bloque" id="ruta-bus">
+      <div class="contenedor duo">
+        <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/ruta-bus.webp" alt="Gotita conduce un bus por una ruta circular con paradas en una nube, un río, una montaña de tierra y un árbol; pequeños átomos suben y bajan."></div><figcaption>Gotita conduce el bus de la materia: en cada parada suben y bajan pasajeros.</figcaption></figure>
+        <div>
+          <h2>La ruta de bus, parada por parada</h2>
+          <div class="tabla-desplazable"><table class="tabla-datos"><thead><tr><th>En el bus</th><th>En el ciclo</th><th>Ejemplo</th></tr></thead><tbody><tr><td>Pasajero</td><td>La sustancia que viaja</td><td>Una molécula de agua o un átomo de nitrógeno</td></tr><tr><td>Parada</td><td>El depósito donde se queda un tiempo</td><td>La nube, el río, el suelo o un árbol</td></tr><tr><td>Trayecto</td><td>El proceso que la mueve</td><td>Evaporarse, caer como lluvia o ser absorbida por una raíz</td></tr><tr><td>Vuelta completa</td><td>El ciclo</td><td>El agua del mar vuelve al mar después de pasar por nube, lluvia y río</td></tr></tbody></table></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 2: ciclo del agua -->
+    <section class="bloque" id="ciclo-agua">
+      <div class="contenedor">
+        <h2>El ciclo del agua</h2>
+        <div class="parrafo">
+          <p>En primer lugar, el ciclo del agua conecta toda la hidrosfera, es decir, los mares, los ríos, el hielo, las nubes y el agua bajo la tierra. Durante el día, el sol calienta el agua y la convierte en vapor; este paso se llama evaporación. Luego, el vapor se enfría en lo alto y forma nubes, lo que se conoce como condensación. Finalmente, el agua cae como lluvia, llamada precipitación, y corre hacia los ríos o se filtra en el suelo.</p>
+          <button class="btn-audio" type="button" data-audio="../../assets/audio/02-hidrosfera-ciclos/p2-agua.mp3" hidden>🔊 Escuchar</button>
+        </div>
+        <p class="instruccion" style="margin-top:28px">Sigue el viaje de Gotita.</p>
+        <div class="comic">
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta pendiente: evaporación"><img src="../../assets/images/02-hidrosfera-ciclos/agua-1.webp" alt="El sol calienta el mar y Gotita sube rodeada de vapor."></div>
+            <figcaption>Primero, el sol calienta el mar y Gotita sube convertida en vapor.</figcaption>
+          </figure>
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta pendiente: condensación"><img src="../../assets/images/02-hidrosfera-ciclos/agua-2.webp" alt="En lo alto del cielo, Gotita se junta con otras gotitas y forman una nube."></div>
+            <figcaption>Después, en lo alto hace frío y Gotita se junta con otras gotitas para formar una nube.</figcaption>
+          </figure>
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta pendiente: precipitación"><img src="../../assets/images/02-hidrosfera-ciclos/agua-3.webp" alt="Una nube gris deja caer lluvia y Gotita cae entre las gotas hacia las colinas."></div>
+            <figcaption>Luego, la nube se carga de agua y Gotita cae como lluvia.</figcaption>
+          </figure>
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta pendiente: escorrentía e infiltración"><img src="../../assets/images/02-hidrosfera-ciclos/agua-4.webp" alt="El agua de lluvia corre por el campo y se filtra por la tierra hasta un pozo donde está Gotita."></div>
+            <figcaption>Finalmente, parte del agua corre hacia los ríos y otra se filtra en el suelo.</figcaption>
+          </figure>
+        </div>
+
+        <div class="ordenar" style="margin-top:28px" data-exito="¡Muy bien! Así, el ciclo vuelve a empezar: el agua de ríos y mares se evapora otra vez.">
+          <p class="pregunta" style="font-weight:800;margin-top:0">Reto: toca las etapas en el orden en que ocurren.</p>
+          <div class="etapas">
+            <button class="etapa" type="button" data-orden="2" data-pista="Todavía no. Antes de formar una nube, el agua tiene que subir como vapor.">Condensación<small>se forman nubes</small></button>
+            <button class="etapa" type="button" data-orden="4" data-pista="Todavía no. El agua solo corre por el suelo después de caer como lluvia.">Escorrentía e infiltración<small>corre o se filtra</small></button>
+            <button class="etapa" type="button" data-orden="1" data-pista="">Evaporación<small>el agua sube como vapor</small></button>
+            <button class="etapa" type="button" data-orden="3" data-pista="Todavía no. Para que llueva, primero debe existir una nube.">Precipitación<small>cae la lluvia</small></button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+          <button class="btn-reiniciar" type="button">Volver a intentar</button>
+        </div>
+
+        <div class="descubrir" style="margin-top:20px">
+          <div>
+            <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="dato-plantas">¿Las plantas también participan?</button>
+            <div class="revelado" id="dato-plantas" hidden>
+              <p>De hecho, las plantas toman agua por las raíces y luego la sueltan como vapor por sus hojas. Por eso, a este proceso se le llama transpiración, y un bosque grande puede ayudar a formar nubes.</p>
+              <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/transpiracion.webp" alt="Un árbol grande: flechas azules suben desde las raíces por el tronco y de las hojas salen hilos de vapor que forman una nube."></div><figcaption>El agua sube por el tronco, como por un pitillo, y sale como vapor por poros diminutos de las hojas.</figcaption></figure>
+              <div class="ejemplo"><strong>✏️ Ejemplo resuelto: ¿cuánta agua suda un árbol?</strong><p style="margin:0">Un árbol grande, como un roble adulto, puede transpirar unos 150 000 litros de agua en un año.</p><ol><li>Agua por día: <span class='cuenta'>150 000 L ÷ 365 días ≈ 411 L</span>.</li><li>En baldes de 20 litros: <span class='cuenta'>411 L ÷ 20 L ≈ 20 baldes</span> cada día.</li><li>Un bosque con 1000 árboles así: <span class='cuenta'>411 L × 1000 = 411 000 L</span> de vapor al día.</li></ol><p style=margin-bottom:0>Por eso, los bosques funcionan como fábricas de nubes y ayudan a que llueva.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 3: cuatro ciclos en pestañas -->
+    <section class="bloque" id="ciclos">
+      <div class="contenedor">
+        <h2>Cuatro viajeros más</h2>
+        <p class="instruccion">Elige un elemento para seguir su ruta.</p>
+        <div class="pestanas" role="tablist" aria-label="Ciclos biogeoquímicos">
+          <button role="tab" id="tab-n" aria-controls="panel-n" aria-selected="true" tabindex="0">N · Nitrógeno</button>
+          <button role="tab" id="tab-c" aria-controls="panel-c" aria-selected="false" tabindex="-1">C · Carbono</button>
+          <button role="tab" id="tab-p" aria-controls="panel-p" aria-selected="false" tabindex="-1">P · Fósforo</button>
+          <button role="tab" id="tab-s" aria-controls="panel-s" aria-selected="false" tabindex="-1">S · Azufre</button>
+        </div>
+
+        <!-- Nitrógeno -->
+        <div class="panel-ciclo" role="tabpanel" id="panel-n" aria-labelledby="tab-n">
+          <div class="parrafo">
+            <p>Por su parte, el nitrógeno es el gas que más abunda en el aire. Por ejemplo, si el aire de un salón se repartiera en diez cajas iguales, casi ocho cajas estarían llenas de nitrógeno y unas dos, de oxígeno. Sin embargo, las plantas no pueden usar ese nitrógeno directamente, igual que una persona no puede comer trigo sin molerlo. Por eso, unas bacterias del suelo y la energía de los rayos lo transforman en sustancias que las raíces sí absorben, como los nitratos.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/02-hidrosfera-ciclos/p3-nitrogeno.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          <div class="comic tres">
+            <figure class="vineta">
+              <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/nitrogeno-1.webp" alt="Un rayo cae sobre el campo mientras Gotita observa raíces con bacterias en el suelo."></div>
+              <figcaption>Primero, los rayos y las bacterias del suelo transforman el nitrógeno del aire.</figcaption>
+            </figure>
+            <figure class="vineta">
+              <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/nitrogeno-2.webp" alt="Las raíces de una planta absorben partículas brillantes del suelo y Gotita las señala."></div>
+              <figcaption>Después, las raíces absorben el nitrato, que va disuelto en el agua del suelo, como un pitillo que sorbe un jugo.</figcaption>
+            </figure>
+            <figure class="vineta">
+              <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/nitrogeno-3.webp" alt="Una vaca come pasto junto a Gotita."></div>
+              <figcaption>Luego, la vaca obtiene nitrógeno al comer pasto; su estiércol y los restos vuelven al suelo, donde las bacterias lo reciclan.</figcaption>
+            </figure>
+          </div>
+          <div class="descubrir">
+            <div>
+              <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="agua-n">¿Qué le pasa al agua?</button>
+              <div class="revelado" id="agua-n" hidden>
+                <p>Por ejemplo, cuando la lluvia arrastra abonos a un río, llegan demasiados nitratos y las algas crecen sin control. Por esta razón, en el laboratorio se mide el nitrógeno total del agua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="duo" style="align-items:start">
+            <div>
+              <h3>En el aire, 8 de cada 10 cajas son nitrógeno</h3>
+              <svg viewBox="0 0 400 120" role="img" aria-label="Diez cajas: ocho azules de nitrógeno y dos amarillas de oxígeno." style="width:100%;max-width:440px">
+                <g font-family="Nunito, Segoe UI, sans-serif" font-size="15" font-weight="800" text-anchor="middle">
+                  <rect x="8" y="10" width="34" height="60" rx="6" fill="#1fa2c4" stroke="#0b3954" stroke-width="2"/><text x="25" y="46" fill="#fff">N₂</text><rect x="47" y="10" width="34" height="60" rx="6" fill="#1fa2c4" stroke="#0b3954" stroke-width="2"/><text x="64" y="46" fill="#fff">N₂</text><rect x="86" y="10" width="34" height="60" rx="6" fill="#1fa2c4" stroke="#0b3954" stroke-width="2"/><text x="103" y="46" fill="#fff">N₂</text><rect x="125" y="10" width="34" height="60" rx="6" fill="#1fa2c4" stroke="#0b3954" stroke-width="2"/><text x="142" y="46" fill="#fff">N₂</text><rect x="164" y="10" width="34" height="60" rx="6" fill="#1fa2c4" stroke="#0b3954" stroke-width="2"/><text x="181" y="46" fill="#fff">N₂</text><rect x="203" y="10" width="34" height="60" rx="6" fill="#1fa2c4" stroke="#0b3954" stroke-width="2"/><text x="220" y="46" fill="#fff">N₂</text><rect x="242" y="10" width="34" height="60" rx="6" fill="#1fa2c4" stroke="#0b3954" stroke-width="2"/><text x="259" y="46" fill="#fff">N₂</text><rect x="281" y="10" width="34" height="60" rx="6" fill="#1fa2c4" stroke="#0b3954" stroke-width="2"/><text x="298" y="46" fill="#fff">N₂</text><rect x="320" y="10" width="34" height="60" rx="6" fill="#ffc857" stroke="#0b3954" stroke-width="2"/><text x="337" y="46" fill="#0b3954">O₂</text><rect x="359" y="10" width="34" height="60" rx="6" fill="#ffc857" stroke="#0b3954" stroke-width="2"/><text x="376" y="46" fill="#0b3954">O₂</text>
+                  <text x="162" y="100" fill="#0b3954">8 cajas de nitrógeno (78 %)</text>
+                  <text x="360" y="100" fill="#0b3954">2 de oxígeno</text>
+                </g>
+              </svg>
+              <p class="instruccion">El oxígeno ocupa un poco más de 2 cajas (21 %) y el resto es una pizca de otros gases.</p>
+            </div>
+            <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/n-nodulos.webp" alt="Raíces de una planta de fríjol con bolitas rosadas; una lupa muestra bacterias dentro de una bolita."></div><figcaption>Las bolitas de las raíces del fríjol, llamadas nódulos, son casas de bacterias que atrapan nitrógeno del aire.</figcaption></figure>
+          </div>
+          <h3>El viaje completo del nitrógeno</h3>
+          <ol class="flujo">
+            <li><strong>Atrapar</strong>Las bacterias de los nódulos convierten el nitrógeno del aire en amonio; los rayos lo convierten en óxidos que la lluvia lleva al suelo como nitratos.</li>
+            <li><strong>Transformar</strong>Otras bacterias del suelo convierten el amonio en nitrato.</li>
+            <li><strong>Absorber</strong>El nitrato se disuelve en el agua del suelo y entra por las raíces.</li>
+            <li><strong>Construir</strong>La planta lo usa para fabricar proteínas; la vaca las obtiene al comer pasto.</li>
+            <li><strong>Reciclar</strong>Las bacterias descomponedoras convierten estiércol y restos otra vez en amonio.</li>
+            <li><strong>Volver al aire</strong>En suelos encharcados, sin oxígeno, otras bacterias convierten el nitrato en gas nitrógeno, que escapa al aire.</li>
+          </ol>
+          <div class="duo" style="margin-top:24px">
+            <div class="parrafo">
+            <p>Finalmente, el regreso del nitrógeno al aire ocurre en suelos encharcados, donde casi no hay oxígeno. Allí, unas bacterias llamadas desnitrificantes «respiran» los nitratos en lugar del oxígeno, igual que una persona que usa un tanque de buceo cuando no hay aire. Al hacerlo, liberan gas nitrógeno, que sube en burbujas y vuelve a la atmósfera. Así, el ciclo se cierra y el nitrógeno queda listo para empezar otra vuelta.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/02-hidrosfera-ciclos/p3b-regreso-nitrogeno.mp3" hidden>🔊 Escuchar</button>
+          </div>
+            <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/n-desnitrificacion.webp" alt="Un campo encharcado: en el suelo lodoso, bacterias sueltan burbujas que suben al aire; Gotita observa con botas de caucho."></div><figcaption>En el lodo encharcado, las bacterias devuelven el nitrógeno al aire en forma de gas.</figcaption></figure>
+          </div>
+        </div>
+
+        <!-- Carbono -->
+        <div class="panel-ciclo" role="tabpanel" id="panel-c" aria-labelledby="tab-c" hidden>
+          <div class="parrafo">
+            <p>De igual forma, el carbono viaja por el aire como dióxido de carbono, un gas que las personas y los animales expulsan al respirar. Las plantas, en cambio, toman ese gas y, con la luz del sol, fabrican su alimento; este proceso se llama fotosíntesis. Además, el carbono vuelve al aire cuando se queman leña, gasolina o carbón. Por último, los océanos también disuelven parte de ese gas, igual que una gaseosa guarda sus burbujas.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/02-hidrosfera-ciclos/p4-carbono.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          <div class="comic tres">
+            <figure class="vineta">
+              <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/carbono-1.webp" alt="Una persona trota y expulsa burbujas grises al respirar, junto a Gotita."></div>
+              <figcaption>Primero, al respirar, las personas expulsan dióxido de carbono.</figcaption>
+            </figure>
+            <figure class="vineta">
+              <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/carbono-2.webp" alt="Un árbol toma burbujas grises del aire bajo el sol mientras Gotita descansa a su sombra."></div>
+              <figcaption>Después, el árbol toma ese gas y, con la luz del sol, fabrica su alimento.</figcaption>
+            </figure>
+            <figure class="vineta">
+              <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/carbono-3.webp" alt="Gotita surfea una ola junto a una botella de gaseosa con burbujas."></div>
+              <figcaption>Finalmente, el mar disuelve parte del gas, como una gaseosa guarda sus burbujas.</figcaption>
+            </figure>
+          </div>
+          <div class="descubrir">
+            <div>
+              <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="agua-c">¿Qué le pasa al agua?</button>
+              <div class="revelado" id="agua-c" hidden>
+                <p>De hecho, el dióxido de carbono disuelto forma un ácido débil que baja un poco el pH del agua. Por eso, este ciclo se relaciona con la acidez y la alcalinidad, que se estudian en la sección de parámetros.</p>
+              </div>
+            </div>
+            <div>
+              <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="dato-respiracion">¿Y la respiración?</button>
+              <div class="revelado" id="dato-respiracion" hidden><p>En cambio, al respirar, las personas y los animales hacen la receta al revés: usan azúcar y oxígeno, y liberan dióxido de carbono, agua y la energía para moverse. Así, fotosíntesis y respiración forman un círculo.</p></div>
+            </div>
+          </div>
+          <div class="duo" style="align-items:start">
+            <div>
+              <h3>La receta de la fotosíntesis</h3>
+              <div class="parrafo">
+            <p>Además, la fotosíntesis funciona como una receta de cocina que ocurre dentro de las hojas. Los ingredientes son dióxido de carbono, que entra por poros diminutos de la hoja, y agua, que sube desde las raíces. Por otra parte, la energía para cocinar la aporta la luz del sol. Así, la planta fabrica azúcar, que es su alimento, y suelta al aire oxígeno, el mismo que respiran las personas.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/02-hidrosfera-ciclos/p4b-fotosintesis.mp3" hidden>🔊 Escuchar</button>
+          </div>
+            </div>
+            <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/fotosintesis.webp" alt="Una hoja al sol recibe burbujas de dióxido de carbono y gotas de agua, y libera oxígeno y un cubito de azúcar."></div><figcaption>Ingredientes: dióxido de carbono, agua y luz. Resultado: azúcar y oxígeno.</figcaption></figure>
+          </div>
+          <ol class="flujo">
+            <li><strong>Dióxido de carbono</strong>6 moléculas de CO₂ entran por la hoja.</li>
+            <li><strong>+ Agua</strong>6 moléculas de H₂O suben por la raíz.</li>
+            <li><strong>+ Luz del sol</strong>Da la energía para la reacción.</li>
+            <li><strong>→ Azúcar</strong>1 molécula de glucosa, C₆H₁₂O₆.</li>
+            <li><strong>+ Oxígeno</strong>6 moléculas de O₂ salen al aire.</li>
+          </ol>
+          <div class="ejemplo"><strong>✏️ Ejemplo resuelto: contar los átomos de la receta</strong><p style="margin:0">En la fotosíntesis ningún átomo aparece ni desaparece: solo cambian de lugar. Se comprueba contando: 6 CO₂ + 6 H₂O → C₆H₁₂O₆ + 6 O₂.</p><ol><li>Carbono: <span class='cuenta'>6 × 1 = 6</span> antes y <span class='cuenta'>6</span> en la glucosa.</li><li>Hidrógeno: <span class='cuenta'>6 × 2 = 12</span> antes y <span class='cuenta'>12</span> en la glucosa.</li><li>Oxígeno: <span class='cuenta'>6 × 2 + 6 × 1 = 18</span> antes y <span class='cuenta'>6 + 6 × 2 = 18</span> después.</li></ol><p style=margin-bottom:0>Así, la materia se conserva: es la misma idea de la ruta de bus, donde los pasajeros solo cambian de parada.</p></div>
+        </div>
+
+        <!-- Fósforo -->
+        <div class="panel-ciclo" role="tabpanel" id="panel-p" aria-labelledby="tab-p" hidden>
+          <div class="parrafo">
+            <p>A diferencia de los anteriores, el fósforo casi no viaja por el aire, porque se guarda principalmente en las rocas. Con los años, la lluvia desgasta esas rocas y libera fosfatos, que son sales de fósforo. Luego, las plantas los absorben por las raíces y los animales los obtienen al comerlas. Finalmente, los restos llegan a ríos y lagos, se hunden hasta el fondo y, después de miles de años, vuelven a formar rocas. Por eso, es el ciclo más lento.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/02-hidrosfera-ciclos/p5-fosforo.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          <div class="comic tres">
+            <figure class="vineta">
+              <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/fosforo-1.webp" alt="La lluvia cae sobre una roca y le desprende granitos blancos mientras Gotita observa."></div>
+              <figcaption>Primero, la lluvia desgasta la roca y suelta granitos con fósforo.</figcaption>
+            </figure>
+            <figure class="vineta">
+              <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/fosforo-2.webp" alt="Una planta crece junto a un conejo y a Gotita."></div>
+              <figcaption>Después, la planta absorbe el fósforo y el conejo lo obtiene al comerla.</figcaption>
+            </figure>
+            <figure class="vineta">
+              <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/fosforo-3.webp" alt="Gotita nada en un lago mientras hojas y partículas se hunden hasta el fondo."></div>
+              <figcaption>Finalmente, los restos se hunden hasta el fondo del lago y, en miles de años, forman roca nueva.</figcaption>
+            </figure>
+          </div>
+          <div class="descubrir">
+            <div>
+              <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="agua-p">¿Qué le pasa al agua?</button>
+              <div class="revelado" id="agua-p" hidden>
+                <p>Sin embargo, cuando detergentes y abonos llevan demasiado fósforo a un lago, las algas crecen sin control. Luego, al morir y descomponerse, gastan el oxígeno que necesitan los peces. A este problema se le llama eutrofización.</p>
+              </div>
+            </div>
+          </div>
+          <div class="duo" style="align-items:start">
+            <div class="caso"><strong>📰 Caso real: el lago Erie y la ciudad sin agua potable</strong><p>En agosto de 2014, en la ciudad de Toledo (Estados Unidos), cerca de 400 000 personas pasaron unos tres días sin poder beber el agua de la llave.</p><p>La causa fue una enorme mancha de algas en el lago Erie, alimentada por el fósforo de los abonos que la lluvia arrastró desde los cultivos. Algunas de esas algas producen una toxina, llamada microcistina, que llegó hasta la planta de tratamiento.</p><p>En Colombia ocurre algo parecido en el embalse del Muña, en Sibaté (Cundinamarca): recibe agua del río Bogotá cargada de aguas residuales, se ha cubierto de buchón de agua, una planta que crece con el exceso de nutrientes, y los vecinos se han quejado por malos olores y zancudos.</p><p>Así, el exceso de nutrientes no alimenta mejor a un lago: lo enferma.</p></div>
+            <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/eutrofizacion-caso.webp" alt="Un lago grande con manchas verdes de algas cerca de la torre de captación de agua de una ciudad; una familia carga agua embotellada."></div><figcaption>Cuando las algas invaden la fuente, la ciudad puede quedarse sin agua potable.</figcaption></figure>
+          </div>
+        </div>
+
+        <!-- Azufre -->
+        <div class="panel-ciclo" role="tabpanel" id="panel-s" aria-labelledby="tab-s" hidden>
+          <div class="parrafo">
+            <p>Por último, el azufre se encuentra en las rocas, en el suelo y en los gases que expulsan los volcanes. Además, sale al aire cuando fábricas y carros queman carbón o petróleo. Allí, ese gas se mezcla con el agua de las nubes y forma un ácido, por lo que cae como lluvia ácida. Después, las plantas absorben el azufre del suelo en forma de sulfatos y, cuando se descomponen, lo devuelven al ambiente.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/02-hidrosfera-ciclos/p6-azufre.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          <div class="comic tres">
+            <figure class="vineta">
+              <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/azufre-1.webp" alt="Un volcán y la chimenea de una fábrica expulsan humo mientras Gotita observa con su lupa."></div>
+              <figcaption>Primero, los volcanes y las chimeneas de las fábricas expulsan gases con azufre.</figcaption>
+            </figure>
+            <figure class="vineta">
+              <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/azufre-2.webp" alt="Cae una lluvia amarillenta sobre los árboles y Gotita se cubre con un paraguas."></div>
+              <figcaption>Después, esos gases se mezclan con las nubes y caen como lluvia ácida.</figcaption>
+            </figure>
+            <figure class="vineta">
+              <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/02-hidrosfera-ciclos/azufre-3.webp" alt="Gotita observa con su lupa una planta que crece en el suelo."></div>
+              <figcaption>Finalmente, las plantas absorben el azufre del suelo en forma de sulfatos.</figcaption>
+            </figure>
+          </div>
+          <div class="descubrir">
+            <div>
+              <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="agua-s">¿Qué le pasa al agua?</button>
+              <div class="revelado" id="agua-s" hidden>
+                <p>Por ejemplo, en aguas con poco oxígeno, algunas bacterias transforman el azufre en un gas con olor a huevo podrido. Así, ese olor es una pista de que el agua tiene poco oxígeno.</p>
+              </div>
+            </div>
+          </div>
+          <div class="ejemplo"><strong>✏️ Ejemplo resuelto: ¿qué tan ácida es la lluvia ácida?</strong><p style="margin:0">La lluvia normal ya es un poco ácida, con pH cercano a 5,6, porque disuelve dióxido de carbono del aire. Se llama lluvia ácida cuando el pH baja de 5,6.</p><ol><li>Una lluvia con pH 4,6 está un punto por debajo de 5,6.</li><li>Cada punto de pH menos significa diez veces más iones hidrógeno, que son los responsables de la acidez: <span class='cuenta'>10¹ = 10 veces</span>.</li><li>Con pH 3,6 serían dos puntos: <span class='cuenta'>10 × 10 = 100 veces</span> más ácida que la lluvia normal.</li></ol><p style=margin-bottom:0>Por eso, un cambio que parece pequeño en el número de pH es un cambio grande para los peces y las plantas.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 4: mini-reto -->
+    <section class="bloque" id="reto">
+      <div class="contenedor">
+        <h2>Mini-reto</h2>
+        <div class="reto">
+          <p class="pregunta">¿Cuál de estos ciclos casi no pasa por el aire?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. De hecho, el nitrógeno es el gas más abundante del aire.">El ciclo del nitrógeno.</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. En realidad, el carbono viaja por el aire como dióxido de carbono.">El ciclo del carbono.</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! El fósforo se guarda sobre todo en las rocas; por eso su ciclo es el más lento.">El ciclo del fósforo.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+        <div class="reto">
+          <p class="pregunta">Un lago recibe mucho detergente y abono. ¿Qué ocurre?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Al principio hay más algas, pero al descomponerse gastan el oxígeno y los peces sufren.">Los peces tienen más alimento y el lago mejora.</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! El exceso de fósforo y nitrógeno causa eutrofización: muchas algas y poco oxígeno.">Las algas crecen sin control y luego falta oxígeno.</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Aunque el fósforo se guarda en rocas, los detergentes y abonos también lo llevan al agua.">Nada, porque el fósforo solo está en las rocas.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="contenedor siguiente">
+      <a class="btn-siguiente" href="../03-cantidad-calidad/index.html">Siguiente: Cantidad y calidad →</a>
+    </div>
+  </main>
+
+</body>
+</html>

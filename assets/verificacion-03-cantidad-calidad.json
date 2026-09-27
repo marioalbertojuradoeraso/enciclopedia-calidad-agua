@@ -1,0 +1,124 @@
+{
+  "section": "03-cantidad-calidad",
+  "pages": [
+    "secciones\\03-cantidad-calidad\\index.html"
+  ],
+  "references": [
+    {
+      "page": "secciones\\03-cantidad-calidad\\index.html",
+      "reference": "../../css/estilos.css",
+      "exists": true
+    },
+    {
+      "page": "secciones\\03-cantidad-calidad\\index.html",
+      "reference": "../../js/enciclopedia.js",
+      "exists": true
+    },
+    {
+      "page": "secciones\\03-cantidad-calidad\\index.html",
+      "reference": "../01-introduccion/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\03-cantidad-calidad\\index.html",
+      "reference": "../01-introduccion/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\03-cantidad-calidad\\index.html",
+      "reference": "../02-hidrosfera-ciclos/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\03-cantidad-calidad\\index.html",
+      "reference": "./",
+      "exists": true
+    },
+    {
+      "page": "secciones\\03-cantidad-calidad\\index.html",
+      "reference": "../04-parametros/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\03-cantidad-calidad\\index.html",
+      "reference": "../../assets/images/03-cantidad-calidad/cc-1.png",
+      "exists": true
+    },
+    {
+      "page": "secciones\\03-cantidad-calidad\\index.html",
+      "reference": "../../assets/images/03-cantidad-calidad/cc-2.png",
+      "exists": true
+    },
+    {
+      "page": "secciones\\03-cantidad-calidad\\index.html",
+      "reference": "../../assets/images/03-cantidad-calidad/cc-3.png",
+      "exists": true
+    },
+    {
+      "page": "secciones\\03-cantidad-calidad\\index.html",
+      "reference": "../../assets/images/03-cantidad-calidad/cc-4.png",
+      "exists": true
+    },
+    {
+      "page": "secciones\\03-cantidad-calidad\\index.html",
+      "reference": "../../assets/audio/03-cantidad-calidad/p1-cantidad.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\03-cantidad-calidad\\index.html",
+      "reference": "../../assets/audio/03-cantidad-calidad/p2-calidad.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\03-cantidad-calidad\\index.html",
+      "reference": "../../assets/audio/03-cantidad-calidad/p3-concentracion.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\03-cantidad-calidad\\index.html",
+      "reference": "../04-parametros/",
+      "exists": true
+    }
+  ],
+  "images": [
+    {
+      "file": "cc-1.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "cc-2.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "cc-3.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "cc-4.png",
+      "width": 1024,
+      "height": 1024
+    }
+  ],
+  "audio": [
+    {
+      "file": "p1-cantidad.mp3",
+      "seconds": 29.36,
+      "frames": 1124
+    },
+    {
+      "file": "p2-calidad.mp3",
+      "seconds": 30.8,
+      "frames": 1179
+    },
+    {
+      "file": "p3-concentracion.mp3",
+      "seconds": 33.54,
+      "frames": 1284
+    }
+  ],
+  "errors": [],
+  "scope": "Referencias de todas las páginas HTML, integridad de imágenes raster y tramas MP3; no es revisión auditiva ni validación científica. Enlaces deshabilitados excluidos; fragmentos internos no comprobados."
+}

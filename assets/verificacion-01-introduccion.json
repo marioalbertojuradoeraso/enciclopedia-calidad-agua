@@ -1,0 +1,59 @@
+{
+  "section": "01-introduccion",
+  "references": [
+    "../../js/enciclopedia.js",
+    "../../assets/audio/01-introduccion/p1-que-es.mp3",
+    "../../assets/images/01-introduccion/gotita-lupa.png",
+    "../../assets/images/01-introduccion/comic-1.png",
+    "../../assets/images/01-introduccion/comic-2.png",
+    "../../assets/images/01-introduccion/comic-3.png",
+    "../../assets/images/01-introduccion/comic-4.png",
+    "../../assets/images/01-introduccion/vaso-lupa.png",
+    "../../assets/audio/01-introduccion/p2-por-que.mp3"
+  ],
+  "images": [
+    {
+      "file": "comic-1.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "comic-2.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "comic-3.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "comic-4.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "gotita-lupa.png",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "file": "vaso-lupa.png",
+      "width": 1024,
+      "height": 768
+    }
+  ],
+  "audio": [
+    {
+      "file": "p1-que-es.mp3",
+      "seconds": 35.45,
+      "frames": 1357
+    },
+    {
+      "file": "p2-por-que.mp3",
+      "seconds": 34.56,
+      "frames": 1323
+    }
+  ],
+  "scope": "Referencias, integridad PNG y tramas MP3; no es revisión auditiva ni validación científica."
+}

@@ -1,0 +1,755 @@
+{
+  "section": "04-parametros",
+  "pages": [
+    "secciones\\04-parametros\\alcalinidad-acidez.html",
+    "secciones\\04-parametros\\color.html",
+    "secciones\\04-parametros\\dureza.html",
+    "secciones\\04-parametros\\index.html",
+    "secciones\\04-parametros\\ph-conductividad.html",
+    "secciones\\04-parametros\\solidos.html",
+    "secciones\\04-parametros\\turbiedad.html"
+  ],
+  "references": [
+    {
+      "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+      "reference": "../../css/estilos.css",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+      "reference": "../../js/enciclopedia.js",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+      "reference": "../01-introduccion/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+      "reference": "../01-introduccion/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+      "reference": "../02-hidrosfera-ciclos/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+      "reference": "../03-cantidad-calidad/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+      "reference": "./",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+      "reference": "./",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+      "reference": "../../assets/images/04-parametros/comic-ph-heroe.jpg",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+      "reference": "../../assets/images/04-parametros/comic-ph-heroe.jpg",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+      "reference": "../../assets/audio/04-parametros/p1-alcalinidad.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+      "reference": "../../assets/audio/04-parametros/p2-acidez.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+      "reference": "../../assets/audio/04-parametros/p3-titulacion.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+      "reference": "../../assets/images/04-parametros/alc-bureta.png",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+      "reference": "turbiedad.html",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+      "reference": "dureza.html",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "../../css/estilos.css",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "../../js/enciclopedia.js",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "../01-introduccion/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "../01-introduccion/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "../02-hidrosfera-ciclos/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "../03-cantidad-calidad/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "./",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "./",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "../../assets/audio/04-parametros/p1-dos-colores.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "../../assets/images/04-parametros/comic-dos-colores.jpg",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "../../assets/images/04-parametros/comic-dos-colores.jpg",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "../../assets/audio/04-parametros/p2-unidades.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "../../assets/images/04-parametros/color-tubos.png",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "../../assets/images/04-parametros/espectrofotometro.png",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "../../assets/audio/04-parametros/p3-espectrofotometro.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "../../assets/audio/04-parametros/p4-interpolar.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "../../assets/diagrams/04-parametros/color-interpolacion.html",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "ph-conductividad.html",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\color.html",
+      "reference": "turbiedad.html",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\dureza.html",
+      "reference": "../../css/estilos.css",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\dureza.html",
+      "reference": "../../js/enciclopedia.js",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\dureza.html",
+      "reference": "../01-introduccion/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\dureza.html",
+      "reference": "../01-introduccion/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\dureza.html",
+      "reference": "../02-hidrosfera-ciclos/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\dureza.html",
+      "reference": "../03-cantidad-calidad/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\dureza.html",
+      "reference": "./",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\dureza.html",
+      "reference": "./",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\dureza.html",
+      "reference": "../../assets/audio/04-parametros/p1-dureza.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\dureza.html",
+      "reference": "../../assets/images/04-parametros/dureza-sarro.png",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\dureza.html",
+      "reference": "../../assets/images/04-parametros/dureza-jabon.png",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\dureza.html",
+      "reference": "../../assets/images/04-parametros/comic-dureza-viaje.jpg",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\dureza.html",
+      "reference": "../../assets/images/04-parametros/comic-dureza-viaje.jpg",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\dureza.html",
+      "reference": "../../assets/audio/04-parametros/p2-tipos.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\dureza.html",
+      "reference": "../../assets/audio/04-parametros/p3-edta.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\dureza.html",
+      "reference": "alcalinidad-acidez.html",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\dureza.html",
+      "reference": "solidos.html",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\index.html",
+      "reference": "../../css/estilos.css",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\index.html",
+      "reference": "../../js/enciclopedia.js",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\index.html",
+      "reference": "../01-introduccion/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\index.html",
+      "reference": "../01-introduccion/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\index.html",
+      "reference": "../02-hidrosfera-ciclos/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\index.html",
+      "reference": "../03-cantidad-calidad/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\index.html",
+      "reference": "./",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\index.html",
+      "reference": "../../assets/audio/04-parametros/p0-parametros.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\index.html",
+      "reference": "ph-conductividad.html",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\index.html",
+      "reference": "color.html",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\index.html",
+      "reference": "turbiedad.html",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\index.html",
+      "reference": "alcalinidad-acidez.html",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\index.html",
+      "reference": "dureza.html",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\index.html",
+      "reference": "solidos.html",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\ph-conductividad.html",
+      "reference": "../../css/estilos.css",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\ph-conductividad.html",
+      "reference": "../../js/enciclopedia.js",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\ph-conductividad.html",
+      "reference": "../01-introduccion/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\ph-conductividad.html",
+      "reference": "../01-introduccion/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\ph-conductividad.html",
+      "reference": "../02-hidrosfera-ciclos/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\ph-conductividad.html",
+      "reference": "../03-cantidad-calidad/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\ph-conductividad.html",
+      "reference": "./",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\ph-conductividad.html",
+      "reference": "./",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\ph-conductividad.html",
+      "reference": "../../assets/audio/04-parametros/p1-ph.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\ph-conductividad.html",
+      "reference": "../../assets/images/04-parametros/ph-escala.png",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\ph-conductividad.html",
+      "reference": "../../assets/audio/04-parametros/p2-medir-ph.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\ph-conductividad.html",
+      "reference": "../../assets/audio/04-parametros/p3-conductividad.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\ph-conductividad.html",
+      "reference": "../../assets/images/04-parametros/conductividad.png",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\ph-conductividad.html",
+      "reference": "./",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\ph-conductividad.html",
+      "reference": "color.html",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\solidos.html",
+      "reference": "../../css/estilos.css",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\solidos.html",
+      "reference": "../../js/enciclopedia.js",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\solidos.html",
+      "reference": "../01-introduccion/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\solidos.html",
+      "reference": "../01-introduccion/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\solidos.html",
+      "reference": "../02-hidrosfera-ciclos/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\solidos.html",
+      "reference": "../03-cantidad-calidad/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\solidos.html",
+      "reference": "./",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\solidos.html",
+      "reference": "./",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\solidos.html",
+      "reference": "../../assets/audio/04-parametros/p1-solidos.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\solidos.html",
+      "reference": "../../assets/images/04-parametros/solidos-sopa.png",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\solidos.html",
+      "reference": "../../assets/images/04-parametros/solidos-horno.png",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\solidos.html",
+      "reference": "../../assets/audio/04-parametros/p2-totales.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\solidos.html",
+      "reference": "../../assets/audio/04-parametros/p3-volatiles.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\solidos.html",
+      "reference": "../../assets/images/04-parametros/solidos-mufla.png",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\solidos.html",
+      "reference": "dureza.html",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\solidos.html",
+      "reference": "./",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\turbiedad.html",
+      "reference": "../../css/estilos.css",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\turbiedad.html",
+      "reference": "../../js/enciclopedia.js",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\turbiedad.html",
+      "reference": "../01-introduccion/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\turbiedad.html",
+      "reference": "../01-introduccion/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\turbiedad.html",
+      "reference": "../02-hidrosfera-ciclos/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\turbiedad.html",
+      "reference": "../03-cantidad-calidad/",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\turbiedad.html",
+      "reference": "./",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\turbiedad.html",
+      "reference": "./",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\turbiedad.html",
+      "reference": "../../assets/audio/04-parametros/p1-turbiedad.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\turbiedad.html",
+      "reference": "../../assets/images/04-parametros/turb-niebla.png",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\turbiedad.html",
+      "reference": "../../assets/images/04-parametros/turb-luz.png",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\turbiedad.html",
+      "reference": "../../assets/audio/04-parametros/p2-turbidimetro.mp3",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\turbiedad.html",
+      "reference": "../../assets/images/04-parametros/turbidimetro.png",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\turbiedad.html",
+      "reference": "color.html",
+      "exists": true
+    },
+    {
+      "page": "secciones\\04-parametros\\turbiedad.html",
+      "reference": "alcalinidad-acidez.html",
+      "exists": true
+    }
+  ],
+  "images": [
+    {
+      "file": "alc-bureta.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "color-tubos.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "comic-dos-colores.jpg",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "comic-dureza-viaje.jpg",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "comic-ph-heroe.jpg",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "conductividad.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "dureza-jabon.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "dureza-sarro.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "espectrofotometro.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "ph-escala.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "solidos-horno.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "solidos-mufla.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "solidos-sopa.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "turb-luz.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "turb-niebla.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "turbidimetro.png",
+      "width": 1024,
+      "height": 1024
+    }
+  ],
+  "audio": [
+    {
+      "file": "p0-parametros.mp3",
+      "seconds": 34.32,
+      "frames": 1314
+    },
+    {
+      "file": "p1-alcalinidad.mp3",
+      "seconds": 34.32,
+      "frames": 1314
+    },
+    {
+      "file": "p1-dos-colores.mp3",
+      "seconds": 32.99,
+      "frames": 1263
+    },
+    {
+      "file": "p1-dureza.mp3",
+      "seconds": 30.67,
+      "frames": 1174
+    },
+    {
+      "file": "p1-ph.mp3",
+      "seconds": 33.54,
+      "frames": 1284
+    },
+    {
+      "file": "p1-solidos.mp3",
+      "seconds": 31.03,
+      "frames": 1188
+    },
+    {
+      "file": "p1-turbiedad.mp3",
+      "seconds": 31.82,
+      "frames": 1218
+    },
+    {
+      "file": "p2-acidez.mp3",
+      "seconds": 30.8,
+      "frames": 1179
+    },
+    {
+      "file": "p2-medir-ph.mp3",
+      "seconds": 28.71,
+      "frames": 1099
+    },
+    {
+      "file": "p2-tipos.mp3",
+      "seconds": 31.56,
+      "frames": 1208
+    },
+    {
+      "file": "p2-totales.mp3",
+      "seconds": 30.62,
+      "frames": 1172
+    },
+    {
+      "file": "p2-turbidimetro.mp3",
+      "seconds": 33.07,
+      "frames": 1266
+    },
+    {
+      "file": "p2-unidades.mp3",
+      "seconds": 34.98,
+      "frames": 1339
+    },
+    {
+      "file": "p3-conductividad.mp3",
+      "seconds": 36.21,
+      "frames": 1386
+    },
+    {
+      "file": "p3-edta.mp3",
+      "seconds": 34.95,
+      "frames": 1338
+    },
+    {
+      "file": "p3-espectrofotometro.mp3",
+      "seconds": 32.47,
+      "frames": 1243
+    },
+    {
+      "file": "p3-titulacion.mp3",
+      "seconds": 33.31,
+      "frames": 1275
+    },
+    {
+      "file": "p3-volatiles.mp3",
+      "seconds": 35.45,
+      "frames": 1357
+    },
+    {
+      "file": "p4-interpolar.mp3",
+      "seconds": 40.57,
+      "frames": 1553
+    }
+  ],
+  "errors": [],
+  "scope": "Referencias de todas las páginas HTML, integridad de imágenes raster y tramas MP3; no es revisión auditiva ni validación científica. Enlaces deshabilitados excluidos; fragmentos internos no comprobados."
+}

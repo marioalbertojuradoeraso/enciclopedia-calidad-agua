@@ -1,0 +1,242 @@
+[
+  {
+    "id": "assets/audio/01-introduccion/p1-que-es.mp3",
+    "src": "../assets/audio/01-introduccion/p1-que-es.mp3",
+    "page": "secciones/01-introduccion/index.html",
+    "page_url": "../secciones/01-introduccion/index.html",
+    "text": "Para empezar, la química ambiental es la ciencia que estudia las sustancias presentes en el aire, el suelo y el agua. Es decir, observa qué materiales hay en la naturaleza, cómo cambian y cómo pasan de un lugar a otro. Por ejemplo, cuando una gota de lluvia cae sobre un campo, lleva polvo y sales hasta el río. De esta manera, la química ambiental permite saber si esa agua sigue limpia o si necesita un tratamiento antes de usarse.",
+    "fingerprint": "01a173dfd415d61f555d0c6a3fb8f35c52f29b8162ef3f608d4c971e4d0846f8"
+  },
+  {
+    "id": "assets/audio/01-introduccion/p2-por-que.mp3",
+    "src": "../assets/audio/01-introduccion/p2-por-que.mp3",
+    "page": "secciones/01-introduccion/index.html",
+    "page_url": "../secciones/01-introduccion/index.html",
+    "text": "Además, el agua es la sustancia más importante para la vida en el planeta. Por esta razón, las personas, los animales y las plantas la necesitan todos los días para beber, crecer y mantenerse sanos. Sin embargo, no toda el agua transparente es segura, porque puede llevar sustancias invisibles, como sales o microbios. Así, revisar el agua con la química se parece a revisar una fruta por dentro antes de comerla.",
+    "fingerprint": "0d735ede41bf3df6f7288697007c30d4d2c7fd619ce5ece93f56a334a53cb4a6"
+  },
+  {
+    "id": "assets/audio/02-hidrosfera-ciclos/p1-idea.mp3",
+    "src": "../assets/audio/02-hidrosfera-ciclos/p1-idea.mp3",
+    "page": "secciones/02-hidrosfera-ciclos/index.html",
+    "page_url": "../secciones/02-hidrosfera-ciclos/index.html",
+    "text": "Para comenzar, un ciclo biogeoquímico es el camino que recorre una sustancia entre el aire, el agua, el suelo, las rocas y los seres vivos, para luego volver al inicio. En otras palabras, la materia no desaparece, sino que cambia de lugar y de forma. Por ejemplo, funciona como una ruta de bus: tiene paradas, llamadas depósitos, y trayectos entre ellas. Así, los mismos pasajeros, que son las sustancias, suben y bajan una y otra vez.",
+    "fingerprint": "0ef4fc66de87b2bb86ec2907274838ae2e52474c96c5b3d7a2dba35fabf0ec4c"
+  },
+  {
+    "id": "assets/audio/02-hidrosfera-ciclos/p2-agua.mp3",
+    "src": "../assets/audio/02-hidrosfera-ciclos/p2-agua.mp3",
+    "page": "secciones/02-hidrosfera-ciclos/index.html",
+    "page_url": "../secciones/02-hidrosfera-ciclos/index.html",
+    "text": "En primer lugar, el ciclo del agua conecta toda la hidrosfera, es decir, los mares, los ríos, el hielo, las nubes y el agua bajo la tierra. Durante el día, el sol calienta el agua y la convierte en vapor; este paso se llama evaporación. Luego, el vapor se enfría en lo alto y forma nubes, lo que se conoce como condensación. Finalmente, el agua cae como lluvia, llamada precipitación, y corre hacia los ríos o se filtra en el suelo.",
+    "fingerprint": "ace24a742954f7755d4898c81a7747eee4ea80d9c1a807dd34ec0483d8152b24"
+  },
+  {
+    "id": "assets/audio/02-hidrosfera-ciclos/p3-nitrogeno.mp3",
+    "src": "../assets/audio/02-hidrosfera-ciclos/p3-nitrogeno.mp3",
+    "page": "secciones/02-hidrosfera-ciclos/index.html",
+    "page_url": "../secciones/02-hidrosfera-ciclos/index.html",
+    "text": "Por su parte, el nitrógeno es el gas más abundante del aire, pues forma casi ocho de cada diez partes de él. Sin embargo, las plantas no pueden tomarlo directamente del aire. Por eso, unas bacterias del suelo y la energía de los rayos lo transforman en sustancias que las raíces sí absorben, como los nitratos. Después, los animales lo obtienen al comer plantas y, cuando los seres vivos mueren, otras bacterias lo devuelven al aire.",
+    "fingerprint": "cfb737971d60f2817fcc765706657c0b209c9d93f025c3fc4dc14813e5dec2df"
+  },
+  {
+    "id": "assets/audio/02-hidrosfera-ciclos/p4-carbono.mp3",
+    "src": "../assets/audio/02-hidrosfera-ciclos/p4-carbono.mp3",
+    "page": "secciones/02-hidrosfera-ciclos/index.html",
+    "page_url": "../secciones/02-hidrosfera-ciclos/index.html",
+    "text": "De igual forma, el carbono viaja por el aire como dióxido de carbono, un gas que las personas y los animales expulsan al respirar. Las plantas, en cambio, toman ese gas y, con la luz del sol, fabrican su alimento; este proceso se llama fotosíntesis. Además, el carbono vuelve al aire cuando se queman leña, gasolina o carbón. Por último, los océanos también disuelven parte de ese gas, igual que una gaseosa guarda sus burbujas.",
+    "fingerprint": "494b5b3554f4f90b4d4e8343e9c6ef8badd5b9d6a7a82b65171a767aba3f5a1d"
+  },
+  {
+    "id": "assets/audio/02-hidrosfera-ciclos/p5-fosforo.mp3",
+    "src": "../assets/audio/02-hidrosfera-ciclos/p5-fosforo.mp3",
+    "page": "secciones/02-hidrosfera-ciclos/index.html",
+    "page_url": "../secciones/02-hidrosfera-ciclos/index.html",
+    "text": "A diferencia de los anteriores, el fósforo casi no viaja por el aire, porque se guarda principalmente en las rocas. Con los años, la lluvia desgasta esas rocas y libera fosfatos, que son sales de fósforo. Luego, las plantas los absorben por las raíces y los animales los obtienen al comerlas. Finalmente, los restos llegan a ríos y lagos, se hunden hasta el fondo y, después de miles de años, vuelven a formar rocas. Por eso, es el ciclo más lento.",
+    "fingerprint": "36987a4d70e5c914b035db60c5ddb0ecbd17aae693100d3c9762bd19e0eb30eb"
+  },
+  {
+    "id": "assets/audio/02-hidrosfera-ciclos/p6-azufre.mp3",
+    "src": "../assets/audio/02-hidrosfera-ciclos/p6-azufre.mp3",
+    "page": "secciones/02-hidrosfera-ciclos/index.html",
+    "page_url": "../secciones/02-hidrosfera-ciclos/index.html",
+    "text": "Por último, el azufre se encuentra en las rocas, en el suelo y en los gases que expulsan los volcanes. Además, sale al aire cuando fábricas y carros queman carbón o petróleo. Allí, ese gas se mezcla con el agua de las nubes y forma un ácido, por lo que cae como lluvia ácida. Después, las plantas absorben el azufre del suelo en forma de sulfatos y, cuando se descomponen, lo devuelven al ambiente.",
+    "fingerprint": "f5f920fba5d1b0254c651360d41f4f7c4ba1e27c8b10fb16e17532d26dd76523"
+  },
+  {
+    "id": "assets/audio/03-cantidad-calidad/p1-cantidad.mp3",
+    "src": "../assets/audio/03-cantidad-calidad/p1-cantidad.mp3",
+    "page": "secciones/03-cantidad-calidad/index.html",
+    "page_url": "../secciones/03-cantidad-calidad/index.html",
+    "text": "Para empezar, la cantidad de agua indica cuánta agua hay en un lugar y en qué momento está disponible. Por ejemplo, se mide como el volumen de un tanque, en litros, o como el caudal de un río, es decir, cuántos litros pasan por un punto cada segundo. Además, la cantidad cambia con el clima: en época de lluvias los ríos crecen y, en cambio, en época seca bajan.",
+    "fingerprint": "0d99632dcd5c5842c0113da48fd4544520cc0575481e51716d8ea7cd91e66874"
+  },
+  {
+    "id": "assets/audio/03-cantidad-calidad/p2-calidad.mp3",
+    "src": "../assets/audio/03-cantidad-calidad/p2-calidad.mp3",
+    "page": "secciones/03-cantidad-calidad/index.html",
+    "page_url": "../secciones/03-cantidad-calidad/index.html",
+    "text": "Por otro lado, la calidad del agua indica si esa agua sirve para un uso sin causar daño a las personas, a los animales o al ambiente. Por eso, la calidad depende del uso: el agua para regar un jardín no necesita ser tan pura como el agua para beber. Así, para conocer la calidad, en el laboratorio se miden sus características, como el pH, el color o las sales disueltas.",
+    "fingerprint": "54bf2a8bb6e6e55ebe44197a31233c067231bfde92ed471db55ba4a53a3191d7"
+  },
+  {
+    "id": "assets/audio/03-cantidad-calidad/p3-concentracion.mp3",
+    "src": "../assets/audio/03-cantidad-calidad/p3-concentracion.mp3",
+    "page": "secciones/03-cantidad-calidad/index.html",
+    "page_url": "../secciones/03-cantidad-calidad/index.html",
+    "text": "Sin embargo, cantidad y calidad están conectadas. Por ejemplo, si se disuelve una cucharada de sal en un vaso, el agua queda muy salada; en cambio, si esa misma cucharada se echa en una piscina, casi no se nota. Esto ocurre porque cambia la concentración, es decir, cuánta sustancia hay en cada litro de agua. Por eso, un río con poco caudal en época seca se contamina más fácilmente con la misma descarga.",
+    "fingerprint": "28b0731e402425a773a0ae09a28bbc2108800504564d90e6e713cb34f7ccd83d"
+  },
+  {
+    "id": "assets/audio/04-parametros/p1-alcalinidad.mp3",
+    "src": "../assets/audio/04-parametros/p1-alcalinidad.mp3",
+    "page": "secciones/04-parametros/alcalinidad-acidez.html",
+    "page_url": "../secciones/04-parametros/alcalinidad-acidez.html",
+    "text": "Para empezar, la alcalinidad es la capacidad del agua para neutralizar ácidos, es decir, para quitarles su fuerza. Por ejemplo, funciona como un escudo: cuando llega una lluvia ácida o una descarga ácida, el agua la resiste y su pH cambia poco. Esta defensa proviene sobre todo de sales disueltas llamadas bicarbonatos y carbonatos. Sin embargo, el escudo tiene un límite y puede agotarse si llega demasiado ácido.",
+    "fingerprint": "24b1b5dea47d4df619e18f7c4f852fd74a7ff0bf163c19bdc7a6ce2aa685e5e7"
+  },
+  {
+    "id": "assets/audio/04-parametros/p2-acidez.mp3",
+    "src": "../assets/audio/04-parametros/p2-acidez.mp3",
+    "page": "secciones/04-parametros/alcalinidad-acidez.html",
+    "page_url": "../secciones/04-parametros/alcalinidad-acidez.html",
+    "text": "Por otro lado, la acidez es la capacidad del agua para neutralizar bases, que son las sustancias contrarias a los ácidos, como el jabón. Además, una acidez alta suele deberse a mucho dióxido de carbono disuelto, a aguas que salen de minas o a residuos de fábricas. Por eso, un agua muy ácida puede corroer, es decir, desgastar las tuberías, y además dañar a los peces.",
+    "fingerprint": "14b8072aa5ace8460c6bdecffc4c504f1160a67c8bd183e6843ab2e615b72534"
+  },
+  {
+    "id": "assets/audio/04-parametros/p3-titulacion.mp3",
+    "src": "../assets/audio/04-parametros/p3-titulacion.mp3",
+    "page": "secciones/04-parametros/alcalinidad-acidez.html",
+    "page_url": "../secciones/04-parametros/alcalinidad-acidez.html",
+    "text": "Por ejemplo, las dos se miden por titulación: se agrega gota a gota un líquido de concentración conocida hasta que un indicador cambia de color. Para la alcalinidad se agrega un ácido y el indicador pasa de amarillo a naranja salmón; para la acidez se agrega una base y la muestra se vuelve rosada tenue. Finalmente, con el volumen gastado se calcula el resultado en miligramos de carbonato de calcio por litro (mg CaCO₃/L).",
+    "fingerprint": "4efd841a65e42de6f7d2d6482534f401e0ce708811c066e5742f8de50525e40d"
+  },
+  {
+    "id": "assets/audio/04-parametros/p1-dos-colores.mp3",
+    "src": "../assets/audio/04-parametros/p1-dos-colores.mp3",
+    "page": "secciones/04-parametros/color.html",
+    "page_url": "../secciones/04-parametros/color.html",
+    "text": "Para empezar, el color del agua se debe a sustancias disueltas, como restos de hojas descompuestas o hierro. Sin embargo, al mirar una muestra sin tratar, también se ven partículas que flotan y la enturbian. Por eso, se distinguen dos colores: el color aparente, que es el que se ve en la muestra tal como llega, y el color real, que es el que queda después de filtrarla para quitar esas partículas.",
+    "fingerprint": "9fb8a4b4d59ff0ff1236d07d8b69a374f22fd842c39138073423c99cbb5bba77"
+  },
+  {
+    "id": "assets/audio/04-parametros/p2-unidades.mp3",
+    "src": "../assets/audio/04-parametros/p2-unidades.mp3",
+    "page": "secciones/04-parametros/color.html",
+    "page_url": "../secciones/04-parametros/color.html",
+    "text": "Además, el color se expresa en unidades de color (UC), también llamadas unidades platino-cobalto. Esto se debe a que se compara con mezclas preparadas con esos dos metales, que tienen un tono amarillo conocido. Por ejemplo, una mezcla de 10 UC es casi transparente y una de 50 UC ya es claramente amarilla. Así, esos tubos de referencia, llamados estándares, funcionan como las marcas de una regla.",
+    "fingerprint": "6591b3896e797cdb9071e4deb1c082f3fc6d2a14f17bccb37dc9ef902e28e177"
+  },
+  {
+    "id": "assets/audio/04-parametros/p3-espectrofotometro.mp3",
+    "src": "../assets/audio/04-parametros/p3-espectrofotometro.mp3",
+    "page": "secciones/04-parametros/color.html",
+    "page_url": "../secciones/04-parametros/color.html",
+    "text": "Por otra parte, el espectrofotómetro es un aparato que ilumina la muestra y mide cuánta luz se queda atrapada en ella; ese número se llama absorbancia. Mientras más color tiene el agua, más luz retiene y mayor es la absorbancia. Sin embargo, el aparato no entrega unidades de color, sino solo absorbancia. Por eso, se necesita una curva de calibración que traduzca un número en el otro.",
+    "fingerprint": "b65f15276939bfe912df68d45c34bd417de0df2c69d78c02db6fd86e4b8b68c4"
+  },
+  {
+    "id": "assets/audio/04-parametros/p4-interpolar.mp3",
+    "src": "../assets/audio/04-parametros/p4-interpolar.mp3",
+    "page": "secciones/04-parametros/color.html",
+    "page_url": "../secciones/04-parametros/color.html",
+    "text": "Finalmente, interpolar significa encontrar un valor desconocido que está entre dos valores conocidos. Por ejemplo, si la muestra da una absorbancia de 0,027, se ubica ese número en el eje vertical, se avanza en línea recta hasta tocar la recta y luego se baja hasta el eje horizontal, donde se lee 27 UC. Además, la curva solo vale entre 0 y 50 UC; por eso, si la muestra pasa ese límite, se diluye con agua destilada y el resultado se multiplica.",
+    "fingerprint": "3383312a0cf3d34115da620b109f15817e57c056c7911a4cec645a1f8020d022"
+  },
+  {
+    "id": "assets/audio/04-parametros/p1-dureza.mp3",
+    "src": "../assets/audio/04-parametros/p1-dureza.mp3",
+    "page": "secciones/04-parametros/dureza.html",
+    "page_url": "../secciones/04-parametros/dureza.html",
+    "text": "Para empezar, la dureza indica cuánto calcio y magnesio hay disueltos en el agua. Estos minerales llegan cuando el agua atraviesa rocas como la caliza. Por ejemplo, un agua dura deja una costra blanca, llamada sarro, dentro de ollas, duchas y tuberías. Además, con ella el jabón hace poca espuma, por lo que se gasta más. Sin embargo, el agua dura no suele causar daño a la salud.",
+    "fingerprint": "d2fd9f124051e40f99d986279aeef7e17eb8a002f35960546fceebaa1654af6f"
+  },
+  {
+    "id": "assets/audio/04-parametros/p2-tipos.mp3",
+    "src": "../assets/audio/04-parametros/p2-tipos.mp3",
+    "page": "secciones/04-parametros/dureza.html",
+    "page_url": "../secciones/04-parametros/dureza.html",
+    "text": "Además, la dureza se divide en tres tipos. La dureza total suma el calcio y el magnesio juntos. En cambio, la dureza cálcica cuenta solo el calcio; para medirla, se sube mucho el pH, de modo que el magnesio se separa y no participa. Finalmente, la dureza magnésica no se mide directamente, sino que se calcula con una resta: dureza total menos dureza cálcica.",
+    "fingerprint": "f067f671b84e7551d9c30f85968b4193c32108fc49a8c8abf5bc7a2a26bd9be1"
+  },
+  {
+    "id": "assets/audio/04-parametros/p3-edta.mp3",
+    "src": "../assets/audio/04-parametros/p3-edta.mp3",
+    "page": "secciones/04-parametros/dureza.html",
+    "page_url": "../secciones/04-parametros/dureza.html",
+    "text": "Por ejemplo, la dureza total se mide por titulación con EDTA, una sustancia que atrapa al calcio y al magnesio como una red. Antes, se agrega un indicador llamado negro de eriocromo T, que tiñe la muestra de rojo vino mientras hay minerales libres. Luego, cuando el EDTA ya atrapó todos los minerales, el color cambia a azul. Así, con el volumen gastado se calcula la dureza en mg CaCO₃/L.",
+    "fingerprint": "ee9f2b242138644e818105ef1d194c0c682019ae03fb515b3b37bf45ac568f8b"
+  },
+  {
+    "id": "assets/audio/04-parametros/p0-parametros.mp3",
+    "src": "../assets/audio/04-parametros/p0-parametros.mp3",
+    "page": "secciones/04-parametros/index.html",
+    "page_url": "../secciones/04-parametros/index.html",
+    "text": "Para empezar, un parámetro es una característica del agua que se puede medir y expresar con un número y una unidad. Por ejemplo, así como un médico revisa la temperatura y la presión de una persona, el laboratorio revisa el pH, el color o la dureza del agua. Además, cada parámetro responde una pregunta distinta, por lo que ninguno basta por sí solo. De esta manera, al juntar varios resultados se obtiene un retrato completo del agua.",
+    "fingerprint": "bf000f0765838f1be542fb6e8f3cd4e59010e249b3fd5be9f5aa812f751c8be4"
+  },
+  {
+    "id": "assets/audio/04-parametros/p1-ph.mp3",
+    "src": "../assets/audio/04-parametros/p1-ph.mp3",
+    "page": "secciones/04-parametros/ph-conductividad.html",
+    "page_url": "../secciones/04-parametros/ph-conductividad.html",
+    "text": "Para comenzar, el pH indica si el agua es ácida, neutra o básica, usando una escala que va de 0 a 14. Por ejemplo, el jugo de limón es ácido y tiene un pH cercano a 2, mientras que el jabón es básico y pasa de 9. En el centro, cerca de 7, está el agua pura, que es neutra. Además, en Colombia el agua para beber debe tener un pH entre 6,5 y 9,0, según la Resolución 2115 de 2007.",
+    "fingerprint": "c334c522ae132e1941952a177d1808273cccd0c3f0a701f71549d9b13c2fcfbe"
+  },
+  {
+    "id": "assets/audio/04-parametros/p2-medir-ph.mp3",
+    "src": "../assets/audio/04-parametros/p2-medir-ph.mp3",
+    "page": "secciones/04-parametros/ph-conductividad.html",
+    "page_url": "../secciones/04-parametros/ph-conductividad.html",
+    "text": "Por otra parte, el pH se mide con un pHmetro, un aparato con una punta de vidrio llamada electrodo que se sumerge en la muestra. Antes de usarlo, se calibra con líquidos de pH conocido, por ejemplo 4 y 7, igual que se ajusta una balanza antes de pesar. Luego, se espera a que el número de la pantalla deje de moverse y se anota con un decimal, como 7,4.",
+    "fingerprint": "b95f56e811bd1978456fa5be1e6ac5ad0a71c6135da2994b1f029f364d1cc477"
+  },
+  {
+    "id": "assets/audio/04-parametros/p3-conductividad.mp3",
+    "src": "../assets/audio/04-parametros/p3-conductividad.mp3",
+    "page": "secciones/04-parametros/ph-conductividad.html",
+    "page_url": "../secciones/04-parametros/ph-conductividad.html",
+    "text": "Además, la conductividad indica qué tan fácil pasa la corriente eléctrica por el agua. Esto ocurre porque las sales disueltas se separan en partículas con carga, llamadas iones, que transportan la electricidad. Por eso, a más sales disueltas, mayor conductividad. Por ejemplo, en una práctica, el agua de la llave marcó 210 microsiemens por centímetro y el agua de una quebrada marcó 85; es decir, el agua de la llave llevaba más sales.",
+    "fingerprint": "22573197c1e54c73b1171ae7d642eab74861d467d18d8c429ab60a2e9e498f73"
+  },
+  {
+    "id": "assets/audio/04-parametros/p1-solidos.mp3",
+    "src": "../assets/audio/04-parametros/p1-solidos.mp3",
+    "page": "secciones/04-parametros/solidos.html",
+    "page_url": "../secciones/04-parametros/solidos.html",
+    "text": "Para empezar, los sólidos son todo lo que queda cuando al agua se le quita el agua misma. Por ejemplo, si una olla con agua hierve hasta secarse, en el fondo aparece una costra: esos son los sólidos. Algunos estaban disueltos, como la sal, y otros flotaban, como el barro. Además, se miden en miligramos por litro, es decir, cuántos miligramos de residuo deja cada litro de agua.",
+    "fingerprint": "dbb72d382e5aae612d2272a117dcb2713c4c936103063fc524acd873a32b100f"
+  },
+  {
+    "id": "assets/audio/04-parametros/p2-totales.mp3",
+    "src": "../assets/audio/04-parametros/p2-totales.mp3",
+    "page": "secciones/04-parametros/solidos.html",
+    "page_url": "../secciones/04-parametros/solidos.html",
+    "text": "Por otra parte, en el laboratorio los sólidos totales se miden en un recipiente de porcelana llamado cápsula. Primero, se pesa la cápsula vacía; después, se le agrega un volumen conocido de muestra y se seca en un horno a unos 105 °C hasta que el agua se evapora. Finalmente, se pesa otra vez: la diferencia de peso corresponde a los sólidos totales.",
+    "fingerprint": "521c258261ca3bbf846a4e2e61fdbc81ab48388fddf53b94ebb8f59197a59571"
+  },
+  {
+    "id": "assets/audio/04-parametros/p3-volatiles.mp3",
+    "src": "../assets/audio/04-parametros/p3-volatiles.mp3",
+    "page": "secciones/04-parametros/solidos.html",
+    "page_url": "../secciones/04-parametros/solidos.html",
+    "text": "Luego, esa misma cápsula se calienta en un horno mucho más caliente, llamado mufla, a unos 550 °C. A esa temperatura, la materia orgánica, como restos de hojas o microbios, se quema y desaparece; por eso, a esa parte se le llama sólidos volátiles. En cambio, lo que resiste, como la arena y los minerales, queda como ceniza y se llama sólidos fijos. Así, se parece a una fogata: la leña se quema, pero la ceniza queda.",
+    "fingerprint": "63f1defb14d26c35a8e8a726c894c021446572da54fb0c25d615b99da2808d98"
+  },
+  {
+    "id": "assets/audio/04-parametros/p1-turbiedad.mp3",
+    "src": "../assets/audio/04-parametros/p1-turbiedad.mp3",
+    "page": "secciones/04-parametros/turbiedad.html",
+    "page_url": "../secciones/04-parametros/turbiedad.html",
+    "text": "Para empezar, la turbiedad indica qué tan difícil es ver a través del agua. Esto ocurre porque el agua lleva partículas muy pequeñas suspendidas, como barro, arcilla o microbios, que desvían la luz. Por ejemplo, sucede lo mismo con los faros de un carro en una noche con neblina: las gotitas de la niebla dispersan la luz y el camino se ve borroso. Así, a más partículas, mayor turbiedad.",
+    "fingerprint": "87c78bf3d3a15102ada25d8a59fb8cbee956aa45f98e626d11b7c2b021298501"
+  },
+  {
+    "id": "assets/audio/04-parametros/p2-turbidimetro.mp3",
+    "src": "../assets/audio/04-parametros/p2-turbidimetro.mp3",
+    "page": "secciones/04-parametros/turbiedad.html",
+    "page_url": "../secciones/04-parametros/turbiedad.html",
+    "text": "Por eso, la turbiedad se mide con un turbidímetro, un aparato que ilumina la muestra y detecta cuánta luz sale desviada hacia un lado por las partículas. Su resultado se expresa en unidades nefelométricas de turbiedad, o NTU. Antes de medir, el equipo se ajusta con agua sin partículas, que marca 0 NTU, y con líquidos de turbiedad conocida, preparados con una sustancia llamada formazina.",
+    "fingerprint": "5a492ca16bd969ebc649441348d1bd06e85b25db721f93f7a7efa86a5fd0e8f7"
+  }
+]

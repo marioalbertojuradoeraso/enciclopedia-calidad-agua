@@ -1,0 +1,143 @@
+{
+  "section": "02-hidrosfera-ciclos",
+  "references": [
+    "../../js/enciclopedia.js",
+    "../../assets/audio/02-hidrosfera-ciclos/p1-idea.mp3",
+    "../../assets/audio/02-hidrosfera-ciclos/p2-agua.mp3",
+    "../../assets/images/02-hidrosfera-ciclos/agua-1.png",
+    "../../assets/images/02-hidrosfera-ciclos/agua-2.png",
+    "../../assets/images/02-hidrosfera-ciclos/agua-3.png",
+    "../../assets/images/02-hidrosfera-ciclos/agua-4.png",
+    "../../assets/audio/02-hidrosfera-ciclos/p3-nitrogeno.mp3",
+    "../../assets/images/02-hidrosfera-ciclos/nitrogeno-1.png",
+    "../../assets/images/02-hidrosfera-ciclos/nitrogeno-2.png",
+    "../../assets/images/02-hidrosfera-ciclos/nitrogeno-3.png",
+    "../../assets/audio/02-hidrosfera-ciclos/p4-carbono.mp3",
+    "../../assets/images/02-hidrosfera-ciclos/carbono-1.png",
+    "../../assets/images/02-hidrosfera-ciclos/carbono-2.png",
+    "../../assets/images/02-hidrosfera-ciclos/carbono-3.png",
+    "../../assets/audio/02-hidrosfera-ciclos/p5-fosforo.mp3",
+    "../../assets/images/02-hidrosfera-ciclos/fosforo-1.png",
+    "../../assets/images/02-hidrosfera-ciclos/fosforo-2.png",
+    "../../assets/images/02-hidrosfera-ciclos/fosforo-3.png",
+    "../../assets/audio/02-hidrosfera-ciclos/p6-azufre.mp3",
+    "../../assets/images/02-hidrosfera-ciclos/azufre-1.png",
+    "../../assets/images/02-hidrosfera-ciclos/azufre-2.png",
+    "../../assets/images/02-hidrosfera-ciclos/azufre-3.png"
+  ],
+  "images": [
+    {
+      "file": "agua-1.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "agua-2.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "agua-3.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "agua-4.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "azufre-1.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "azufre-2.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "azufre-3.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "carbono-1.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "carbono-2.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "carbono-3.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "fosforo-1.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "fosforo-2.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "fosforo-3.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "nitrogeno-1.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "nitrogeno-2.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "nitrogeno-3.png",
+      "width": 1024,
+      "height": 1024
+    }
+  ],
+  "audio": [
+    {
+      "file": "p1-idea.mp3",
+      "seconds": 36.65,
+      "frames": 1403
+    },
+    {
+      "file": "p2-agua.mp3",
+      "seconds": 36.52,
+      "frames": 1398
+    },
+    {
+      "file": "p3-nitrogeno.mp3",
+      "seconds": 36.23,
+      "frames": 1387
+    },
+    {
+      "file": "p4-carbono.mp3",
+      "seconds": 35.87,
+      "frames": 1373
+    },
+    {
+      "file": "p5-fosforo.mp3",
+      "seconds": 38.5,
+      "frames": 1474
+    },
+    {
+      "file": "p6-azufre.mp3",
+      "seconds": 33.46,
+      "frames": 1281
+    }
+  ],
+  "scope": "Referencias, integridad PNG y tramas MP3; no es revisión auditiva ni validación científica."
+}

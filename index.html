@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Enciclopedia del Agua</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/enciclopedia.js" defer></script>
+  <script src="js/laboratorio.js" defer></script>
+  <style>
+    .inicio { display: grid; grid-template-columns: 1.1fr 1fr; gap: 32px; align-items: center; text-align: left; }
+    .inicio h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); }
+    .inicio .imagen { box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25); }
+    .btn-empezar {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 16px 28px;
+      border-radius: 999px;
+      background: var(--sol);
+      color: var(--agua-900);
+      font-weight: 800;
+      font-size: 1.15rem;
+      text-decoration: none;
+    }
+    .enlace .tiempo { margin-top: auto; font-weight: 800; color: var(--agua-700); }
+    .ruta-total { text-align: center; font-weight: 800; color: var(--agua-900); margin-top: 20px; }
+    @media (max-width: 800px) { .inicio { grid-template-columns: 1fr; text-align: center; } }
+  </style>
+</head>
+<body>
+
+  <header class="barra">
+    <div class="contenedor">
+      <a class="marca" href="index.html">💧 Enciclopedia del Agua</a>
+      <nav aria-label="Secciones">
+        <ul class="menu">
+          <li><a href="secciones/01-introduccion/index.html">1. Introducción</a></li>
+          <li><a href="secciones/02-hidrosfera-ciclos/index.html">2. Hidrosfera y ciclos</a></li>
+          <li><a href="secciones/03-cantidad-calidad/index.html">3. Cantidad y calidad</a></li>
+          <li><a href="secciones/04-parametros/index.html">4. Parámetros</a></li>
+          <li><a href="secciones/05-otros-parametros/index.html">5. Otros parámetros</a></li>
+          <li><a href="secciones/06-normatividad/index.html">6. Normatividad</a></li>
+          <li><a href="calculadoras.html">🧮 Calculadoras</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <div class="contenedor inicio">
+        <div>
+          <span class="etiqueta">Enciclopedia interactiva</span>
+          <h1>El agua, gota a gota</h1>
+          <p>Un recorrido de unas dos horas por la química del agua: de dónde viene, cómo se mide su calidad y qué reglas la protegen.</p>
+          <a class="btn-empezar" href="secciones/01-introduccion/index.html">Empezar el recorrido →</a>
+        </div>
+        <div class="imagen">
+          <img src="assets/images/01-introduccion/gotita-lupa.webp" alt="Gotita, una gota de agua con bata de laboratorio y gafas, observa un río con su lupa.">
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="ruta">
+      <div class="contenedor">
+        <h2>La ruta</h2>
+        <p class="instruccion">Seis paradas, cada una con cómics, actividades y mini-retos.</p>
+        <div class="enlaces">
+          <a class="enlace" href="secciones/01-introduccion/index.html"><span class="icono" aria-hidden="true">🔬</span><strong>1. Introducción a la química ambiental</strong><span>Qué estudia la química ambiental y por qué revisar el agua.</span><span class="tiempo">⏱ 10 min</span></a>
+          <a class="enlace" href="secciones/02-hidrosfera-ciclos/index.html"><span class="icono" aria-hidden="true">🔄</span><strong>2. Hidrosfera y ciclos</strong><span>El viaje del agua, el nitrógeno, el carbono, el fósforo y el azufre.</span><span class="tiempo">⏱ 25 min</span></a>
+          <a class="enlace" href="secciones/03-cantidad-calidad/index.html"><span class="icono" aria-hidden="true">⚖️</span><strong>3. Cantidad y calidad</strong><span>Cuánta agua hay, cómo está y cómo se conectan.</span><span class="tiempo">⏱ 15 min</span></a>
+          <a class="enlace" href="secciones/04-parametros/index.html"><span class="icono" aria-hidden="true">🧪</span><strong>4. Parámetros de calidad</strong><span>pH, conductividad, color, turbiedad, alcalinidad, dureza y sólidos.</span><span class="tiempo">⏱ 40 min</span></a>
+          <a class="enlace" href="secciones/05-otros-parametros/index.html"><span class="icono" aria-hidden="true">🦠</span><strong>5. Otros parámetros</strong><span>DBO₅, DQO, nutrientes y aguas naturales frente a residuales.</span><span class="tiempo">⏱ 20 min</span></a>
+          <a class="enlace" href="secciones/06-normatividad/index.html"><span class="icono" aria-hidden="true">📜</span><strong>6. Normatividad en Colombia</strong><span>Las reglas que protegen el agua del país.</span><span class="tiempo">⏱ 10 min</span></a>
+        </div>
+        <p class="ruta-total">Tiempo total estimado: unas 2 horas.</p>
+      </div>
+    </section>
+
+    <section class="bloque" id="como">
+      <div class="contenedor">
+        <h2>Cómo recorrer la enciclopedia</h2>
+        <div class="tarjetas">
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">🔊</span><strong>Escuchar</strong></span>
+              <span class="cara reverso">Por ejemplo, cada párrafo tiene un botón para oírlo narrado en menos de un minuto.</span>
+            </span>
+          </button>
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">👆</span><strong>Tocar y descubrir</strong></span>
+              <span class="cara reverso">Además, las tarjetas se voltean, los botones amarillos esconden datos y los simuladores responden al moverlos.</span>
+            </span>
+          </button>
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">🏆</span><strong>Poner a prueba</strong></span>
+              <span class="cara reverso">Finalmente, cada sección termina con un mini-reto para comprobar lo aprendido.</span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sólidos en el agua</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/estilos.css">
+  <script src="../../js/enciclopedia.js" defer></script>
+  <script src="../../js/laboratorio.js" defer></script>
+</head>
+<body>
+
+  <header class="barra">
+    <div class="contenedor">
+      <a class="marca" href="../../index.html">💧 Enciclopedia del Agua</a>
+      <nav aria-label="Secciones">
+        <ul class="menu">
+          <li><a href="../01-introduccion/index.html">1. Introducción</a></li>
+          <li><a href="../02-hidrosfera-ciclos/index.html">2. Hidrosfera y ciclos</a></li>
+          <li><a href="../03-cantidad-calidad/index.html">3. Cantidad y calidad</a></li>
+          <li><a href="index.html" aria-current="page">4. Parámetros</a></li>
+          <li><a href="../05-otros-parametros/index.html">5. Otros parámetros</a></li>
+          <li><a href="../06-normatividad/index.html">6. Normatividad</a></li>
+          <li><a href="../../calculadoras.html">🧮 Calculadoras</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <div class="contenedor">
+        <a class="volver" href="index.html">← Todos los parámetros</a><br><span class="etiqueta">Parámetro 6 de 6</span>
+        <h1>Sólidos totales y volátiles</h1>
+        <p>Lo que queda cuando el agua se va.</p>
+      </div>
+    </section>
+
+    <section class="bloque" id="que-son">
+      <div class="contenedor">
+        <h2>¿Qué son los sólidos?</h2>
+        <div class="duo">
+          <div>
+            <div class="parrafo">
+            <p>Para empezar, los sólidos son todo lo que queda cuando al agua se le quita el agua misma. Por ejemplo, si una olla con agua hierve hasta secarse, en el fondo aparece una costra: esos son los sólidos. Algunos estaban disueltos, como la sal, y otros flotaban, como el barro. Además, se miden en miligramos por litro, es decir, cuántos miligramos de residuo deja cada litro de agua.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p1-solidos.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          </div>
+          <div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/04-parametros/solidos-sopa.webp" alt="Una olla vacía y seca sobre la estufa, con una costra blanca y cuarteada en el fondo."></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="totales">
+      <div class="contenedor">
+        <h2>Sólidos totales</h2>
+        <div class="duo">
+          <div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/04-parametros/solidos-horno.webp" alt="Gotita saca con pinzas una cápsula de porcelana de un horno de secado del laboratorio."></div>
+          <div>
+            <div class="parrafo">
+            <p>Por otra parte, en el laboratorio los sólidos totales se miden en un recipiente de porcelana llamado cápsula. Primero, se pesa la cápsula vacía; después, se le agrega un volumen conocido de muestra y se seca en un horno a unos 105 °C hasta que el agua se evapora. Finalmente, se pesa otra vez: la diferencia de peso corresponde a los sólidos totales.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p2-totales.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="volatiles">
+      <div class="contenedor">
+        <h2>Sólidos volátiles y fijos</h2>
+        <div class="duo">
+          <div>
+            <div class="parrafo">
+            <p>Luego, esa misma cápsula se calienta en un horno mucho más caliente, llamado mufla, a unos 550 °C. A esa temperatura, la materia orgánica, como restos de hojas o microbios, se quema y desaparece; por eso, a esa parte se le llama sólidos volátiles. En cambio, lo que resiste, como la arena y los minerales, queda como ceniza y se llama sólidos fijos. Así, se parece a una fogata: la leña se quema, pero la ceniza queda.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p3-volatiles.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          </div>
+          <div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/04-parametros/solidos-mufla.webp" alt="Una mufla encendida de color naranja y, sobre la mesa, una cápsula con un poco de ceniza gris; Gotita observa con un guante protector."></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="pasos">
+      <div class="contenedor">
+        <h2>Del horno a la mufla, paso a paso</h2>
+        <ol class="flujo">
+            <li><strong>Pesar</strong>La cápsula vacía.</li>
+            <li><strong>Secar a 105 °C</strong>Con la muestra, hasta que el agua se evapore.</li>
+            <li><strong>Pesar</strong>El aumento de peso son los sólidos totales.</li>
+            <li><strong>Calcinar a 550 °C</strong>En la mufla se quema la materia orgánica.</li>
+            <li><strong>Pesar</strong>Lo que se perdió son los sólidos volátiles.</li>
+          </ol>
+        <div class="descubrir" style="margin-top:24px">
+          <div>
+            <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="dato-calculo">¿Cómo se pasa a mg/L?</button>
+            <div class="revelado" id="dato-calculo" hidden><p>Por ejemplo, si 100 mL de muestra dejan 25 mg de residuo, un litro, que es diez veces más, dejaría 250 mg. Así, los sólidos totales serían 250 mg/L.</p></div>
+          </div>
+          <div>
+            <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="dato-volatiles">¿Por qué importan los volátiles?</button>
+            <div class="revelado" id="dato-volatiles" hidden><p>De hecho, los sólidos volátiles indican cuánta materia orgánica lleva el agua. Por eso, son muy altos en las aguas residuales, que llevan restos de comida y otros desechos.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="laboratorio-sol">
+      <div class="contenedor">
+        <h2>Laboratorio virtual: pesar los sólidos</h2>
+        <p class="instruccion">Sigue los pasos con el botón azul.</p>
+        <div class="lab" id="lab-solidos"><script type="application/json">{"escena": "caja", "equipo": "Balanza analítica", "pasos": [{"titulo": "Preparar la cápsula", "texto": "Se calienta la cápsula vacía en la mufla a 550 °C, para quemar cualquier resto, y se enfría en un desecador, un recipiente que la protege de la humedad.", "boton": "Preparar la cápsula", "vaso": ["Cápsula de", "porcelana vacía"], "liquido": "#f7f7f7", "pantalla": "0,0000"}, {"titulo": "Pesar vacía (A)", "texto": "Se pesa la cápsula vacía.", "boton": "Pesar", "animar": {"de": 0, "a": 42.531, "decimales": 4}, "registro": ["A: cápsula vacía", "42,5310 g"]}, {"titulo": "Secar la muestra", "texto": "Se agregan 100 mL de muestra bien mezclada y se secan en el horno a 103-105 °C hasta que no quede agua.", "boton": "Secar a 105 °C", "vaso": ["Cápsula + 100 mL", "secada a 105 °C"], "liquido": "#e3d6bf", "pantalla": "en horno"}, {"titulo": "Pesar seca (B)", "texto": "Se enfría en el desecador y se pesa: el aumento de peso es todo el residuo.", "boton": "Pesar", "animar": {"de": 42.5, "a": 42.556, "decimales": 4}, "registro": ["B: cápsula + residuo seco", "42,5560 g"]}, {"titulo": "Calcinar", "texto": "Se lleva la cápsula a la mufla a 550 °C: la materia orgánica se quema y queda ceniza.", "boton": "Calcinar a 550 °C", "vaso": ["Cápsula en la mufla", "550 °C"], "liquido": "#cfcfcf", "pantalla": "en mufla"}, {"titulo": "Pesar con ceniza (C)", "texto": "Se enfría en el desecador y se pesa de nuevo.", "boton": "Pesar", "animar": {"de": 42.5, "a": 42.546, "decimales": 4}, "registro": ["C: cápsula + ceniza", "42,5460 g"]}, {"titulo": "Calcular", "texto": "Se restan los pesos y se pasa a mg/L.", "boton": "Calcular", "resultado": "Sólidos totales = (B − A) × 1 000 000 ÷ V = (42,5560 − 42,5310) × 1 000 000 ÷ 100 = <strong>250 mg/L<\/strong>. Sólidos volátiles = (B − C) × 1 000 000 ÷ V = 0,0100 × 1 000 000 ÷ 100 = <strong>100 mg/L<\/strong>. Sólidos fijos = 250 − 100 = <strong>150 mg/L<\/strong>."}], "final": "Práctica terminada: la cápsula se lava y se guarda en el desecador.", "unidad": "gramos", "vaso": ["Cápsula vacía"], "liquido": "#f7f7f7"}</script></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="calculadora-sol">
+      <div class="contenedor">
+        <h2>Calculadoras de sólidos</h2>
+        <div class="duo" style="align-items:start"><div class="calculadora" id="calc-st"><script type="application/json">{"titulo": "Sólidos totales", "entradas": [{"id": "A", "etiqueta": "Peso de la cápsula vacía (A)", "unidad": "g", "valor": 42.531, "paso": 0.0001}, {"id": "B", "etiqueta": "Peso con residuo seco (B)", "unidad": "g", "valor": 42.556, "paso": 0.0001}, {"id": "V", "etiqueta": "Volumen de muestra", "unidad": "mL", "valor": 100, "paso": 1}], "pasos": ["Sólidos totales = (B − A) × 1 000 000 ÷ V", "= ({B} − {A}) × 1 000 000 ÷ {V}", "= {=B-A} g × 1 000 000 ÷ {V}", "= {=(B-A)*1000000/V} mg/L", "Nota: × 1 000 000 pasa de gramos a miligramos (× 1000) y de mililitros a litros (× 1000)."], "resultado": {"expr": "(B-A)*1000000/V", "etiqueta": "Sólidos totales", "unidad": "mg/L", "decimales": 0}, "interpretar": []}</script></div><div class="calculadora" id="calc-sv"><script type="application/json">{"titulo": "Sólidos volátiles", "entradas": [{"id": "B", "etiqueta": "Peso con residuo seco (B)", "unidad": "g", "valor": 42.556, "paso": 0.0001}, {"id": "C", "etiqueta": "Peso con ceniza (C)", "unidad": "g", "valor": 42.546, "paso": 0.0001}, {"id": "V", "etiqueta": "Volumen de muestra", "unidad": "mL", "valor": 100, "paso": 1}], "pasos": ["Sólidos volátiles = (B − C) × 1 000 000 ÷ V", "= ({B} − {C}) × 1 000 000 ÷ {V}", "= {=(B-C)*1000000/V} mg/L"], "resultado": {"expr": "(B-C)*1000000/V", "etiqueta": "Sólidos volátiles", "unidad": "mg/L", "decimales": 0}, "interpretar": []}</script></div></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="reto">
+      <div class="contenedor">
+        <h2>Mini-reto</h2>
+        <div class="reto">
+          <p class="pregunta">Después de la mufla, la cápsula pesa menos que antes. ¿Qué se perdió?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. El agua ya se había evaporado en el horno a 105 °C.">El agua de la muestra.</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! A 550 °C, la materia orgánica se quema y se va como gas.">La materia orgánica, es decir, los sólidos volátiles.</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Al contrario, esos resisten el calor y quedan como ceniza: son los sólidos fijos.">La arena y los minerales.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="contenedor entre-parametros">
+      <a class="btn-siguiente" href="dureza.html">← Dureza</a>
+      <a class="btn-siguiente" href="index.html">Todos los parámetros →</a>
+    </div>
+  </main>
+
+</body>
+</html>

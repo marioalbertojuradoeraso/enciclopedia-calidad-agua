@@ -1,0 +1,2627 @@
+{
+  "sections": [
+    {
+      "section": "01-introduccion",
+      "pages": [
+        "secciones\\01-introduccion\\index.html"
+      ],
+      "references": [
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../../css/estilos.css",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../../js/enciclopedia.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../../js/laboratorio.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../../index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../02-hidrosfera-ciclos/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../03-cantidad-calidad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../04-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../05-otros-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../../calculadoras.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../../assets/audio/01-introduccion/p1-que-es.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../../assets/images/01-introduccion/gotita-lupa.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../../assets/images/01-introduccion/comic-1.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../../assets/images/01-introduccion/comic-2.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../../assets/images/01-introduccion/comic-3.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../../assets/images/01-introduccion/comic-4.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../../assets/images/01-introduccion/vaso-lupa.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../../assets/audio/01-introduccion/p2-por-que.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../../assets/images/01-introduccion/lab-chequeo.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\01-introduccion\\index.html",
+          "reference": "../02-hidrosfera-ciclos/index.html",
+          "exists": true
+        }
+      ],
+      "images": [
+        {
+          "file": "comic-1.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "comic-2.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "comic-3.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "comic-4.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "gotita-lupa.webp",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "file": "lab-chequeo.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "vaso-lupa.webp",
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "audio": [
+        {
+          "file": "p1-que-es.mp3",
+          "seconds": 35.45,
+          "frames": 1357
+        },
+        {
+          "file": "p2-por-que.mp3",
+          "seconds": 34.56,
+          "frames": 1323
+        }
+      ],
+      "errors": [],
+      "scope": "Referencias de todas las páginas HTML, integridad de imágenes raster y tramas MP3; no es revisión auditiva ni validación científica. Enlaces deshabilitados excluidos; fragmentos internos no comprobados."
+    },
+    {
+      "section": "02-hidrosfera-ciclos",
+      "pages": [
+        "secciones\\02-hidrosfera-ciclos\\index.html"
+      ],
+      "references": [
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../css/estilos.css",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../js/enciclopedia.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../js/laboratorio.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../03-cantidad-calidad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../04-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../05-otros-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../calculadoras.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/audio/02-hidrosfera-ciclos/p1-idea.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/ruta-bus.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/audio/02-hidrosfera-ciclos/p2-agua.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/agua-1.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/agua-2.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/agua-3.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/agua-4.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/transpiracion.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/audio/02-hidrosfera-ciclos/p3-nitrogeno.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/nitrogeno-1.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/nitrogeno-2.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/nitrogeno-3.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/n-nodulos.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/audio/02-hidrosfera-ciclos/p3b-regreso-nitrogeno.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/n-desnitrificacion.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/audio/02-hidrosfera-ciclos/p4-carbono.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/carbono-1.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/carbono-2.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/carbono-3.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/audio/02-hidrosfera-ciclos/p4b-fotosintesis.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/fotosintesis.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/audio/02-hidrosfera-ciclos/p5-fosforo.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/fosforo-1.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/fosforo-2.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/fosforo-3.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/eutrofizacion-caso.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/audio/02-hidrosfera-ciclos/p6-azufre.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/azufre-1.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/azufre-2.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../../assets/images/02-hidrosfera-ciclos/azufre-3.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\02-hidrosfera-ciclos\\index.html",
+          "reference": "../03-cantidad-calidad/index.html",
+          "exists": true
+        }
+      ],
+      "images": [
+        {
+          "file": "agua-1.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "agua-2.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "agua-3.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "agua-4.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "azufre-1.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "azufre-2.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "azufre-3.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "carbono-1.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "carbono-2.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "carbono-3.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "eutrofizacion-caso.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "fosforo-1.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "fosforo-2.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "fosforo-3.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "fotosintesis.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "n-desnitrificacion.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "n-nodulos.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "nitrogeno-1.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "nitrogeno-2.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "nitrogeno-3.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "ruta-bus.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "transpiracion.webp",
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "audio": [
+        {
+          "file": "p1-idea.mp3",
+          "seconds": 36.65,
+          "frames": 1403
+        },
+        {
+          "file": "p2-agua.mp3",
+          "seconds": 36.52,
+          "frames": 1398
+        },
+        {
+          "file": "p3-nitrogeno.mp3",
+          "seconds": 38.09,
+          "frames": 1458
+        },
+        {
+          "file": "p3b-regreso-nitrogeno.mp3",
+          "seconds": 35.37,
+          "frames": 1354
+        },
+        {
+          "file": "p4-carbono.mp3",
+          "seconds": 35.87,
+          "frames": 1373
+        },
+        {
+          "file": "p4b-fotosintesis.mp3",
+          "seconds": 31.79,
+          "frames": 1217
+        },
+        {
+          "file": "p5-fosforo.mp3",
+          "seconds": 38.5,
+          "frames": 1474
+        },
+        {
+          "file": "p6-azufre.mp3",
+          "seconds": 33.46,
+          "frames": 1281
+        }
+      ],
+      "errors": [],
+      "scope": "Referencias de todas las páginas HTML, integridad de imágenes raster y tramas MP3; no es revisión auditiva ni validación científica. Enlaces deshabilitados excluidos; fragmentos internos no comprobados."
+    },
+    {
+      "section": "03-cantidad-calidad",
+      "pages": [
+        "secciones\\03-cantidad-calidad\\index.html"
+      ],
+      "references": [
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../../css/estilos.css",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../../js/enciclopedia.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../../js/laboratorio.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../../index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../02-hidrosfera-ciclos/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../04-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../05-otros-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../../calculadoras.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../../assets/images/03-cantidad-calidad/cc-1.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../../assets/images/03-cantidad-calidad/cc-2.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../../assets/images/03-cantidad-calidad/cc-3.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../../assets/images/03-cantidad-calidad/cc-4.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../../assets/audio/03-cantidad-calidad/p1-cantidad.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../../assets/audio/03-cantidad-calidad/p2-calidad.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../../assets/audio/03-cantidad-calidad/p1b-donde.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../../assets/images/03-cantidad-calidad/caudal-balde.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../../assets/audio/03-cantidad-calidad/p3-concentracion.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\03-cantidad-calidad\\index.html",
+          "reference": "../04-parametros/index.html",
+          "exists": true
+        }
+      ],
+      "images": [
+        {
+          "file": "caudal-balde.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "cc-1.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "cc-2.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "cc-3.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "cc-4.webp",
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "audio": [
+        {
+          "file": "p1-cantidad.mp3",
+          "seconds": 34.9,
+          "frames": 1336
+        },
+        {
+          "file": "p1b-donde.mp3",
+          "seconds": 33.91,
+          "frames": 1298
+        },
+        {
+          "file": "p2-calidad.mp3",
+          "seconds": 30.8,
+          "frames": 1179
+        },
+        {
+          "file": "p3-concentracion.mp3",
+          "seconds": 33.54,
+          "frames": 1284
+        }
+      ],
+      "errors": [],
+      "scope": "Referencias de todas las páginas HTML, integridad de imágenes raster y tramas MP3; no es revisión auditiva ni validación científica. Enlaces deshabilitados excluidos; fragmentos internos no comprobados."
+    },
+    {
+      "section": "04-parametros",
+      "pages": [
+        "secciones\\04-parametros\\alcalinidad-acidez.html",
+        "secciones\\04-parametros\\color.html",
+        "secciones\\04-parametros\\dureza.html",
+        "secciones\\04-parametros\\index.html",
+        "secciones\\04-parametros\\ph-conductividad.html",
+        "secciones\\04-parametros\\solidos.html",
+        "secciones\\04-parametros\\turbiedad.html"
+      ],
+      "references": [
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "../../css/estilos.css",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "../../js/enciclopedia.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "../../js/laboratorio.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "../../index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "../01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "../02-hidrosfera-ciclos/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "../03-cantidad-calidad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "../05-otros-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "../06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "../../calculadoras.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "../../assets/images/04-parametros/comic-ph-heroe.jpg",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "../../assets/images/04-parametros/comic-ph-heroe.jpg",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "../../assets/audio/04-parametros/p1-alcalinidad.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "../../assets/audio/04-parametros/p2-acidez.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "../../assets/audio/04-parametros/p3-titulacion.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "../../assets/images/04-parametros/alc-bureta.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "turbiedad.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\alcalinidad-acidez.html",
+          "reference": "dureza.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../../css/estilos.css",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../../js/enciclopedia.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../../js/laboratorio.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../../index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../02-hidrosfera-ciclos/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../03-cantidad-calidad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../05-otros-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../../calculadoras.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../../assets/audio/04-parametros/p1-dos-colores.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../../assets/images/04-parametros/comic-dos-colores.jpg",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../../assets/images/04-parametros/comic-dos-colores.jpg",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../../assets/audio/04-parametros/p2-unidades.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../../assets/images/04-parametros/color-tubos.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../../assets/images/04-parametros/espectrofotometro.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../../assets/audio/04-parametros/p3-espectrofotometro.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../../assets/images/04-parametros/curva-1.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../../assets/images/04-parametros/curva-2.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../../assets/images/04-parametros/curva-3.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../../assets/audio/04-parametros/p4-interpolar.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "../../assets/diagrams/04-parametros/color-interpolacion.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "ph-conductividad.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\color.html",
+          "reference": "turbiedad.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "../../css/estilos.css",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "../../js/enciclopedia.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "../../js/laboratorio.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "../../index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "../01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "../02-hidrosfera-ciclos/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "../03-cantidad-calidad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "../05-otros-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "../06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "../../calculadoras.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "../../assets/audio/04-parametros/p1-dureza.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "../../assets/images/04-parametros/dureza-sarro.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "../../assets/images/04-parametros/dureza-jabon.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "../../assets/images/04-parametros/comic-dureza-viaje.jpg",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "../../assets/images/04-parametros/comic-dureza-viaje.jpg",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "../../assets/audio/04-parametros/p2-tipos.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "../../assets/audio/04-parametros/p3-edta.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "alcalinidad-acidez.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\dureza.html",
+          "reference": "solidos.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "../../css/estilos.css",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "../../js/enciclopedia.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "../../js/laboratorio.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "../../index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "../01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "../02-hidrosfera-ciclos/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "../03-cantidad-calidad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "../05-otros-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "../06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "../../calculadoras.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "../../assets/audio/04-parametros/p0-parametros.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "ph-conductividad.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "color.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "turbiedad.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "alcalinidad-acidez.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "dureza.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "solidos.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\index.html",
+          "reference": "../05-otros-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "../../css/estilos.css",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "../../js/enciclopedia.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "../../js/laboratorio.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "../../index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "../01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "../02-hidrosfera-ciclos/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "../03-cantidad-calidad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "../05-otros-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "../06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "../../calculadoras.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "../../assets/audio/04-parametros/p1-ph.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "../../assets/images/04-parametros/ph-escala.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "../../assets/audio/04-parametros/p1b-tres-preguntas.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "../../assets/audio/04-parametros/p1c-calcular-ph.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "../../assets/audio/04-parametros/p2-medir-ph.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "../../assets/audio/04-parametros/p3-conductividad.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "../../assets/images/04-parametros/conductividad.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\ph-conductividad.html",
+          "reference": "color.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "../../css/estilos.css",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "../../js/enciclopedia.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "../../js/laboratorio.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "../../index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "../01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "../02-hidrosfera-ciclos/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "../03-cantidad-calidad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "../05-otros-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "../06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "../../calculadoras.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "../../assets/audio/04-parametros/p1-solidos.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "../../assets/images/04-parametros/solidos-sopa.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "../../assets/images/04-parametros/solidos-horno.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "../../assets/audio/04-parametros/p2-totales.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "../../assets/audio/04-parametros/p3-volatiles.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "../../assets/images/04-parametros/solidos-mufla.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "dureza.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\solidos.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "../../css/estilos.css",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "../../js/enciclopedia.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "../../js/laboratorio.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "../../index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "../01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "../02-hidrosfera-ciclos/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "../03-cantidad-calidad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "../05-otros-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "../06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "../../calculadoras.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "../../assets/audio/04-parametros/p1-turbiedad.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "../../assets/images/04-parametros/turb-niebla.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "../../assets/images/04-parametros/turb-luz.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "../../assets/audio/04-parametros/p2-turbidimetro.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "../../assets/images/04-parametros/turbidimetro.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "color.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\04-parametros\\turbiedad.html",
+          "reference": "alcalinidad-acidez.html",
+          "exists": true
+        }
+      ],
+      "images": [
+        {
+          "file": "alc-bureta.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "color-tubos.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "comic-dos-colores.jpg",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "file": "comic-dureza-viaje.jpg",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "file": "comic-ph-heroe.jpg",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "file": "conductividad.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "curva-1.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "curva-2.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "curva-3.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "dureza-jabon.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "dureza-sarro.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "espectrofotometro.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "ph-escala.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "solidos-horno.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "solidos-mufla.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "solidos-sopa.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "turb-luz.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "turb-niebla.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "turbidimetro.webp",
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "audio": [
+        {
+          "file": "p0-parametros.mp3",
+          "seconds": 34.32,
+          "frames": 1314
+        },
+        {
+          "file": "p1-alcalinidad.mp3",
+          "seconds": 34.32,
+          "frames": 1314
+        },
+        {
+          "file": "p1-dos-colores.mp3",
+          "seconds": 32.99,
+          "frames": 1263
+        },
+        {
+          "file": "p1-dureza.mp3",
+          "seconds": 30.67,
+          "frames": 1174
+        },
+        {
+          "file": "p1-ph.mp3",
+          "seconds": 33.54,
+          "frames": 1284
+        },
+        {
+          "file": "p1-solidos.mp3",
+          "seconds": 31.03,
+          "frames": 1188
+        },
+        {
+          "file": "p1-turbiedad.mp3",
+          "seconds": 31.82,
+          "frames": 1218
+        },
+        {
+          "file": "p1b-tres-preguntas.mp3",
+          "seconds": 36.34,
+          "frames": 1391
+        },
+        {
+          "file": "p1c-calcular-ph.mp3",
+          "seconds": 35.27,
+          "frames": 1350
+        },
+        {
+          "file": "p2-acidez.mp3",
+          "seconds": 30.8,
+          "frames": 1179
+        },
+        {
+          "file": "p2-medir-ph.mp3",
+          "seconds": 28.71,
+          "frames": 1099
+        },
+        {
+          "file": "p2-tipos.mp3",
+          "seconds": 31.56,
+          "frames": 1208
+        },
+        {
+          "file": "p2-totales.mp3",
+          "seconds": 30.62,
+          "frames": 1172
+        },
+        {
+          "file": "p2-turbidimetro.mp3",
+          "seconds": 33.88,
+          "frames": 1297
+        },
+        {
+          "file": "p2-unidades.mp3",
+          "seconds": 34.98,
+          "frames": 1339
+        },
+        {
+          "file": "p3-conductividad.mp3",
+          "seconds": 36.21,
+          "frames": 1386
+        },
+        {
+          "file": "p3-edta.mp3",
+          "seconds": 34.95,
+          "frames": 1338
+        },
+        {
+          "file": "p3-espectrofotometro.mp3",
+          "seconds": 32.47,
+          "frames": 1243
+        },
+        {
+          "file": "p3-titulacion.mp3",
+          "seconds": 33.31,
+          "frames": 1275
+        },
+        {
+          "file": "p3-volatiles.mp3",
+          "seconds": 35.45,
+          "frames": 1357
+        },
+        {
+          "file": "p4-interpolar.mp3",
+          "seconds": 40.57,
+          "frames": 1553
+        }
+      ],
+      "errors": [],
+      "scope": "Referencias de todas las páginas HTML, integridad de imágenes raster y tramas MP3; no es revisión auditiva ni validación científica. Enlaces deshabilitados excluidos; fragmentos internos no comprobados."
+    },
+    {
+      "section": "05-otros-parametros",
+      "pages": [
+        "secciones\\05-otros-parametros\\cloro-residual.html",
+        "secciones\\05-otros-parametros\\index.html",
+        "secciones\\05-otros-parametros\\iones.html",
+        "secciones\\05-otros-parametros\\microbiologicos.html",
+        "secciones\\05-otros-parametros\\oxigeno-disuelto.html"
+      ],
+      "references": [
+        {
+          "page": "secciones\\05-otros-parametros\\cloro-residual.html",
+          "reference": "../../css/estilos.css",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\cloro-residual.html",
+          "reference": "../../js/enciclopedia.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\cloro-residual.html",
+          "reference": "../../js/laboratorio.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\cloro-residual.html",
+          "reference": "../../index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\cloro-residual.html",
+          "reference": "../01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\cloro-residual.html",
+          "reference": "../02-hidrosfera-ciclos/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\cloro-residual.html",
+          "reference": "../03-cantidad-calidad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\cloro-residual.html",
+          "reference": "../04-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\cloro-residual.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\cloro-residual.html",
+          "reference": "../06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\cloro-residual.html",
+          "reference": "../../calculadoras.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\cloro-residual.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\cloro-residual.html",
+          "reference": "../../assets/audio/05-otros-parametros/cl-p1.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\cloro-residual.html",
+          "reference": "../../assets/images/05-otros-parametros/cloro-dpd.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\cloro-residual.html",
+          "reference": "../../assets/audio/05-otros-parametros/cl-p2.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\cloro-residual.html",
+          "reference": "oxigeno-disuelto.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\cloro-residual.html",
+          "reference": "microbiologicos.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../css/estilos.css",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../js/enciclopedia.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../js/laboratorio.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../02-hidrosfera-ciclos/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../03-cantidad-calidad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../04-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../calculadoras.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../assets/audio/05-otros-parametros/p1-hambre.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../assets/images/05-otros-parametros/dbo-bacterias.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../assets/audio/05-otros-parametros/p2-dbo.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../assets/images/05-otros-parametros/dbo-botella.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../assets/images/05-otros-parametros/dbo-incubadora.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../assets/images/05-otros-parametros/dbo-bacterias.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../assets/images/05-otros-parametros/dqo-viales.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../assets/audio/05-otros-parametros/p3-dqo.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../assets/audio/05-otros-parametros/p4-nitrogeno.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../assets/audio/05-otros-parametros/p5-fosforo.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../assets/images/05-otros-parametros/eutrofizacion.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../assets/images/05-otros-parametros/fosforo-azul.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../assets/images/05-otros-parametros/rio-natural.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../assets/audio/05-otros-parametros/p6-natural.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../assets/images/05-otros-parametros/agua-residual.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../assets/audio/05-otros-parametros/p7-residual.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../../assets/audio/05-otros-parametros/p8-carga.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "oxigeno-disuelto.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "cloro-residual.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "microbiologicos.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "iones.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\index.html",
+          "reference": "../06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\iones.html",
+          "reference": "../../css/estilos.css",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\iones.html",
+          "reference": "../../js/enciclopedia.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\iones.html",
+          "reference": "../../js/laboratorio.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\iones.html",
+          "reference": "../../index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\iones.html",
+          "reference": "../01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\iones.html",
+          "reference": "../02-hidrosfera-ciclos/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\iones.html",
+          "reference": "../03-cantidad-calidad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\iones.html",
+          "reference": "../04-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\iones.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\iones.html",
+          "reference": "../06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\iones.html",
+          "reference": "../../calculadoras.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\iones.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\iones.html",
+          "reference": "../../assets/audio/05-otros-parametros/io-p1.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\iones.html",
+          "reference": "microbiologicos.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\iones.html",
+          "reference": "../06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\microbiologicos.html",
+          "reference": "../../css/estilos.css",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\microbiologicos.html",
+          "reference": "../../js/enciclopedia.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\microbiologicos.html",
+          "reference": "../../js/laboratorio.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\microbiologicos.html",
+          "reference": "../../index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\microbiologicos.html",
+          "reference": "../01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\microbiologicos.html",
+          "reference": "../02-hidrosfera-ciclos/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\microbiologicos.html",
+          "reference": "../03-cantidad-calidad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\microbiologicos.html",
+          "reference": "../04-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\microbiologicos.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\microbiologicos.html",
+          "reference": "../06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\microbiologicos.html",
+          "reference": "../../calculadoras.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\microbiologicos.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\microbiologicos.html",
+          "reference": "../../assets/audio/05-otros-parametros/mb-p1.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\microbiologicos.html",
+          "reference": "../../assets/images/05-otros-parametros/colonias.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\microbiologicos.html",
+          "reference": "../../assets/audio/05-otros-parametros/mb-p2.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\microbiologicos.html",
+          "reference": "cloro-residual.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\microbiologicos.html",
+          "reference": "iones.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\oxigeno-disuelto.html",
+          "reference": "../../css/estilos.css",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\oxigeno-disuelto.html",
+          "reference": "../../js/enciclopedia.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\oxigeno-disuelto.html",
+          "reference": "../../js/laboratorio.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\oxigeno-disuelto.html",
+          "reference": "../../index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\oxigeno-disuelto.html",
+          "reference": "../01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\oxigeno-disuelto.html",
+          "reference": "../02-hidrosfera-ciclos/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\oxigeno-disuelto.html",
+          "reference": "../03-cantidad-calidad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\oxigeno-disuelto.html",
+          "reference": "../04-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\oxigeno-disuelto.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\oxigeno-disuelto.html",
+          "reference": "../06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\oxigeno-disuelto.html",
+          "reference": "../../calculadoras.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\oxigeno-disuelto.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\oxigeno-disuelto.html",
+          "reference": "../../assets/audio/05-otros-parametros/od-p1.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\oxigeno-disuelto.html",
+          "reference": "../../assets/images/05-otros-parametros/oxigeno-peces.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\oxigeno-disuelto.html",
+          "reference": "../../assets/audio/05-otros-parametros/od-p2.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\oxigeno-disuelto.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\05-otros-parametros\\oxigeno-disuelto.html",
+          "reference": "cloro-residual.html",
+          "exists": true
+        }
+      ],
+      "images": [
+        {
+          "file": "agua-residual.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "cloro-dpd.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "colonias.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "dbo-bacterias.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "dbo-botella.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "dbo-incubadora.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "dqo-viales.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "eutrofizacion.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "fosforo-azul.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "oxigeno-peces.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "rio-natural.webp",
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "audio": [
+        {
+          "file": "cl-p1.mp3",
+          "seconds": 31.82,
+          "frames": 1218
+        },
+        {
+          "file": "cl-p2.mp3",
+          "seconds": 30.56,
+          "frames": 1170
+        },
+        {
+          "file": "io-p1.mp3",
+          "seconds": 32.76,
+          "frames": 1254
+        },
+        {
+          "file": "mb-p1.mp3",
+          "seconds": 36.57,
+          "frames": 1400
+        },
+        {
+          "file": "mb-p2.mp3",
+          "seconds": 35.27,
+          "frames": 1350
+        },
+        {
+          "file": "od-p1.mp3",
+          "seconds": 33.88,
+          "frames": 1297
+        },
+        {
+          "file": "od-p2.mp3",
+          "seconds": 34.85,
+          "frames": 1334
+        },
+        {
+          "file": "p1-hambre.mp3",
+          "seconds": 37.07,
+          "frames": 1419
+        },
+        {
+          "file": "p2-dbo.mp3",
+          "seconds": 35.63,
+          "frames": 1364
+        },
+        {
+          "file": "p3-dqo.mp3",
+          "seconds": 36.7,
+          "frames": 1405
+        },
+        {
+          "file": "p4-nitrogeno.mp3",
+          "seconds": 36.05,
+          "frames": 1380
+        },
+        {
+          "file": "p5-fosforo.mp3",
+          "seconds": 37.07,
+          "frames": 1419
+        },
+        {
+          "file": "p6-natural.mp3",
+          "seconds": 28.34,
+          "frames": 1085
+        },
+        {
+          "file": "p7-residual.mp3",
+          "seconds": 32.47,
+          "frames": 1243
+        },
+        {
+          "file": "p8-carga.mp3",
+          "seconds": 36.05,
+          "frames": 1380
+        }
+      ],
+      "errors": [],
+      "scope": "Referencias de todas las páginas HTML, integridad de imágenes raster y tramas MP3; no es revisión auditiva ni validación científica. Enlaces deshabilitados excluidos; fragmentos internos no comprobados."
+    },
+    {
+      "section": "06-normatividad",
+      "pages": [
+        "secciones\\06-normatividad\\index.html"
+      ],
+      "references": [
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../../css/estilos.css",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../../js/enciclopedia.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../../js/laboratorio.js",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../../index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../02-hidrosfera-ciclos/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../03-cantidad-calidad/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../04-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../05-otros-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../../calculadoras.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../../assets/audio/06-normatividad/p1-norma.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../../assets/images/06-normatividad/norma-arbitro.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../../assets/audio/06-normatividad/p2-potable.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../04-parametros/ph-conductividad.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../04-parametros/turbiedad.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../04-parametros/color.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../04-parametros/dureza.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../04-parametros/alcalinidad-acidez.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../04-parametros/ph-conductividad.html",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../../assets/images/06-normatividad/norma-acueducto.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../../assets/audio/06-normatividad/p3-irca.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../../assets/audio/06-normatividad/p6-ica.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../../assets/audio/06-normatividad/p4-vertimientos.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../../assets/images/06-normatividad/norma-vertimiento.webp",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../05-otros-parametros/index.html#calc-carga",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../../assets/audio/06-normatividad/p5-escalera.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../../assets/audio/06-normatividad/p7-criterios-uso.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../../assets/audio/06-normatividad/p8-biosolidos.mp3",
+          "exists": true
+        },
+        {
+          "page": "secciones\\06-normatividad\\index.html",
+          "reference": "../../index.html",
+          "exists": true
+        }
+      ],
+      "images": [
+        {
+          "file": "norma-acueducto.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "norma-arbitro.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "file": "norma-vertimiento.webp",
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "audio": [
+        {
+          "file": "p1-norma.mp3",
+          "seconds": 32.65,
+          "frames": 1250
+        },
+        {
+          "file": "p2-potable.mp3",
+          "seconds": 38.48,
+          "frames": 1473
+        },
+        {
+          "file": "p3-irca.mp3",
+          "seconds": 33.72,
+          "frames": 1291
+        },
+        {
+          "file": "p4-vertimientos.mp3",
+          "seconds": 37.04,
+          "frames": 1418
+        },
+        {
+          "file": "p5-escalera.mp3",
+          "seconds": 34.01,
+          "frames": 1302
+        },
+        {
+          "file": "p6-ica.mp3",
+          "seconds": 36.81,
+          "frames": 1409
+        },
+        {
+          "file": "p7-criterios-uso.mp3",
+          "seconds": 35.74,
+          "frames": 1368
+        },
+        {
+          "file": "p8-biosolidos.mp3",
+          "seconds": 36.15,
+          "frames": 1384
+        }
+      ],
+      "errors": [],
+      "scope": "Referencias de todas las páginas HTML, integridad de imágenes raster y tramas MP3; no es revisión auditiva ni validación científica. Enlaces deshabilitados excluidos; fragmentos internos no comprobados."
+    },
+    {
+      "section": "portada",
+      "pages": [
+        "index.html"
+      ],
+      "references": [
+        {
+          "page": "index.html",
+          "reference": "css/estilos.css",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "js/enciclopedia.js",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "js/laboratorio.js",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "index.html",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "secciones/01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "secciones/02-hidrosfera-ciclos/index.html",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "secciones/03-cantidad-calidad/index.html",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "secciones/04-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "secciones/05-otros-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "secciones/06-normatividad/index.html",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "calculadoras.html",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "secciones/01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "assets/images/01-introduccion/gotita-lupa.webp",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "secciones/01-introduccion/index.html",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "secciones/02-hidrosfera-ciclos/index.html",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "secciones/03-cantidad-calidad/index.html",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "secciones/04-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "secciones/05-otros-parametros/index.html",
+          "exists": true
+        },
+        {
+          "page": "index.html",
+          "reference": "secciones/06-normatividad/index.html",
+          "exists": true
+        }
+      ],
+      "images": [],
+      "audio": [],
+      "errors": [],
+      "scope": "Referencias de todas las páginas HTML, integridad de imágenes raster y tramas MP3; no es revisión auditiva ni validación científica. Enlaces deshabilitados excluidos; fragmentos internos no comprobados."
+    }
+  ],
+  "orphans": [],
+  "errors": []
+}

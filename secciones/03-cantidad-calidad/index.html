@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cantidad y calidad del agua</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/estilos.css">
+  <script src="../../js/enciclopedia.js" defer></script>
+  <script src="../../js/laboratorio.js" defer></script>
+</head>
+<body>
+
+  <header class="barra">
+    <div class="contenedor">
+      <a class="marca" href="../../index.html">💧 Enciclopedia del Agua</a>
+      <nav aria-label="Secciones">
+        <ul class="menu">
+          <li><a href="../01-introduccion/index.html">1. Introducción</a></li>
+          <li><a href="../02-hidrosfera-ciclos/index.html">2. Hidrosfera y ciclos</a></li>
+          <li><a href="index.html" aria-current="page">3. Cantidad y calidad</a></li>
+          <li><a href="../04-parametros/index.html">4. Parámetros</a></li>
+          <li><a href="../05-otros-parametros/index.html">5. Otros parámetros</a></li>
+          <li><a href="../06-normatividad/index.html">6. Normatividad</a></li>
+          <li><a href="../../calculadoras.html">🧮 Calculadoras</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <div class="contenedor">
+        <span class="etiqueta">Sección 3</span>
+        <h1>Cantidad y calidad del agua</h1>
+        <p>¿Cuánta agua hay? ¿Y cómo está esa agua?</p>
+      </div>
+    </section>
+
+    <!-- Bloque 1: mini-cómic -->
+    <section class="bloque" id="comic">
+      <div class="contenedor">
+        <h2>Gotita vigila el río</h2>
+        <p class="instruccion">Mira las viñetas en orden.</p>
+        <div class="comic">
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/03-cantidad-calidad/cc-1.webp" alt="Llueve sobre un río ancho con una regla de colores dentro del agua; Gotita la señala."></div>
+            <figcaption>Primero, en época de lluvias, el río crece: hay mucha cantidad de agua.</figcaption>
+          </figure>
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/03-cantidad-calidad/cc-2.webp" alt="Bajo un sol fuerte, el río es un hilo de agua entre barro seco y agrietado; Gotita está junto a la regla."></div>
+            <figcaption>Después, en época seca, el río baja: queda poca cantidad de agua.</figcaption>
+          </figure>
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/03-cantidad-calidad/cc-3.webp" alt="Un tubo vierte un líquido café oscuro dentro del río y Gotita mira preocupada la mancha."></div>
+            <figcaption>Sin embargo, un río con mucha agua también puede tener mala calidad si recibe aguas sucias.</figcaption>
+          </figure>
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/03-cantidad-calidad/cc-4.webp" alt="La científica anota en un cuaderno junto a la regla mientras Gotita sostiene un frasco con una muestra del río."></div>
+            <figcaption>Por eso, se miden las dos cosas: cuánta agua hay y cómo está.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 2: cantidad y calidad -->
+    <section class="bloque" id="conceptos">
+      <div class="contenedor duo" style="align-items:start">
+        <div>
+          <h2>📏 Cantidad</h2>
+          <div class="parrafo">
+            <p>Para empezar, la cantidad de agua indica cuánta agua hay en un lugar y en qué momento está disponible. Esa agua no solo corre por los ríos: también se guarda en lagos, embalses, páramos, glaciares y en capas de roca bajo tierra, llamadas acuíferos, de donde sale el agua de los pozos. Por ejemplo, se mide en litros o metros cúbicos, y el agua que corre se mide como caudal, es decir, cuántos litros pasan por un punto cada segundo.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/03-cantidad-calidad/p1-cantidad.mp3" hidden>🔊 Escuchar</button>
+          </div>
+        </div>
+        <div>
+          <h2>🔬 Calidad</h2>
+          <div class="parrafo">
+            <p>Por otro lado, la calidad del agua indica si esa agua sirve para un uso sin causar daño a las personas, a los animales o al ambiente. Por eso, la calidad depende del uso: el agua para regar un jardín no necesita ser tan pura como el agua para beber. Así, para conocer la calidad, en el laboratorio se miden sus características, como el pH, el color o las sales disueltas.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/03-cantidad-calidad/p2-calidad.mp3" hidden>🔊 Escuchar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 2b: dónde se guarda el agua y cómo se mide el caudal -->
+    <section class="bloque" id="donde">
+      <div class="contenedor">
+        <h2>¿Dónde se guarda el agua y cómo se mide?</h2>
+        <div class="duo">
+          <figure class="ilustracion-explicada"><svg viewBox="0 0 520 390" role="img" aria-labelledby="donde-t" style="width:100%;background:#eaf7fc;border-radius:18px">
+            <title id="donde-t">Corte del terreno: un páramo con lagunas, un río que baja a un embalse con represa, una casa con un pozo y, bajo tierra, un acuífero de arena y grava con agua.</title>
+            <defs>
+              <pattern id="grava" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#7fc8e6"/><circle cx="4" cy="4" r="2.6" fill="#d9c9a3"/><circle cx="11" cy="10" r="2.2" fill="#c9b690"/></pattern>
+              <marker id="fl-d" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#087e8b"/></marker>
+            </defs>
+            <path d="M0 150 L70 70 L150 105 L220 150 L520 165 L520 390 L0 390 Z" fill="#8bbf6a"/>
+            <g fill="#6c8f3f"><circle cx="40" cy="110" r="7"/><circle cx="62" cy="96" r="6"/><circle cx="90" cy="98" r="7"/></g>
+            <ellipse cx="80" cy="120" rx="22" ry="6" fill="#4fb3dc"/>
+            <path d="M95 122 C 150 140 170 150 235 160" fill="none" stroke="#1fa2c4" stroke-width="7" stroke-linecap="round"/>
+            <path d="M235 150 L330 150 L330 190 L235 190 Z" fill="#1fa2c4"/>
+            <rect x="330" y="140" width="12" height="52" fill="#9aa5ad"/>
+            <path d="M342 185 C 380 188 420 190 520 192" fill="none" stroke="#1fa2c4" stroke-width="6"/>
+            <rect x="440" y="118" width="46" height="38" fill="#f4d7a1" stroke="#0b3954" stroke-width="2"/><path d="M434 120 L463 98 L492 120 Z" fill="#c75b3a"/>
+            <rect x="0" y="205" width="520" height="45" fill="#a9754c"/>
+            <rect x="0" y="250" width="520" height="70" fill="url(#grava)"/>
+            <rect x="0" y="320" width="520" height="70" fill="#8a8f96"/>
+            <rect x="468" y="156" width="8" height="140" fill="#5b6770"/>
+            <path d="M472 290 L472 160" stroke="#1fa2c4" stroke-width="3" marker-end="url(#fl-d)"/>
+            <g font-family="Nunito, Segoe UI, sans-serif" font-size="14" font-weight="800" fill="#0b3954">
+              <text x="16" y="60">⛰️ Páramo con lagunas</text>
+              <text x="110" y="135" fill="#087e8b">Río</text>
+              <text x="240" y="140">Embalse</text>
+              <text x="300" y="215" fill="#fff" font-size="12">Represa</text>
+              <text x="395" y="96">Casa con pozo</text>
+              <text x="12" y="233" fill="#fff">Suelo</text>
+              <text x="12" y="276" fill="#0b3954">💧 Acuífero: arena y grava con agua entre los granos</text>
+              <text x="12" y="352" fill="#fff">Roca que no deja pasar el agua</text>
+              <text x="370" y="306" fill="#0b3954" font-size="12">El pozo saca agua</text>
+              <text x="370" y="320" fill="#0b3954" font-size="12">del acuífero</text>
+            </g>
+          </svg><figcaption>El agua se guarda en páramos, ríos, embalses y también bajo tierra: el acuífero es una capa de arena y grava empapada, como una esponja, de donde sacan agua los pozos.</figcaption></figure>
+          <div class="parrafo">
+            <p>Además, la cantidad cambia con el clima y con el uso. En época de lluvias los ríos crecen y los acuíferos se recargan; en cambio, en época seca, o con el fenómeno de El Niño, los caudales bajan. Por ejemplo, Colombia tiene mucha agua, pero gran parte está en la Amazonía y el Pacífico, mientras que la mayoría de la población vive en las regiones Andina y Caribe. Por eso, el agua debe repartirse con cuidado.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/03-cantidad-calidad/p1b-donde.mp3" hidden>🔊 Escuchar</button>
+          </div>
+        </div>
+        <div class="duo" style="margin-top:24px;align-items:start">
+          <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/03-cantidad-calidad/caudal-balde.webp" alt="Gotita sostiene un balde bajo una pequeña caída de agua de una quebrada mientras mira un cronómetro."></div><figcaption>El método del balde: se mide cuánto tarda en llenarse un recipiente de volumen conocido.</figcaption></figure>
+          <div class="calculadora" id="calc-caudal"><script type="application/json">{"titulo": "Calculadora de caudal con el método del balde", "entradas": [{"id": "V", "etiqueta": "Volumen del balde", "unidad": "L", "valor": 10, "paso": 1}, {"id": "t", "etiqueta": "Tiempo en llenarse", "unidad": "s", "valor": 5, "paso": 0.1}], "pasos": ["Caudal = volumen ÷ tiempo", "Caudal = {V} L ÷ {t} s = {=V/t} L/s", "En un día: {=V/t} L/s × 86 400 s = {=V/t*86400} L", "En metros cúbicos por día: {=V/t*86400} L ÷ 1000 = {=V/t*86.4} m³"], "resultado": {"expr": "V/t", "etiqueta": "Caudal", "unidad": "L/s", "decimales": 2}, "interpretar": [{"hasta": 0.5, "texto": "Es un caudal muy pequeño, como el de una llave abierta."}, {"hasta": 50, "texto": "Es un caudal pequeño, como el de una quebrada angosta."}, {"hasta": 1000, "texto": "Es un caudal mediano, como el de una quebrada grande o un río pequeño."}, {"hasta": null, "texto": "Es un caudal grande, como el de un río."}]}</script></div>
+        </div>
+        <div class="ejemplo"><strong>✏️ Ejemplo resuelto: pasar de litros a metros cúbicos</strong><p style="margin:0">Un tanque de una casa tiene 1 metro de largo, 1 metro de ancho y 1 metro de alto.</p><ol><li>Volumen: <span class='cuenta'>1 m × 1 m × 1 m = 1 m³</span>.</li><li>Como 1 m³ equivale a 1000 litros, el tanque guarda <span class='cuenta'>1000 L</span>.</li><li>Si una familia gasta 500 L al día, el tanque dura <span class='cuenta'>1000 ÷ 500 = 2 días</span>.</li></ol></div>
+      </div>
+    </section>
+
+    <!-- Bloque 3: la calidad depende del uso -->
+    <section class="bloque" id="usos">
+      <div class="contenedor">
+        <h2>La calidad depende del uso</h2>
+        <p class="instruccion">Toca cada tarjeta para descubrir qué necesita cada uso.</p>
+        <div class="tarjetas">
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">🚰</span><strong>Para beber</strong></span>
+              <span class="cara reverso">Por ejemplo, el agua para beber no debe tener microbios que causen enfermedades; por eso, se trata antes de llegar a las casas.</span>
+            </span>
+          </button>
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">🌽</span><strong>Para regar</strong></span>
+              <span class="cara reverso">En cambio, el agua para regar puede tener algunas sales, aunque demasiadas dañan el suelo y las plantas.</span>
+            </span>
+          </button>
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">🐟</span><strong>Para los peces</strong></span>
+              <span class="cara reverso">Además, los peces necesitan oxígeno disuelto, es decir, oxígeno mezclado en el agua, igual que las personas lo necesitan en el aire.</span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 4: clasificar -->
+    <section class="bloque" id="clasificar">
+      <div class="contenedor">
+        <h2>¿Cantidad o calidad?</h2>
+        <div class="clasificar" data-pista="Todavía no. Pregunta clave: ¿habla de cuánta agua hay o de cómo está el agua?" data-exito="¡Excelente! Las seis frases quedaron bien clasificadas.">
+          <div class="items">
+            <div class="item" data-respuesta="cantidad" data-explica="Correcto: el río tiene menos agua, así que cambia la cantidad.">
+              <p>El río lleva menos agua en época seca.</p>
+              <div class="botones"><button type="button" data-opcion="cantidad">Cantidad</button><button type="button" data-opcion="calidad">Calidad</button></div>
+              <p class="retro-item" aria-live="polite"></p>
+            </div>
+            <div class="item" data-respuesta="calidad" data-explica="Correcto: el mal olor es una pista de que el agua no está bien.">
+              <p>El agua del río tiene mal olor.</p>
+              <div class="botones"><button type="button" data-opcion="cantidad">Cantidad</button><button type="button" data-opcion="calidad">Calidad</button></div>
+              <p class="retro-item" aria-live="polite"></p>
+            </div>
+            <div class="item" data-respuesta="cantidad" data-explica="Correcto: habla del volumen de agua que cabe en el tanque.">
+              <p>El tanque de la casa se llena en dos horas.</p>
+              <div class="botones"><button type="button" data-opcion="cantidad">Cantidad</button><button type="button" data-opcion="calidad">Calidad</button></div>
+              <p class="retro-item" aria-live="polite"></p>
+            </div>
+            <div class="item" data-respuesta="calidad" data-explica="Correcto: el agua turbia lleva partículas, así que cambia su calidad.">
+              <p>El agua de la llave sale turbia después de una tormenta.</p>
+              <div class="botones"><button type="button" data-opcion="cantidad">Cantidad</button><button type="button" data-opcion="calidad">Calidad</button></div>
+              <p class="retro-item" aria-live="polite"></p>
+            </div>
+            <div class="item" data-respuesta="cantidad" data-explica="Correcto: indica cuánta agua ofrece el pozo.">
+              <p>Un pozo alcanza para cien familias.</p>
+              <div class="botones"><button type="button" data-opcion="cantidad">Cantidad</button><button type="button" data-opcion="calidad">Calidad</button></div>
+              <p class="retro-item" aria-live="polite"></p>
+            </div>
+            <div class="item" data-respuesta="calidad" data-explica="Correcto: falta oxígeno en el agua, así que su calidad es mala para los peces.">
+              <p>Los peces del lago mueren por falta de oxígeno.</p>
+              <div class="botones"><button type="button" data-opcion="cantidad">Cantidad</button><button type="button" data-opcion="calidad">Calidad</button></div>
+              <p class="retro-item" aria-live="polite"></p>
+            </div>
+          </div>
+          <p class="marcador" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 5: concentración -->
+    <section class="bloque" id="concentracion">
+      <div class="contenedor">
+        <h2>Cuando la cantidad cambia la calidad</h2>
+        <div class="parrafo" style="margin-bottom:24px">
+          <p>Sin embargo, cantidad y calidad están conectadas. Por ejemplo, si se disuelve una cucharada de sal en un vaso, el agua queda muy salada; en cambio, si esa misma cucharada se echa en una piscina, casi no se nota. Esto ocurre porque cambia la concentración, es decir, cuánta sustancia hay en cada litro de agua. Por eso, un río con poco caudal en época seca se contamina más fácilmente con la misma descarga.</p>
+          <button class="btn-audio" type="button" data-audio="../../assets/audio/03-cantidad-calidad/p3-concentracion.mp3" hidden>🔊 Escuchar</button>
+        </div>
+        <div class="simulador" data-masa="100"
+             data-alta="Muy concentrada: mucha sustancia en poca agua."
+             data-media="Concentración media: la sustancia empieza a repartirse."
+             data-baja="Muy diluida: la misma sustancia se reparte en mucha agua.">
+          <div>
+            <p style="margin-top:0">Se vierten siempre <strong>100 miligramos</strong> de una sustancia. Mueve el control para cambiar el agua disponible.</p>
+            <label for="volumen">Agua disponible: <span class="volumen">10</span> litros</label>
+            <input id="volumen" type="range" min="0" max="3" step="0.01" value="1">
+            <p class="lectura">Concentración: <strong class="conc">10</strong> mg/L</p>
+            <p class="mensaje" aria-live="polite"></p>
+            <p class="nota">mg/L significa miligramos por litro: la cantidad de sustancia que hay en cada litro. Este es un modelo simple; no indica si el agua es segura.</p>
+          </div>
+          <div class="tanque" aria-hidden="true"><div class="agua"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 6: mini-reto -->
+    <section class="bloque" id="reto">
+      <div class="contenedor">
+        <h2>Mini-reto</h2>
+        <div class="reto">
+          <p class="pregunta">Una fábrica vierte la misma cantidad de residuos todo el año. ¿Cuándo queda más concentrada en el río?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! En época seca hay menos agua, así que la misma descarga queda más concentrada.">En época seca.</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. En época de lluvias hay más agua, y la descarga se reparte más.">En época de lluvias.</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Aunque la descarga es igual, la cantidad de agua del río cambia durante el año.">Siempre queda igual.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+        <div class="reto">
+          <p class="pregunta">Un río tiene mucha agua. ¿Eso garantiza que su agua sea buena para beber?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. La cantidad no dice nada sobre microbios o sustancias; eso lo dice la calidad.">Sí, porque el agua abundante siempre está limpia.</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! Mucha cantidad no garantiza buena calidad; por eso se hacen análisis.">No, hay que medir su calidad en el laboratorio.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="contenedor siguiente">
+      <a class="btn-siguiente" href="../04-parametros/index.html">Siguiente: Parámetros →</a>
+    </div>
+  </main>
+
+</body>
+</html>

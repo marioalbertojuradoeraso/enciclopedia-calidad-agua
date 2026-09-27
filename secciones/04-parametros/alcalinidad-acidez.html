@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alcalinidad y acidez</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/estilos.css">
+  <script src="../../js/enciclopedia.js" defer></script>
+  <script src="../../js/laboratorio.js" defer></script>
+</head>
+<body>
+
+  <header class="barra">
+    <div class="contenedor">
+      <a class="marca" href="../../index.html">💧 Enciclopedia del Agua</a>
+      <nav aria-label="Secciones">
+        <ul class="menu">
+          <li><a href="../01-introduccion/index.html">1. Introducción</a></li>
+          <li><a href="../02-hidrosfera-ciclos/index.html">2. Hidrosfera y ciclos</a></li>
+          <li><a href="../03-cantidad-calidad/index.html">3. Cantidad y calidad</a></li>
+          <li><a href="index.html" aria-current="page">4. Parámetros</a></li>
+          <li><a href="../05-otros-parametros/index.html">5. Otros parámetros</a></li>
+          <li><a href="../06-normatividad/index.html">6. Normatividad</a></li>
+          <li><a href="../../calculadoras.html">🧮 Calculadoras</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <div class="contenedor">
+        <a class="volver" href="index.html">← Todos los parámetros</a><br><span class="etiqueta">Parámetro 4 de 6</span>
+        <h1>Alcalinidad y acidez</h1>
+        <p>El escudo del agua y los villanos que lo ponen a prueba.</p>
+      </div>
+    </section>
+
+    <section class="bloque" id="comic">
+      <div class="contenedor">
+        <h2>Una historia para empezar</h2>
+        <figure class="comic-completo">
+          <a href="../../assets/images/04-parametros/comic-ph-heroe.jpg" target="_blank" rel="noopener"><img src="../../assets/images/04-parametros/comic-ph-heroe.jpg" alt="Cómic «El superhéroe pH y los villanos del agua»: el héroe pH mide la fuerza de los H⁺, cuenta a los villanos para conocer la acidez y el escudo de alcalinidad protege al agua." loading="lazy"></a>
+          <figcaption>Cómic «El superhéroe pH y los villanos del agua»: el pH mide la fuerza, la acidez cuenta a los villanos y la alcalinidad es el escudo. Toca la imagen para verla en grande.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="bloque" id="conceptos">
+      <div class="contenedor">
+        <div class="duo" style="align-items:start">
+          <div>
+            <h2>🛡️ Alcalinidad</h2>
+            <div class="parrafo">
+            <p>Para empezar, la alcalinidad es la capacidad del agua para neutralizar ácidos, es decir, para quitarles su fuerza. Por ejemplo, funciona como un escudo: cuando llega una lluvia ácida o una descarga ácida, el agua la resiste y su pH cambia poco. Esta defensa proviene sobre todo de sales disueltas llamadas bicarbonatos y carbonatos. Sin embargo, el escudo tiene un límite y puede agotarse si llega demasiado ácido.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p1-alcalinidad.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          </div>
+          <div>
+            <h2>⚔️ Acidez</h2>
+            <div class="parrafo">
+            <p>Por otro lado, la acidez es la capacidad del agua para neutralizar bases, que son las sustancias contrarias a los ácidos, como el jabón. Además, una acidez alta suele deberse a mucho dióxido de carbono disuelto, a aguas que salen de minas o a residuos de fábricas. Por eso, un agua muy ácida puede corroer, es decir, desgastar las tuberías, y además dañar a los peces.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p2-acidez.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          </div>
+        </div>
+        <div class="descubrir" style="margin-top:24px">
+          <div>
+            <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="dato-ph-acidez">¿El pH y la acidez son lo mismo?</button>
+            <div class="revelado" id="dato-ph-acidez" hidden><p>No exactamente. En realidad, el pH muestra qué tan fuerte es la acidez en ese momento, mientras que la acidez cuenta cuánta sustancia ácida hay en total. Así, en el cómic, el pH mide la fuerza de los villanos y la acidez los cuenta a todos.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="titular">
+      <div class="contenedor">
+        <h2>¿Cómo se mide?</h2>
+        <div class="duo">
+          <div class="parrafo">
+            <p>Por ejemplo, las dos se miden por titulación: se agrega gota a gota un líquido de concentración conocida hasta que un indicador cambia de color. Para la alcalinidad se agrega un ácido y el indicador pasa de amarillo a naranja salmón; para la acidez se agrega una base y la muestra se vuelve rosada tenue. Finalmente, con el volumen gastado se calcula el resultado en miligramos de carbonato de calcio por litro (mg CaCO₃/L).</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p3-titulacion.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          <div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/04-parametros/alc-bureta.webp" alt="Una bureta deja caer una gota en un matraz cuyo líquido pasa de amarillo a naranja; Gotita observa con su lupa."></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="laboratorio-alc">
+      <div class="contenedor">
+        <h2>Laboratorio virtual: alcalinidad</h2>
+        <p class="instruccion">La bureta y el erlenmeyer muestran los reactivos que se usan en cada paso.</p>
+        <div class="lab" id="lab-alc"><script type="application/json">{"escena": "titulacion", "equipo": "Titulación de alcalinidad", "pasos": [{"titulo": "Llenar la bureta", "texto": "Se enjuaga la bureta con un poco de HCl 0,02 N, se llena y se enrasa en 0,00 mL, leyendo la parte baja de la curva del líquido.", "boton": "Llenar y enrasar", "volumen": 0}, {"titulo": "Medir la muestra", "texto": "Con una pipeta volumétrica se miden 50,0 mL de muestra y se vierten en el erlenmeyer.", "boton": "Medir 50 mL", "vaso": ["Erlenmeyer:", "50,0 mL de muestra"], "liquido": "#eef6fa", "registro": ["Volumen de muestra (Vm)", "50,0 mL"]}, {"titulo": "Fenolftaleína", "texto": "Se agregan 3 gotas de fenolftaleína. Si la muestra se pusiera rosada, habría alcalinidad fuerte; aquí sigue incolora, así que su pH es menor de 8,3.", "boton": "Agregar fenolftaleína", "vaso": ["50,0 mL de muestra", "+ fenolftaleína"], "registro": ["Con fenolftaleína", "Incolora: alcalinidad P = 0"]}, {"titulo": "Anaranjado de metilo", "texto": "Se agregan 3 gotas de anaranjado de metilo: la muestra se vuelve amarilla.", "boton": "Agregar anaranjado de metilo", "vaso": ["50,0 mL de muestra", "+ fenolftaleína", "+ anaranjado de metilo"], "liquido": "#f5d130"}, {"titulo": "Titular", "texto": "Se abre la llave y se deja caer el HCl gota a gota, agitando, hasta que el color cambie de amarillo a naranja salmón (pH 4,5).", "boton": "Titular con HCl", "titular": {"hasta": 8.4, "colorCerca": "#f5b041", "colorFinal": "#f08a5d"}}, {"titulo": "Leer la bureta", "texto": "Se lee el volumen gastado con un decimal, a la altura de los ojos.", "boton": "Leer el volumen", "registro": ["HCl gastado (V)", "8,4 mL"]}, {"titulo": "Calcular", "texto": "Se aplica la fórmula de la guía.", "boton": "Calcular", "resultado": "Alcalinidad total = (V × N × 50 000) ÷ Vm = (8,4 × 0,02 × 50 000) ÷ 50 = <strong>168 mg CaCO₃/L<\/strong>. Es una alcalinidad media: el agua resiste bien una descarga ácida y cumple el máximo de 200 mg CaCO₃/L de la Resolución 2115."}], "final": "Práctica terminada: la bureta se vacía y se enjuaga con agua destilada.", "titulante": "HCl 0,02 N", "indicadores": ["Fenolftaleína 0,5 %", "Anaranjado de metilo 0,1 %"], "vaso": ["Erlenmeyer vacío"], "liquido": "#f3f6f8"}</script></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="calculadora-alc">
+      <div class="contenedor">
+        <h2>Calculadoras de alcalinidad y acidez</h2>
+        <div class="duo" style="align-items:start"><div class="calculadora" id="calc-alc"><script type="application/json">{"titulo": "Alcalinidad total", "entradas": [{"id": "V", "etiqueta": "Volumen de HCl gastado", "unidad": "mL", "valor": 8.4, "paso": 0.1}, {"id": "N", "etiqueta": "Normalidad del HCl", "unidad": "N", "valor": 0.02, "paso": 0.001}, {"id": "Vm", "etiqueta": "Volumen de muestra", "unidad": "mL", "valor": 50, "paso": 1}], "pasos": ["Alcalinidad = (V × N × 50 000) ÷ Vm", "Alcalinidad = ({V} × {N} × 50 000) ÷ {Vm}", "= {=V*N*50000} ÷ {Vm}", "= {=V*N*50000/Vm} mg CaCO₃/L", "Nota: 50 000 sale de 50 g de CaCO₃ por equivalente × 1000 mg por gramo."], "resultado": {"expr": "V*N*50000/Vm", "etiqueta": "Alcalinidad", "unidad": "mg CaCO₃/L", "decimales": 0}, "interpretar": [{"hasta": 20, "texto": "Alcalinidad baja: el escudo contra los ácidos es débil."}, {"hasta": 200, "texto": "Cumple el máximo de 200 mg CaCO₃/L de la Resolución 2115."}, {"hasta": null, "texto": "Supera el máximo de 200 mg CaCO₃/L de la Resolución 2115."}]}</script></div><div class="calculadora" id="calc-acid"><script type="application/json">{"titulo": "Acidez total", "entradas": [{"id": "V", "etiqueta": "Volumen de NaOH gastado", "unidad": "mL", "valor": 2.5, "paso": 0.1}, {"id": "N", "etiqueta": "Normalidad del NaOH", "unidad": "N", "valor": 0.02, "paso": 0.001}, {"id": "Vm", "etiqueta": "Volumen de muestra", "unidad": "mL", "valor": 50, "paso": 1}], "pasos": ["Acidez = (V × N × 50 000) ÷ Vm", "Acidez = ({V} × {N} × 50 000) ÷ {Vm}", "= {=V*N*50000} ÷ {Vm}", "= {=V*N*50000/Vm} mg CaCO₃/L", "Nota: 50 000 sale de 50 g de CaCO₃ por equivalente × 1000 mg por gramo."], "resultado": {"expr": "V*N*50000/Vm", "etiqueta": "Acidez", "unidad": "mg CaCO₃/L", "decimales": 0}, "interpretar": [{"hasta": 50, "texto": "Acidez baja: poca sustancia ácida."}, {"hasta": null, "texto": "Acidez alta: puede corroer tuberías y afectar a los peces."}]}</script></div></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="laboratorio-acid">
+      <div class="contenedor">
+        <h2>Laboratorio virtual: acidez</h2>
+        <div class="lab" id="lab-acid"><script type="application/json">{"escena": "titulacion", "equipo": "Titulación de acidez", "pasos": [{"titulo": "Llenar la bureta", "texto": "Se enjuaga la bureta con NaOH 0,02 N, se llena y se enrasa en 0,00 mL.", "boton": "Llenar y enrasar", "volumen": 0}, {"titulo": "Medir la muestra", "texto": "Se miden 50,0 mL de muestra con pipeta volumétrica.", "boton": "Medir 50 mL", "vaso": ["Erlenmeyer:", "50,0 mL de muestra"], "liquido": "#eef6fa", "registro": ["Volumen de muestra (Vm)", "50,0 mL"]}, {"titulo": "Fenolftaleína", "texto": "Se agregan 3 gotas de fenolftaleína: la muestra queda incolora.", "boton": "Agregar fenolftaleína", "vaso": ["50,0 mL de muestra", "+ fenolftaleína"]}, {"titulo": "Titular", "texto": "Se agrega NaOH gota a gota, agitando, hasta que aparezca un rosado tenue que dure 30 segundos.", "boton": "Titular con NaOH", "titular": {"hasta": 2.5, "colorCerca": "#fbe3ee", "colorFinal": "#f5b3cf"}}, {"titulo": "Leer la bureta", "texto": "Se lee el volumen gastado con un decimal.", "boton": "Leer el volumen", "registro": ["NaOH gastado (V)", "2,5 mL"]}, {"titulo": "Calcular", "texto": "Se aplica la misma fórmula, ahora con el volumen de NaOH.", "boton": "Calcular", "resultado": "Acidez total = (V × N × 50 000) ÷ Vm = (2,5 × 0,02 × 50 000) ÷ 50 = <strong>50 mg CaCO₃/L<\/strong>. Es una acidez baja: el agua tiene poca sustancia ácida."}], "final": "Práctica terminada: la bureta se vacía y se enjuaga.", "titulante": "NaOH 0,02 N", "indicadores": ["Fenolftaleína 0,5 %"], "vaso": ["Erlenmeyer vacío"], "liquido": "#f3f6f8"}</script></div>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="reto">
+      <div class="contenedor">
+        <h2>Mini-reto</h2>
+        <p class="instruccion">Todas las respuestas se encuentran en esta página.</p>
+        <div class="reto">
+          <p class="pregunta">Llega la misma descarga ácida a dos ríos con pH 7,0. El río A tiene alcalinidad de 20 mg CaCO₃/L y el B, de 180. ¿Cuál cambia menos su pH?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Su escudo es pequeño y se agota rápido.">El río A.</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! Su alcalinidad, es decir, su escudo, es mucho mayor.">El río B.</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. El mismo pH no significa la misma alcalinidad.">Los dos cambian igual.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+        <div class="reto">
+          <p class="pregunta">En una titulación de alcalinidad se gastaron 5,0 mL de HCl 0,02 N con 50 mL de muestra. ¿Cuál es el resultado?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! (5,0 × 0,02 × 50 000) ÷ 50 = 100.">100 mg CaCO₃/L</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Falta aplicar la fórmula: (V × N × 50 000) ÷ Vm.">5 mg CaCO₃/L</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Revisa la división final entre 50 mL.">1000 mg CaCO₃/L</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+        <div class="reto">
+          <p class="pregunta">¿Qué indicador marca el final de la titulación de acidez?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Ese es el final de la alcalinidad.">El anaranjado de metilo, al volverse naranja salmón.</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! El rosado debe durar 30 segundos.">La fenolftaleína, al aparecer un rosado tenue.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="contenedor entre-parametros">
+      <a class="btn-siguiente" href="turbiedad.html">← Turbiedad</a>
+      <a class="btn-siguiente" href="dureza.html">Dureza →</a>
+    </div>
+  </main>
+
+</body>
+</html>

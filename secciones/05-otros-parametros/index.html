@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Otros parámetros y tipos de agua</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/estilos.css">
+  <script src="../../js/enciclopedia.js" defer></script>
+  <script src="../../js/laboratorio.js" defer></script>
+</head>
+<body>
+
+  <header class="barra">
+    <div class="contenedor">
+      <a class="marca" href="../../index.html">💧 Enciclopedia del Agua</a>
+      <nav aria-label="Secciones">
+        <ul class="menu">
+          <li><a href="../01-introduccion/index.html">1. Introducción</a></li>
+          <li><a href="../02-hidrosfera-ciclos/index.html">2. Hidrosfera y ciclos</a></li>
+          <li><a href="../03-cantidad-calidad/index.html">3. Cantidad y calidad</a></li>
+          <li><a href="../04-parametros/index.html">4. Parámetros</a></li>
+          <li><a href="index.html" aria-current="page">5. Otros parámetros</a></li>
+          <li><a href="../06-normatividad/index.html">6. Normatividad</a></li>
+          <li><a href="../../calculadoras.html">🧮 Calculadoras</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <div class="contenedor">
+        <span class="etiqueta">Sección 5</span>
+        <h1>Otros parámetros y tipos de agua</h1>
+        <p>DBO₅, DQO, nitrógeno, fósforo y la diferencia entre aguas naturales y residuales.</p>
+      </div>
+    </section>
+
+    <section class="bloque" id="hambre">
+      <div class="contenedor">
+        <h2>El hambre de oxígeno</h2>
+        <div class="duo">
+          <div class="parrafo">
+            <p>Para empezar, en el agua viven bacterias diminutas que se alimentan de materia orgánica, es decir, de restos de hojas, comida o desechos. Al comer, esas bacterias respiran y gastan el oxígeno disuelto en el agua, el mismo que necesitan los peces. Por eso, un agua con mucha materia orgánica puede quedarse sin oxígeno. Así, para saber cuánta materia orgánica hay, el laboratorio mide cuánto oxígeno se gastaría al eliminarla.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/05-otros-parametros/p1-hambre.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/05-otros-parametros/dbo-bacterias.webp" alt="Dentro de una botella con agua, bacterias sonrientes comen migas de materia orgánica mientras las burbujas de oxígeno se hacen menos."></div><figcaption>Las bacterias comen materia orgánica y, al respirar, gastan el oxígeno del agua.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="dbo">
+      <div class="contenedor">
+        <h2>DBO₅: el oxígeno que gastan las bacterias</h2>
+        <div class="parrafo">
+            <p>En primer lugar, la DBO₅, o demanda bioquímica de oxígeno, indica cuánto oxígeno gastan las bacterias al comerse la materia orgánica de una muestra durante cinco días. Para medirla, se llena una botella sin dejar burbujas, se mide su oxígeno y se guarda cinco días a 20 °C y en la oscuridad. Luego, se mide otra vez el oxígeno: la diferencia es la DBO₅, en miligramos de oxígeno por litro.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/05-otros-parametros/p2-dbo.mp3" hidden>🔊 Escuchar</button>
+          </div>
+        <div class="comic tres" style="margin-top:24px">
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/05-otros-parametros/dbo-botella.webp" alt="Gotita junto al río con una botella de vidrio oscuro para tomar la muestra."></div>
+            <figcaption>Primero, se llena la botella con la muestra, sin dejar burbujas de aire.</figcaption>
+          </figure>
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/05-otros-parametros/dbo-incubadora.webp" alt="Una incubadora abierta con varias botellas de vidrio oscuro en sus estantes."></div>
+            <figcaption>Después, la botella pasa cinco días en una incubadora, a 20 °C y a oscuras.</figcaption>
+          </figure>
+          <figure class="vineta">
+            <div class="imagen" data-pendiente="Viñeta pendiente"><img src="../../assets/images/05-otros-parametros/dbo-bacterias.webp" alt="Bacterias comen restos orgánicos dentro de la botella y quedan pocas burbujas de oxígeno."></div>
+            <figcaption>Finalmente, se mide cuánto oxígeno gastaron las bacterias: esa es la DBO₅.</figcaption>
+          </figure>
+        </div>
+        <div class="descubrir" style="margin-top:24px">
+          <div>
+            <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="dato-oscuras">¿Por qué a oscuras?</button>
+            <div class="revelado" id="dato-oscuras" hidden><p>De hecho, si hubiera luz, las algas de la muestra producirían oxígeno con la fotosíntesis y el resultado saldría engañoso. Por eso, la botella se guarda en la oscuridad.</p></div>
+          </div>
+          <div>
+            <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="dato-cinco">¿Por qué cinco días?</button>
+            <div class="revelado" id="dato-cinco" hidden><p>En realidad, es un acuerdo entre laboratorios: en cinco días las bacterias ya comieron buena parte de la materia orgánica. Así, todos los resultados se comparan con la misma regla.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="lab-dbo-bloque">
+      <div class="contenedor">
+        <h2>Laboratorio virtual y calculadora de DBO₅</h2>
+        <p class="instruccion">Sigue los pasos con el botón azul.</p>
+        <div class="lab" id="lab-dbo"><script type="application/json">{"escena": "medidor", "equipo": "Oxímetro", "pasos": [{"titulo": "Diluir la muestra", "texto": "Como el agua residual gasta mucho oxígeno, se diluye: 6 mL de muestra en una botella de 300 mL que se completa con agua de dilución aireada.", "boton": "Preparar la botella", "vaso": ["Botella DBO de 300 mL", "6 mL de muestra"], "liquido": "#e9f3f6", "pantalla": "---", "registro": ["Muestra en la botella", "6 mL de 300 mL (P = 0,02)"]}, {"titulo": "Oxígeno inicial", "texto": "Se mide el oxígeno disuelto el primer día con el oxímetro.", "boton": "Medir OD inicial", "animar": {"de": 0, "a": 8.6, "decimales": 1}, "registro": ["OD inicial (OD₀)", "8,6 mg/L"]}, {"titulo": "Incubar", "texto": "Se tapa sin burbujas y se guarda 5 días a 20 °C, en la oscuridad.", "boton": "Incubar 5 días", "pantalla": "5 días", "vaso": ["Botella tapada", "5 días · 20 °C · oscuridad"]}, {"titulo": "Oxígeno final", "texto": "Se mide otra vez el oxígeno: las bacterias gastaron una parte.", "boton": "Medir OD final", "animar": {"de": 8.6, "a": 3.4, "decimales": 1}, "registro": ["OD a los 5 días (OD₅)", "3,4 mg/L"]}, {"titulo": "Calcular", "texto": "Se resta y se corrige por la dilución.", "boton": "Calcular", "resultado": "DBO₅ = (OD₀ − OD₅) ÷ P = (8,6 − 3,4) ÷ 0,02 = <strong>260 mg/L<\/strong>, donde P = 6 ÷ 300 = 0,02. La prueba es válida porque se gastaron más de 2 mg/L y quedó más de 1 mg/L de oxígeno."}], "final": "Práctica terminada.", "unidad": "mg/L de oxígeno", "vaso": ["Botella vacía"]}</script></div><div style="margin-top:24px"><div class="calculadora" id="calc-dbo"><script type="application/json">{"titulo": "DBO₅ con dilución", "entradas": [{"id": "OD0", "etiqueta": "Oxígeno inicial (OD₀)", "unidad": "mg/L", "valor": 8.6, "paso": 0.1}, {"id": "OD5", "etiqueta": "Oxígeno a los 5 días (OD₅)", "unidad": "mg/L", "valor": 3.4, "paso": 0.1}, {"id": "Vm", "etiqueta": "Muestra en la botella", "unidad": "mL", "valor": 6, "paso": 0.5}, {"id": "Vb", "etiqueta": "Volumen de la botella", "unidad": "mL", "valor": 300, "paso": 1}], "pasos": ["P = muestra ÷ botella = {Vm} ÷ {Vb} = {=Vm/Vb}", "DBO₅ = (OD₀ − OD₅) ÷ P", "= ({OD0} − {OD5}) ÷ {=Vm/Vb}", "= {=OD0-OD5} ÷ {=Vm/Vb} = {=(OD0-OD5)/(Vm/Vb)} mg/L"], "resultado": {"expr": "(OD0-OD5)/(Vm/Vb)", "etiqueta": "DBO₅", "unidad": "mg/L", "decimales": 0}, "interpretar": [{"hasta": 5, "texto": "Agua limpia, como la de un río de montaña."}, {"hasta": 50, "texto": "Agua con algo de contaminación orgánica."}, {"hasta": null, "texto": "Carga orgánica alta, típica de aguas residuales."}]}</script></div></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="dqo">
+      <div class="contenedor">
+        <h2>DQO: la prueba química</h2>
+        <p class="instruccion">Toca las tarjetas para comparar.</p>
+        <div class="duo">
+          <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/05-otros-parametros/dqo-viales.webp" alt="Gotita, con guantes y gafas, saca con pinzas un tubo de un bloque calefactor lleno de tubos con líquidos de colores."></div><figcaption>Los tubos de DQO se calientan unas dos horas; el color naranja del dicromato se vuelve verde a medida que destruye la materia orgánica.</figcaption></figure>
+          <div class="parrafo">
+            <p>Por otra parte, la DQO, o demanda química de oxígeno, mide algo parecido pero sin esperar a las bacterias. En lugar de ellas, se usa una sustancia química muy fuerte, el dicromato, que en caliente destruye casi toda la materia orgánica en unas dos horas. Mientras trabaja, el líquido cambia de naranja a verde. Por eso, la DQO siempre es igual o mayor que la DBO₅: la química también destruye lo que las bacterias no pueden comer.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/05-otros-parametros/p3-dqo.mp3" hidden>🔊 Escuchar</button>
+          </div>
+        </div>
+        <div class="tarjetas dos" style="margin-top:24px">
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">🦠</span><strong>DBO₅</strong><small>bacterias vivas</small></span>
+              <span class="cara reverso">Por ejemplo, usa bacterias y tarda cinco días; mide solo la materia orgánica que ellas pueden comer.</span>
+            </span>
+          </button>
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">⚗️</span><strong>DQO</strong><small>química en caliente</small></span>
+              <span class="cara reverso">En cambio, usa dicromato caliente y tarda unas dos horas; mide casi toda la materia orgánica.</span>
+            </span>
+          </button>
+        </div>
+        <div class="descubrir" style="margin-top:20px">
+          <div>
+            <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="dato-cociente">¿Para qué comparar la DBO₅ con la DQO?</button>
+            <div class="revelado" id="dato-cociente" hidden><p>Por ejemplo, si la DBO₅ es más o menos la mitad de la DQO, o más, las bacterias pueden limpiar bien esa agua. En cambio, si es mucho menor, el agua lleva sustancias difíciles de degradar.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="lab-dqo-bloque">
+      <div class="contenedor">
+        <h2>Laboratorio virtual y calculadoras de DQO</h2>
+        <div class="lab" id="lab-dqo"><script type="application/json">{"escena": "titulacion", "equipo": "DQO por reflujo cerrado", "pasos": [{"titulo": "Digerir", "texto": "Se mezclan 20 mL de muestra con dicromato de potasio y ácido sulfúrico, y se calientan 2 horas a 150 °C en tubos cerrados.", "boton": "Digerir 2 horas", "vaso": ["20 mL de muestra", "+ dicromato + ácido sulfúrico"], "liquido": "#e8943a", "registro": ["Volumen de muestra (V)", "20 mL"]}, {"titulo": "Indicador", "texto": "Se enfría y se agregan 2 gotas de ferroína: el color queda verde azulado.", "boton": "Agregar ferroína", "vaso": ["Muestra digerida", "+ ferroína"], "liquido": "#3e9c8f", "volumen": 0}, {"titulo": "Blanco", "texto": "Se titula primero un blanco, hecho con agua destilada, que gasta 10,0 mL de FAS.", "boton": "Titular el blanco", "registro": ["Blanco (A)", "10,0 mL"]}, {"titulo": "Titular la muestra", "texto": "Se agrega FAS gota a gota hasta que el color cambie de verde azulado a café rojizo.", "boton": "Titular con FAS", "titular": {"hasta": 6.5, "colorCerca": "#6b8f5e", "colorFinal": "#a0522d"}}, {"titulo": "Calcular", "texto": "Mientras menos FAS gasta la muestra, más dicromato consumió su materia orgánica.", "boton": "Calcular", "registro": ["Muestra (B)", "6,5 mL"], "resultado": "DQO = (A − B) × M × 8000 ÷ V = (10,0 − 6,5) × 0,10 × 8000 ÷ 20 = <strong>140 mg/L<\/strong>."}], "final": "Práctica terminada: los residuos de dicromato se guardan como residuo peligroso.", "titulante": "FAS 0,10 M (sulfato ferroso amoniacal)", "indicadores": ["Dicromato de potasio", "Ferroína"], "vaso": ["Tubo de digestión"], "liquido": "#f3f6f8"}</script></div><div class="duo" style="margin-top:24px;align-items:start"><div class="calculadora" id="calc-dqo"><script type="application/json">{"titulo": "DQO por titulación", "entradas": [{"id": "A", "etiqueta": "FAS gastado con el blanco", "unidad": "mL", "valor": 10, "paso": 0.1}, {"id": "B", "etiqueta": "FAS gastado con la muestra", "unidad": "mL", "valor": 6.5, "paso": 0.1}, {"id": "M", "etiqueta": "Molaridad del FAS", "unidad": "M", "valor": 0.1, "paso": 0.01}, {"id": "V", "etiqueta": "Volumen de muestra", "unidad": "mL", "valor": 20, "paso": 1}], "pasos": ["DQO = (A − B) × M × 8000 ÷ V", "= ({A} − {B}) × {M} × 8000 ÷ {V}", "= {=(A-B)*M*8000} ÷ {V} = {=(A-B)*M*8000/V} mg/L"], "resultado": {"expr": "(A-B)*M*8000/V", "etiqueta": "DQO", "unidad": "mg/L", "decimales": 0}, "interpretar": []}</script></div><div class="calculadora" id="calc-bio"><script type="application/json">{"titulo": "¿Se degrada fácil?", "entradas": [{"id": "DBO", "etiqueta": "DBO₅", "unidad": "mg/L", "valor": 190, "paso": 1}, {"id": "DQO", "etiqueta": "DQO", "unidad": "mg/L", "valor": 430, "paso": 1}], "pasos": ["Índice = DBO₅ ÷ DQO", "= {DBO} ÷ {DQO} = {=DBO/DQO}"], "resultado": {"expr": "DBO/DQO", "etiqueta": "Índice de biodegradabilidad", "unidad": "", "decimales": 2}, "interpretar": [{"hasta": 0.3, "texto": "Poco biodegradable: tiene sustancias difíciles de degradar para las bacterias."}, {"hasta": 0.5, "texto": "Biodegradabilidad moderada."}, {"hasta": null, "texto": "Fácilmente biodegradable: las bacterias pueden limpiarla bien."}]}</script></div></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="nutrientes">
+      <div class="contenedor">
+        <h2>Los nutrientes</h2>
+        <div class="duo" style="align-items:start">
+          <div>
+            <h2>Nitrógeno total</h2>
+            <div class="parrafo">
+            <p>Además, el nitrógeno total suma todas las formas del nitrógeno en el agua: el que forma parte de restos orgánicos, el amonio, los nitritos y los nitratos. Estas formas vienen de la orina, las heces, los abonos y los restos de alimentos. Sin embargo, en exceso alimentan una explosión de algas; además, demasiados nitratos en el agua de beber son peligrosos para los bebés. Por eso, las aguas residuales se tratan antes de volver al río.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/05-otros-parametros/p4-nitrogeno.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          </div>
+          <div>
+            <h2>Fósforo total</h2>
+            <div class="parrafo">
+            <p>De igual forma, el fósforo total reúne todo el fósforo del agua, que llega sobre todo de detergentes, abonos y desechos humanos. Para medirlo, primero se calienta la muestra con un reactivo que convierte todo el fósforo en fosfato. Luego, se agrega otro reactivo que tiñe la muestra de azul: mientras más fósforo, más intenso es el azul. Así, igual que con el color del agua, un espectrofotómetro y una curva de calibración dan el resultado.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/05-otros-parametros/p5-fosforo.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          </div>
+        </div>
+        <div class="duo" style="margin-top:24px">
+          <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/05-otros-parametros/eutrofizacion.webp" alt="Un lago cubierto por una capa verde de algas, con peces que boquean en la superficie; Gotita mira preocupada desde la orilla."></div><figcaption>Exceso de nitrógeno y fósforo: las algas cubren el lago y, al morir, gastan el oxígeno que necesitan los peces. Es la eutrofización de la sección 2.</figcaption></figure>
+          <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/05-otros-parametros/fosforo-azul.webp" alt="Seis cubetas con líquido azul, de casi transparente a azul oscuro, junto a un espectrofotómetro."></div><figcaption>Más fósforo, azul más intenso: la curva de calibración traduce ese azul en miligramos por litro.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="tipos">
+      <div class="contenedor">
+        <h2>Aguas naturales y aguas residuales</h2>
+        <div class="duo" style="align-items:start">
+          <div>
+            <div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/05-otros-parametros/rio-natural.webp" alt="Gotita sentada en una roca junto a una quebrada limpia de montaña con peces."></div>
+            <div style="margin-top:20px"><div class="parrafo">
+            <p>Por un lado, las aguas naturales son las de ríos, lagos, quebradas y pozos antes de que las personas las usen. Su composición depende de la naturaleza: de las rocas que tocan, del suelo y de la lluvia. Por ejemplo, un río de montaña suele tener mucho oxígeno, poca materia orgánica y pocos nutrientes; por eso, su DBO₅ es muy baja.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/05-otros-parametros/p6-natural.mp3" hidden>🔊 Escuchar</button>
+          </div></div>
+          </div>
+          <div>
+            <div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/05-otros-parametros/agua-residual.webp" alt="Gotita señala una pequeña planta de tratamiento de aguas residuales cerca de un pueblo."></div>
+            <div style="margin-top:20px"><div class="parrafo">
+            <p>Por otro lado, las aguas residuales son las que salen de casas, fábricas y granjas después de usarse, como el agua del inodoro, la ducha o el lavaplatos. En otras palabras, es agua que ya trabajó y viene cargada de restos de comida, jabón, microbios y nutrientes. Por eso, su DBO₅ puede ser casi cien veces mayor que la de un río limpio, y debe pasar por una planta de tratamiento antes de volver a la naturaleza.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/05-otros-parametros/p7-residual.mp3" hidden>🔊 Escuchar</button>
+          </div></div>
+          </div>
+        </div>
+        <div class="tarjetas dos" style="margin-top:24px">
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">🍽️</span><strong>Agua natural</strong><small>antes de usarse</small></span>
+              <span class="cara reverso">Por ejemplo, se parece a un plato limpio guardado en la alacena: lista para usarse.</span>
+            </span>
+          </button>
+          <button class="tarjeta" type="button" aria-pressed="false">
+            <span class="tarjeta-interior">
+              <span class="cara frente"><span class="icono" aria-hidden="true">🧽</span><strong>Agua residual</strong><small>después de usarse</small></span>
+              <span class="cara reverso">En cambio, se parece al agua con la que se lavaron los platos de la cena: lleva restos de todo lo que limpió.</span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="comparar">
+      <div class="contenedor">
+        <h2>Compara los dos tipos de agua</h2>
+        <p class="instruccion">Cambia el tipo de agua y mira cómo crecen las barras.</p>
+        <div class="comparador" data-valores='{"natural":{"dbo":2,"dqo":10,"nt":0.5,"pt":0.02},"residual":{"dbo":190,"dqo":430,"nt":40,"pt":7}}'>
+          <div class="tipos">
+            <button type="button" data-tipo="natural" aria-pressed="true">🏞️ Río de montaña</button>
+            <button type="button" data-tipo="residual" aria-pressed="false">🏘️ Agua residual doméstica</button>
+          </div>
+          <div class="fila" data-param="dbo" data-max="190"><span class="nombre">DBO₅</span><span class="pista-barra"><span class="relleno"></span></span><span class="cifra"></span></div>
+          <div class="fila" data-param="dqo" data-max="430"><span class="nombre">DQO</span><span class="pista-barra"><span class="relleno"></span></span><span class="cifra"></span></div>
+          <div class="fila" data-param="nt" data-max="40"><span class="nombre">Nitrógeno total</span><span class="pista-barra"><span class="relleno"></span></span><span class="cifra"></span></div>
+          <div class="fila" data-param="pt" data-max="7"><span class="nombre">Fósforo total</span><span class="pista-barra"><span class="relleno"></span></span><span class="cifra"></span></div>
+          <p class="nota">Valores típicos aproximados. El agua residual corresponde a una concentración media según Metcalf y Eddy; cada barra se compara con el valor del agua residual.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="carga">
+      <div class="contenedor">
+        <h2>¿Cuánta contaminación llega al río cada día?</h2>
+        <div class="parrafo">
+            <p>Finalmente, para saber cuánto contamina una descarga no basta con la concentración: también importa el caudal. Por ejemplo, un vaso de agua muy sucia contamina menos que un río entero un poco sucio. Por eso, se calcula la carga contaminante, es decir, los kilogramos de una sustancia que llegan al río en un día. Así, en Colombia se cobra una tasa retributiva según la carga de DBO₅ y de sólidos que cada usuario vierte.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/05-otros-parametros/p8-carga.mp3" hidden>🔊 Escuchar</button>
+          </div><div style="margin-top:24px"><div class="calculadora" id="calc-carga"><script type="application/json">{"titulo": "Carga contaminante", "entradas": [{"id": "C", "etiqueta": "Concentración", "unidad": "mg/L", "valor": 190, "paso": 1}, {"id": "Q", "etiqueta": "Caudal de la descarga", "unidad": "L/s", "valor": 20, "paso": 0.5}], "pasos": ["Carga (kg/día) = C × Q × 0,0864", "= {C} × {Q} × 0,0864", "= {=C*Q*0.0864} kg/día", "Nota: 0,0864 convierte mg/s en kg/día: 86 400 segundos por día ÷ 1 000 000 mg por kg."], "resultado": {"expr": "C*Q*0.0864", "etiqueta": "Carga contaminante", "unidad": "kg/día", "decimales": 1}, "interpretar": []}</script></div></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="clasificar">
+      <div class="contenedor">
+        <h2>¿Natural o residual?</h2>
+        <div class="clasificar" data-pista="Todavía no. Pregunta clave: ¿esa agua ya fue usada por las personas?" data-exito="¡Excelente! Las seis aguas quedaron bien clasificadas.">
+          <div class="items">
+            <div class="item" data-respuesta="natural" data-explica="Correcto: nadie la ha usado todavía.">
+              <p>El agua de una quebrada en el páramo.</p>
+              <div class="botones"><button type="button" data-opcion="natural">Natural</button><button type="button" data-opcion="residual">Residual</button></div>
+              <p class="retro-item" aria-live="polite"></p>
+            </div>
+            <div class="item" data-respuesta="residual" data-explica="Correcto: ya se usó y lleva jabón y mugre.">
+              <p>El agua que sale de la lavadora.</p>
+              <div class="botones"><button type="button" data-opcion="natural">Natural</button><button type="button" data-opcion="residual">Residual</button></div>
+              <p class="retro-item" aria-live="polite"></p>
+            </div>
+            <div class="item" data-respuesta="natural" data-explica="Correcto: viene del subsuelo sin haberse usado.">
+              <p>El agua de un pozo profundo en una finca.</p>
+              <div class="botones"><button type="button" data-opcion="natural">Natural</button><button type="button" data-opcion="residual">Residual</button></div>
+              <p class="retro-item" aria-live="polite"></p>
+            </div>
+            <div class="item" data-respuesta="residual" data-explica="Correcto: lleva sangre y restos orgánicos, con una DBO₅ muy alta.">
+              <p>El agua que sale de un matadero.</p>
+              <div class="botones"><button type="button" data-opcion="natural">Natural</button><button type="button" data-opcion="residual">Residual</button></div>
+              <p class="retro-item" aria-live="polite"></p>
+            </div>
+            <div class="item" data-respuesta="natural" data-explica="Correcto: su composición depende solo de la naturaleza.">
+              <p>Un lago de montaña sin casas cerca.</p>
+              <div class="botones"><button type="button" data-opcion="natural">Natural</button><button type="button" data-opcion="residual">Residual</button></div>
+              <p class="retro-item" aria-live="polite"></p>
+            </div>
+            <div class="item" data-respuesta="residual" data-explica="Correcto: lleva restos de comida y grasa.">
+              <p>El agua que baja por el desagüe de la cocina.</p>
+              <div class="botones"><button type="button" data-opcion="natural">Natural</button><button type="button" data-opcion="residual">Residual</button></div>
+              <p class="retro-item" aria-live="polite"></p>
+            </div>
+          </div>
+          <p class="marcador" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="mas-parametros">
+      <div class="contenedor">
+        <h2>Más parámetros de la norma</h2>
+        <p class="instruccion">Cada tarjeta abre una página con explicación, laboratorio virtual y calculadora.</p>
+        <div class="enlaces">
+          <a class="enlace" href="oxigeno-disuelto.html"><span class="icono" aria-hidden="true">🐟</span><strong>Oxígeno disuelto</strong><span>El aire que respiran los peces. Método de Winkler.</span></a>
+          <a class="enlace" href="cloro-residual.html"><span class="icono" aria-hidden="true">🧴</span><strong>Cloro residual</strong><span>El guardián que viaja con el agua. Método DPD.</span></a>
+          <a class="enlace" href="microbiologicos.html"><span class="icono" aria-hidden="true">🦠</span><strong>Coliformes y E. coli</strong><span>Microbios que no se ven. Filtración por membrana.</span></a>
+          <a class="enlace" href="iones.html"><span class="icono" aria-hidden="true">🧂</span><strong>Cloruros, hierro y otros iones</strong><span>Sabor, manchas y salud. Método de Mohr.</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="reto">
+      <div class="contenedor">
+        <h2>Mini-reto</h2>
+        <div class="reto">
+          <p class="pregunta">Una muestra tiene DBO₅ de 200 mg/L y DQO de 450 mg/L. ¿Qué tipo de agua es más probable?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Un río limpio tiene una DBO₅ de apenas unos pocos mg/L.">Agua de un río de montaña.</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! Esos valores son típicos de un agua residual sin tratar.">Agua residual doméstica.</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. En realidad, el agua destilada casi no tiene materia orgánica.">Agua destilada.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div><div class="reto">
+          <p class="pregunta">¿Por qué la DQO es igual o mayor que la DBO₅?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Al contrario, la DQO tarda unas dos horas y la DBO₅, cinco días.">Porque se mide durante más días.</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! El dicromato ataca casi toda la materia orgánica.">Porque la química destruye también lo que las bacterias no pueden comer.</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Las dos pruebas usan la misma muestra.">Porque usa agua más sucia.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="contenedor siguiente">
+      <a class="btn-siguiente" href="../06-normatividad/index.html">Siguiente: Normatividad →</a>
+    </div>
+  </main>
+
+</body>
+</html>

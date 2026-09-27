@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>pH y conductividad</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/estilos.css">
+  <script src="../../js/enciclopedia.js" defer></script>
+  <script src="../../js/laboratorio.js" defer></script>
+</head>
+<body>
+
+  <header class="barra">
+    <div class="contenedor">
+      <a class="marca" href="../../index.html">💧 Enciclopedia del Agua</a>
+      <nav aria-label="Secciones">
+        <ul class="menu">
+          <li><a href="../01-introduccion/index.html">1. Introducción</a></li>
+          <li><a href="../02-hidrosfera-ciclos/index.html">2. Hidrosfera y ciclos</a></li>
+          <li><a href="../03-cantidad-calidad/index.html">3. Cantidad y calidad</a></li>
+          <li><a href="index.html" aria-current="page">4. Parámetros</a></li>
+          <li><a href="../05-otros-parametros/index.html">5. Otros parámetros</a></li>
+          <li><a href="../06-normatividad/index.html">6. Normatividad</a></li>
+          <li><a href="../../calculadoras.html">🧮 Calculadoras</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <div class="contenedor">
+        <a class="volver" href="index.html">← Todos los parámetros</a><br><span class="etiqueta">Parámetro 1 de 6</span>
+        <h1>pH y conductividad</h1>
+        <p>¿El agua es ácida o básica? ¿Cuántas sales lleva disueltas?</p>
+      </div>
+    </section>
+
+    <section class="bloque" id="ph">
+      <div class="contenedor">
+        <div class="duo">
+          <div>
+            <h2>El pH</h2>
+            <div class="parrafo">
+            <p>Para comenzar, el pH indica si el agua es ácida, neutra o básica, usando una escala que va de 0 a 14. Por ejemplo, el jugo de limón es ácido y tiene un pH cercano a 2, mientras que el jabón es básico y pasa de 9. En el centro, cerca de 7, está el agua pura, que es neutra. Además, en Colombia el agua para beber debe tener un pH entre 6,5 y 9,0, según la Resolución 2115 de 2007.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p1-ph.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          </div>
+          <div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/04-parametros/ph-escala.webp" alt="Una barra de colores del rojo al morado con un limón en el extremo rojo, un vaso de agua en el centro verde y un jabón en el extremo morado; Gotita señala el vaso."></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="escala">
+      <div class="contenedor">
+        <h2>La escala del pH</h2>
+        <p class="instruccion">Explora ejemplos de la vida diaria.</p>
+        <div class="escala-ph" data-ejemplos='{"0":"Ácido de batería: muy peligroso.","1":"Jugo del estómago, que ayuda a digerir.","2":"Jugo de limón.","3":"Vinagre.","4":"Jugo de tomate.","5":"Café negro.","6":"Leche.","7":"Agua pura: ni ácida ni básica.","8":"Agua de mar.","9":"Jabón de tocador.","10":"Leche de magnesia, un antiácido.","11":"Amoníaco de limpieza.","12":"Agua de cal.","13":"Blanqueador de ropa.","14":"Destapador de cañerías: muy peligroso."}'>
+          <label for="control-ph" style="font-weight:800;display:block;margin-bottom:10px">Mueve el control por la escala de pH</label>
+          <input id="control-ph" type="range" min="0" max="14" step="1" value="7">
+          <div class="extremos"><span>0 · más ácido</span><span>7 · neutro</span><span>14 · más básico</span></div>
+          <div class="lectura" aria-live="polite"><span class="valor">7</span><span class="tipo">Neutro</span></div>
+          <p class="ejemplo"></p>
+        </div>
+        <div class="descubrir" style="margin-top:20px">
+          <div>
+            <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="dato-diez">¿Un punto de pH es mucho o poco?</button>
+            <div class="revelado" id="dato-diez" hidden><p>De hecho, cada punto de la escala multiplica por diez la cantidad de iones hidrógeno libres, que son las partículas que hacen ácida al agua. Por eso, un agua con pH 5 tiene diez veces más de esas partículas que una con pH 6, y cien veces más que una con pH 7.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="tres-preguntas">
+      <div class="contenedor">
+        <h2>pH, acidez y alcalinidad: tres preguntas distintas</h2>
+        <div class="parrafo">
+            <p>Además, pH, acidez y alcalinidad suelen confundirse, pero cada uno responde una pregunta distinta. Por ejemplo, en un partido de fútbol, el pH sería qué tan fuerte ataca el equipo contrario en este momento; la acidez, cuántos jugadores atacantes tiene en total; y la alcalinidad, qué tan grande es la defensa propia. Así, dos aguas pueden tener el mismo pH y, sin embargo, una puede resistir mucho más ácido que la otra.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p1b-tres-preguntas.mp3" hidden>🔊 Escuchar</button>
+          </div>
+        <div style="margin-top:24px"><div class="comparacion"><div><h3>🧪 pH</h3><dl><dt>Pregunta que responde</dt><dd>¿Qué tan ácida o básica está el agua en este momento?</dd><dt>Cómo se mide</dt><dd>Lectura directa con pHmetro.</dd><dt>Unidad</dt><dd>Ninguna: escala de 0 a 14.</dd><dt>Ejemplo</dt><dd>Agua de la llave: pH 7,4.</dd><dt>En el cómic</dt><dd>La fuerza de los villanos.</dd></dl></div><div><h3>⚔️ Acidez</h3><dl><dt>Pregunta que responde</dt><dd>¿Cuánta sustancia ácida hay en total?</dd><dt>Cómo se mide</dt><dd>Titulación con NaOH 0,02 N y fenolftaleína.</dd><dt>Unidad</dt><dd>mg CaCO₃/L</dd><dt>Ejemplo</dt><dd>50 mg CaCO₃/L.</dd><dt>En el cómic</dt><dd>Contar a todos los villanos.</dd></dl></div><div><h3>🛡️ Alcalinidad</h3><dl><dt>Pregunta que responde</dt><dd>¿Cuánto ácido puede resistir el agua sin que su pH se desplome?</dd><dt>Cómo se mide</dt><dd>Titulación con HCl 0,02 N, fenolftaleína y anaranjado de metilo.</dd><dt>Unidad</dt><dd>mg CaCO₃/L</dd><dt>Ejemplo</dt><dd>168 mg CaCO₃/L.</dd><dt>En el cómic</dt><dd>El tamaño del escudo.</dd></dl></div></div></div>
+        <div style="margin-top:24px"><div class="ejemplo"><strong>✏️ Ejemplo resuelto: mismo pH, distinta defensa</strong><p style="margin:0">Dos aguas tienen pH 7,0. El agua A tiene alcalinidad de 20 mg CaCO₃/L y el agua B, de 200 mg CaCO₃/L. A las dos les llega la misma cantidad de ácido.</p><ol><li>El escudo de B es <span class='cuenta'>200 ÷ 20 = 10 veces</span> más grande que el de A.</li><li>El agua A gasta rápido su escudo y su pH puede caer varios puntos, por ejemplo hasta cerca de 5.</li><li>El agua B neutraliza el ácido y su pH casi no cambia.</li></ol><p style=margin-bottom:0>Por eso, el pH solo no basta: también hay que medir la alcalinidad y la acidez.</p></div></div>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="calcular-ph">
+      <div class="contenedor">
+        <h2>¿Cómo se calcula el pH?</h2>
+        <div class="parrafo">
+            <p>Por otra parte, el pH se calcula a partir de la cantidad de iones hidrógeno (H⁺), que son las partículas que hacen ácida al agua. Esa cantidad se escribe en moles por litro, una forma de contar partículas, y es un número decimal muy pequeño: en el agua neutra es 0,0000001. Entonces, el pH es la posición donde aparece el 1 después de la coma; en ese ejemplo es la séptima, así que el pH es 7.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p1c-calcular-ph.mp3" hidden>🔊 Escuchar</button>
+          </div>
+        <div style="margin-top:24px"><div class="calc-ph">
+          <label for="ph-ceros" style="font-weight:800;display:block">Elige un pH y mira cuántos iones H⁺ hay en un litro</label>
+          <input id="ph-ceros" type="range" min="0" max="14" step="1" value="7">
+          <p style="margin:12px 0 4px">pH <strong class="ph-valor" style="font-size:1.6rem">7</strong> → [H⁺] = <span class="h-decimal"></span> mol/L</p>
+          <p class="ph-ceros" style="margin:0;font-weight:700"></p>
+          <p class="ph-comparar" style="margin:4px 0 0"></p>
+        </div></div>
+        <div class="duo" style="margin-top:24px;align-items:start"><div class="ejemplo"><strong>✏️ Ejemplo resuelto: la fórmula exacta</strong><p style="margin:0">Cuando el número no es exacto, se usa la fórmula pH = −log[H⁺], donde log es una tecla de la calculadora científica.</p><ol><li>[H⁺] = 0,001 mol/L es lo mismo que 10⁻³.</li><li>pH = −log(10⁻³) = −(−3) = <span class='cuenta'>3</span>.</li><li>Si [H⁺] = 0,00004 mol/L: pH = −log(0,00004) ≈ <span class='cuenta'>4,4</span>.</li></ol></div><div class="calculadora" id="calc-ph"><script type="application/json">{"titulo": "De [H⁺] a pH", "entradas": [{"id": "H", "etiqueta": "Concentración de iones H⁺", "unidad": "mol/L", "valor": 4e-05, "paso": "any"}], "pasos": ["pH = −log[H⁺]", "pH = −log({H})", "pH = {=-Math.log10(H)}"], "resultado": {"expr": "-Math.log10(H)", "etiqueta": "pH", "unidad": "", "decimales": 2}, "interpretar": [{"hasta": 6.4999, "texto": "Es un agua ácida: queda por debajo del rango de 6,5 a 9,0 para beber."}, {"hasta": 9.0, "texto": "Está dentro del rango de 6,5 a 9,0 de la Resolución 2115."}, {"hasta": null, "texto": "Es un agua básica: queda por encima del rango de 6,5 a 9,0 para beber."}]}</script></div></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="medir-ph">
+      <div class="contenedor">
+        <h2>¿Cómo se mide?</h2>
+        <div class="duo">
+          <div class="parrafo">
+            <p>Por otra parte, el pH se mide con un pHmetro, un aparato con una punta de vidrio llamada electrodo que se sumerge en la muestra. Antes de usarlo, se calibra con líquidos de pH conocido, por ejemplo 4 y 7, igual que se ajusta una balanza antes de pesar. Luego, se espera a que el número de la pantalla deje de moverse y se anota con un decimal, como 7,4.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p2-medir-ph.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          <div class="parrafo">
+            <p>Además, la conductividad indica qué tan fácil pasa la corriente eléctrica por el agua. Esto ocurre porque las sales disueltas se separan en partículas con carga, llamadas iones, que transportan la electricidad. Por eso, a más sales disueltas, mayor conductividad. Por ejemplo, en una práctica, el agua de la llave marcó 210 microsiemens por centímetro y el agua de una quebrada marcó 85; es decir, el agua de la llave llevaba más sales.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p3-conductividad.mp3" hidden>🔊 Escuchar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="laboratorio-ph">
+      <div class="contenedor">
+        <h2>Laboratorio virtual: medir el pH</h2>
+        <p class="instruccion">Sigue los pasos en orden con el botón azul; cada dato queda en el cuaderno de laboratorio.</p>
+        <div class="lab" id="lab-ph"><script type="application/json">{"escena": "medidor", "equipo": "pHmetro", "pasos": [{"titulo": "Encender", "texto": "Se enciende el pHmetro y se espera a que se estabilice.", "boton": "Encender", "pantalla": "---", "vaso": ["Vaso vacío"], "liquido": "#ffffff"}, {"titulo": "Enjuagar el electrodo", "texto": "Se enjuaga el electrodo con agua destilada de la piseta y se seca con toques suaves de papel, sin frotar.", "boton": "Enjuagar", "vaso": ["Agua destilada"], "liquido": "#eef9fd", "pantalla": "—"}, {"titulo": "Calibrar con buffer 7", "texto": "Se sumerge el electrodo en el buffer de pH 7,00, un líquido de pH conocido, y se oprime «Calibrar».", "boton": "Calibrar con pH 7,00", "vaso": ["Buffer pH 7,00"], "liquido": "#f7e46b", "animar": {"de": 6.2, "a": 7.0, "decimales": 2}, "registro": ["Calibración 1", "Buffer pH 7,00 ✔"]}, {"titulo": "Enjuagar el electrodo", "texto": "Se enjuaga el electrodo con agua destilada de la piseta y se seca con toques suaves de papel, sin frotar.", "boton": "Enjuagar", "vaso": ["Agua destilada"], "liquido": "#eef9fd", "pantalla": "—"}, {"titulo": "Calibrar con buffer 4", "texto": "Luego, se usa el buffer de pH 4,00. Con dos puntos conocidos, el equipo traza su propia regla, como una recta entre dos marcas.", "boton": "Calibrar con pH 4,00", "vaso": ["Buffer pH 4,00"], "liquido": "#f08a7a", "animar": {"de": 6.9, "a": 4.0, "decimales": 2}, "registro": ["Calibración 2", "Buffer pH 4,00 ✔ (pendiente 98 %)"]}, {"titulo": "Enjuagar el electrodo", "texto": "Se enjuaga el electrodo con agua destilada de la piseta y se seca con toques suaves de papel, sin frotar.", "boton": "Enjuagar", "vaso": ["Agua destilada"], "liquido": "#eef9fd", "pantalla": "—"}, {"titulo": "Medir la muestra", "texto": "Se sumerge unos 3 cm del electrodo en la muestra, sin tocar el fondo, y se espera hasta que el número deje de moverse.", "boton": "Sumergir en la muestra", "vaso": ["Muestra M1", "agua de la llave"], "liquido": "#d6f0fa", "animar": {"de": 5.6, "a": 7.4, "decimales": 1}}, {"titulo": "Anotar", "texto": "Se anota el valor con un decimal y se compara con la norma.", "boton": "Anotar el resultado", "registro": ["pH de M1", "7,4"], "resultado": "El pH de M1 es <strong>7,4<\/strong>. Como está entre 6,5 y 9,0, cumple el rango de la Resolución 2115 de 2007 para agua de consumo."}], "final": "Práctica terminada. Al final, el electrodo se enjuaga y se guarda en su solución de almacenamiento, nunca seco.", "unidad": "unidades de pH", "vaso": ["Vaso vacío"]}</script></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="conductividad">
+      <div class="contenedor">
+        <h2>Más sales, más corriente</h2>
+        <div class="duo">
+          <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/04-parametros/conductividad.webp" alt="Dos vasos con electrodos conectados a bombillos: el del agua con más sales disueltas enciende su bombillo con mucha más fuerza."></div><figcaption>En este dibujo, el bombillo brilla más en el agua con más sales: los puntos de colores representan los iones. Un conductímetro real no usa bombillo, sino que muestra un número en su pantalla.</figcaption></figure>
+          <div class="descubrir">
+            <div>
+            <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="dato-unidad">¿Qué significa µS/cm?</button>
+            <div class="revelado" id="dato-unidad" hidden><p>Por ejemplo, µS/cm se lee «microsiemens por centímetro» y es la unidad de la conductividad. Así, un número más alto significa que el agua lleva más sales disueltas.</p></div>
+          </div>
+            <div>
+            <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="dato-destilada">¿Y el agua destilada?</button>
+            <div class="revelado" id="dato-destilada" hidden><p>En cambio, el agua destilada casi no tiene sales, así que su conductividad es muy baja, menor a 5 µS/cm. Por eso, se usa para enjuagar los electrodos entre una muestra y otra.</p></div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="laboratorio-cond">
+      <div class="contenedor">
+        <h2>Laboratorio virtual: medir la conductividad</h2>
+        <div class="lab" id="lab-cond"><script type="application/json">{"escena": "medidor", "equipo": "Conductímetro", "pasos": [{"titulo": "Encender", "texto": "Se enciende el conductímetro y se espera a que se estabilice.", "boton": "Encender", "pantalla": "---", "vaso": ["Vaso vacío"], "liquido": "#ffffff"}, {"titulo": "Revisar el agua destilada", "texto": "Se enjuaga la celda con agua destilada; su lectura debe ser menor a 5 µS/cm, señal de que está limpia.", "boton": "Medir agua destilada", "vaso": ["Agua destilada"], "liquido": "#eef9fd", "animar": {"de": 0, "a": 2, "decimales": 0}, "registro": ["Agua destilada", "2 µS/cm ✔ (menor a 5)"]}, {"titulo": "Calibrar", "texto": "Se mide el patrón de cloruro de potasio 0,01 M, que a 25 °C tiene 1413 µS/cm, y se ajusta el equipo a ese valor.", "boton": "Calibrar con el patrón", "vaso": ["Patrón KCl 0,01 M", "1413 µS/cm"], "liquido": "#e3e8ff", "animar": {"de": 1300, "a": 1413, "decimales": 0}, "registro": ["Calibración", "1413 µS/cm ✔"]}, {"titulo": "Medir M1", "texto": "Se enjuaga la celda y se mide el agua de la llave.", "boton": "Medir M1", "vaso": ["M1: agua de la llave"], "liquido": "#d6f0fa", "animar": {"de": 0, "a": 210, "decimales": 0}, "registro": ["M1: agua de la llave", "210 µS/cm"]}, {"titulo": "Medir M2", "texto": "Se enjuaga otra vez y se mide el agua de la quebrada.", "boton": "Medir M2", "vaso": ["M2: agua de quebrada"], "liquido": "#e2f3e6", "animar": {"de": 0, "a": 85, "decimales": 0}, "registro": ["M2: agua de quebrada", "85 µS/cm"]}, {"titulo": "Comparar", "texto": "Se restan los dos valores y se interpretan.", "boton": "Comparar resultados", "resultado": "Diferencia: 210 − 85 = <strong>125 µS/cm<\/strong>. El agua de la llave lleva más sales disueltas. Las dos están muy por debajo del máximo de 1000 µS/cm de la Resolución 2115."}], "final": "Práctica terminada: la celda se enjuaga y se guarda limpia.", "unidad": "µS/cm", "vaso": ["Vaso vacío"]}</script></div>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="reto">
+      <div class="contenedor">
+        <h2>Mini-reto</h2>
+        <p class="instruccion">Todas las respuestas se encuentran en esta página.</p>
+        <div class="reto">
+          <p class="pregunta">La Resolución 2115 exige un pH entre 6,5 y 9,0 para el agua de beber. Una muestra marca 5,5. ¿Cumple?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Aunque parece cercano, 5,5 queda por debajo del mínimo de 6,5.">Sí, porque está cerca de 7.</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! Es más ácida de lo permitido.">No, porque está por debajo del mínimo de 6,5.</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Todas las aguas están entre 0 y 14; la norma pide el rango de 6,5 a 9,0.">Sí, porque está entre 0 y 14.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+        <div class="reto">
+          <p class="pregunta">Según el calculador de esta página, ¿cuántas veces más iones H⁺ tiene un agua de pH 5 que una de pH 7?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Cada punto multiplica por 10, así que son dos multiplicaciones: 10 × 10.">2 veces</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! Son dos puntos de diferencia: 10 × 10 = 100.">100 veces</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Los puntos de pH multiplican, no suman: 10 × 10 = 100.">20 veces</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+        <div class="reto">
+          <p class="pregunta">Dos aguas tienen pH 7,0; la A tiene alcalinidad de 20 mg CaCO₃/L y la B, de 200. Les llega el mismo ácido. ¿Cuál cambia menos su pH?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Su escudo es diez veces más pequeño y se agota rápido.">La A.</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! Su alcalinidad, es decir, su escudo, es diez veces mayor.">La B.</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. El mismo pH no significa la misma defensa.">Las dos igual, porque tienen el mismo pH.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+        <div class="reto">
+          <p class="pregunta">En el laboratorio virtual, M1 marcó 210 µS/cm y M2, 85 µS/cm. ¿Cuál lleva más sales disueltas?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! A mayor conductividad, más iones.">M1, el agua de la llave.</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Un número menor indica menos sales.">M2, el agua de quebrada.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="contenedor entre-parametros">
+      <a class="btn-siguiente" href="index.html">← Todos los parámetros</a>
+      <a class="btn-siguiente" href="color.html">Color →</a>
+    </div>
+  </main>
+
+</body>
+</html>

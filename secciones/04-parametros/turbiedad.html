@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Turbiedad del agua</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/estilos.css">
+  <script src="../../js/enciclopedia.js" defer></script>
+  <script src="../../js/laboratorio.js" defer></script>
+</head>
+<body>
+
+  <header class="barra">
+    <div class="contenedor">
+      <a class="marca" href="../../index.html">💧 Enciclopedia del Agua</a>
+      <nav aria-label="Secciones">
+        <ul class="menu">
+          <li><a href="../01-introduccion/index.html">1. Introducción</a></li>
+          <li><a href="../02-hidrosfera-ciclos/index.html">2. Hidrosfera y ciclos</a></li>
+          <li><a href="../03-cantidad-calidad/index.html">3. Cantidad y calidad</a></li>
+          <li><a href="index.html" aria-current="page">4. Parámetros</a></li>
+          <li><a href="../05-otros-parametros/index.html">5. Otros parámetros</a></li>
+          <li><a href="../06-normatividad/index.html">6. Normatividad</a></li>
+          <li><a href="../../calculadoras.html">🧮 Calculadoras</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <div class="contenedor">
+        <a class="volver" href="index.html">← Todos los parámetros</a><br><span class="etiqueta">Parámetro 3 de 6</span>
+        <h1>Turbiedad</h1>
+        <p>¿Qué tan difícil es ver a través del agua?</p>
+      </div>
+    </section>
+
+    <section class="bloque" id="que-es">
+      <div class="contenedor">
+        <h2>¿Qué es la turbiedad?</h2>
+        <div class="duo">
+          <div>
+            <div class="parrafo">
+            <p>Para empezar, la turbiedad indica qué tan difícil es ver a través del agua. Esto ocurre porque el agua lleva partículas muy pequeñas suspendidas, como barro, arcilla o microbios, que desvían la luz. Por ejemplo, sucede lo mismo con los faros de un carro en una noche con neblina: las gotitas de la niebla dispersan la luz y el camino se ve borroso. Así, a más partículas, mayor turbiedad.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p1-turbiedad.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          </div>
+          <div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/04-parametros/turb-niebla.webp" alt="De noche y con neblina, la luz de los faros de un carro se ve borrosa; Gotita alumbra el camino con una linterna."></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="comparar">
+      <div class="contenedor">
+        <h2>El turbidímetro</h2>
+        <div class="duo">
+          <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/04-parametros/turb-luz.webp" alt="Dos botellas de agua: la de la izquierda es transparente y la de la derecha se ve lechosa por las partículas que flotan."></div><figcaption>A la izquierda, agua clara; a la derecha, agua turbia. Las partículas desvían la luz y la botella se ve lechosa. En Colombia, la unidad NTU también se escribe UNT.</figcaption></figure>
+          <div>
+            <div class="parrafo">
+            <p>Por eso, la turbiedad se mide con un turbidímetro, un aparato que ilumina la muestra y detecta cuánta luz sale desviada hacia un lado por las partículas. Su resultado se expresa en unidades nefelométricas de turbiedad, o NTU. Además, antes de medir, el equipo se ajusta con agua sin partículas, que marca 0 NTU, y con líquidos de turbiedad conocida, preparados con una sustancia llamada formazina.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/04-parametros/p2-turbidimetro.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="pasos">
+      <div class="contenedor">
+        <h2>Medir paso a paso</h2>
+        <div class="duo" style="align-items:start">
+          <div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/04-parametros/turbidimetro.webp" alt="Gotita coloca un frasco pequeño con agua ligeramente turbia dentro del pozo de un turbidímetro."></div>
+          <ol class="flujo" style="grid-auto-flow:row;gap:30px">
+            <li><strong>Encender</strong>Esperar de 5 a 10 minutos a que el equipo se estabilice.</li>
+            <li><strong>Calibrar</strong>Con agua de 0 NTU y con estándares de formazina.</li>
+            <li><strong>Preparar</strong>Agitar la muestra suavemente, sin hacer burbujas.</li>
+            <li><strong>Medir</strong>Llenar la cubeta, limpiarla por fuera y leer el valor en NTU.</li>
+          </ol>
+        </div>
+        <div class="descubrir" style="margin-top:24px">
+          <div>
+            <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="dato-burbujas">¿Por qué sin burbujas?</button>
+            <div class="revelado" id="dato-burbujas" hidden><p>De hecho, las burbujas también desvían la luz, así que el aparato las contaría como si fueran partículas. Por eso, si se forman, se deja reposar la muestra unos minutos antes de medir.</p></div>
+          </div>
+          <div>
+            <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="dato-huellas">¿Por qué se limpia la cubeta por fuera?</button>
+            <div class="revelado" id="dato-huellas" hidden><p>Además, una huella o una gota en el vidrio desvía la luz igual que una partícula. Así, una cubeta sucia o rayada daría una turbiedad más alta que la real.</p></div>
+          </div>
+          <div>
+            <button class="btn-descubrir" type="button" aria-expanded="false" aria-controls="dato-diluir">¿Y si el agua está muy turbia?</button>
+            <div class="revelado" id="dato-diluir" hidden><p>En ese caso, se diluye: por ejemplo, 10 mL de muestra con 90 mL de agua sin partículas. Luego, el resultado se multiplica por 10; así, una lectura de 25 NTU equivale a 250 NTU reales.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="laboratorio-turb">
+      <div class="contenedor">
+        <h2>Laboratorio virtual: el turbidímetro</h2>
+        <p class="instruccion">Sigue los pasos con el botón azul.</p>
+        <div class="lab" id="lab-turb"><script type="application/json">{"escena": "caja", "equipo": "Turbidímetro", "pasos": [{"titulo": "Encender", "texto": "Se enciende el turbidímetro y se espera de 5 a 10 minutos.", "boton": "Encender", "pantalla": "---"}, {"titulo": "Ajustar el cero", "texto": "Se inserta una cubeta con agua de turbiedad cero (menos de 0,02 NTU) y se oprime «Zero».", "boton": "Ajustar el cero", "vaso": ["Agua de", "turbiedad cero"], "liquido": "#f4fbfd", "pantalla": "0,00"}, {"titulo": "Calibrar", "texto": "Se inserta el estándar de formazina de 20 NTU y se confirma su valor.", "boton": "Calibrar con 20 NTU", "vaso": ["Formazina", "20 NTU"], "liquido": "#eef0f0", "animar": {"de": 0, "a": 20, "decimales": 1}, "registro": ["Calibración", "Formazina 20 NTU ✔"]}, {"titulo": "Verificar", "texto": "Se mide un estándar de 10 NTU que no se usó para calibrar: debe leer dentro de ±5 %, es decir, entre 9,5 y 10,5.", "boton": "Verificar con 10 NTU", "vaso": ["Formazina", "10 NTU"], "liquido": "#f1f3f3", "animar": {"de": 0, "a": 10.2, "decimales": 1}, "registro": ["Verificación", "10,2 NTU ✔ (±5 %)"]}, {"titulo": "Preparar M1", "texto": "Se agita suavemente la muestra, sin hacer burbujas; se llena la cubeta, se seca por fuera y se alinea en el equipo.", "boton": "Insertar M1", "vaso": ["M1: agua", "de la llave"], "liquido": "#e6f1f3"}, {"titulo": "Leer M1", "texto": "Se espera de 10 a 30 segundos a que la lectura se estabilice.", "boton": "Leer M1", "animar": {"de": 0, "a": 3.8, "decimales": 1}, "registro": ["M1: agua de la llave", "3,8 NTU"]}, {"titulo": "Diluir M2", "texto": "M2 es agua de río muy turbia: se diluye 1:10 (10 mL de muestra en 100 mL de agua de turbiedad cero) y se lee.", "boton": "Leer M2 diluida", "vaso": ["M2 diluida 1:10"], "liquido": "#d8cdb8", "animar": {"de": 0, "a": 25, "decimales": 1}, "registro": ["M2 diluida 1:10", "25 NTU → 250 NTU"]}, {"titulo": "Interpretar", "texto": "Se comparan los resultados con el máximo de 2 NTU de la Resolución 2115.", "boton": "Interpretar", "resultado": "M1 = <strong>3,8 NTU<\/strong>: supera el máximo de 2 NTU, así que no cumple. M2 = 25 × 10 = <strong>250 NTU<\/strong>: es agua cruda de río que necesita tratamiento completo."}], "final": "Práctica terminada: las cubetas se lavan y se secan con un paño suave.", "unidad": "NTU", "vaso": ["Cubeta vacía"]}</script></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="calculadora-turb">
+      <div class="contenedor">
+        <h2>Calculadora de dilución</h2>
+        <div class="calculadora" id="calc-turb"><script type="application/json">{"titulo": "Turbiedad de una muestra diluida", "entradas": [{"id": "L", "etiqueta": "Lectura de la dilución", "unidad": "NTU", "valor": 25, "paso": 0.1}, {"id": "Vm", "etiqueta": "Volumen de muestra", "unidad": "mL", "valor": 10, "paso": 1}, {"id": "Vt", "etiqueta": "Volumen total de la dilución", "unidad": "mL", "valor": 100, "paso": 1}], "pasos": ["Factor de dilución = volumen total ÷ volumen de muestra = {Vt} ÷ {Vm} = {=Vt/Vm}", "Turbiedad = lectura × factor", "Turbiedad = {L} × {=Vt/Vm} = {=L*Vt/Vm} NTU"], "resultado": {"expr": "L*Vt/Vm", "etiqueta": "Turbiedad de la muestra original", "unidad": "NTU", "decimales": 1}, "interpretar": [{"hasta": 2, "texto": "Cumple el máximo de 2 NTU de la Resolución 2115 para agua de consumo."}, {"hasta": null, "texto": "Supera el máximo de 2 NTU para agua de consumo."}]}</script></div>
+      </div>
+    </section>
+
+
+    <section class="bloque" id="reto">
+      <div class="contenedor">
+        <h2>Mini-reto</h2>
+        <p class="instruccion">Todas las respuestas se encuentran en esta página.</p>
+        <div class="reto">
+          <p class="pregunta">Dos muestras marcan 3 NTU y 40 NTU. ¿Cuál es más turbia?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Un número menor indica menos partículas.">La de 3 NTU.</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! A más NTU, más partículas desvían la luz.">La de 40 NTU.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+        <div class="reto">
+          <p class="pregunta">Una muestra diluida 1:10 marca 12 NTU. ¿Cuál es su turbiedad real?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Como se diluyó diez veces, se multiplica por 10.">12 NTU</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. Al diluir se multiplica, no se divide.">1,2 NTU</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! 12 × 10 = 120 NTU.">120 NTU</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+        <div class="reto">
+          <p class="pregunta">En el laboratorio virtual, M1 marcó 3,8 NTU. Si el máximo es 2 NTU, ¿cumple?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. 3,8 es mayor que 2.">Sí.</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! Supera el máximo de la Resolución 2115.">No.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="contenedor entre-parametros">
+      <a class="btn-siguiente" href="color.html">← Color</a>
+      <a class="btn-siguiente" href="alcalinidad-acidez.html">Alcalinidad y acidez →</a>
+    </div>
+  </main>
+
+</body>
+</html>

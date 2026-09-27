@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculadoras del agua</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/enciclopedia.js" defer></script>
+  <script src="js/laboratorio.js" defer></script>
+</head>
+<body>
+
+  <header class="barra">
+    <div class="contenedor">
+      <a class="marca" href="index.html">💧 Enciclopedia del Agua</a>
+      <nav aria-label="Secciones">
+        <ul class="menu">
+          <li><a href="secciones/01-introduccion/index.html">1. Introducción</a></li>
+          <li><a href="secciones/02-hidrosfera-ciclos/index.html">2. Hidrosfera y ciclos</a></li>
+          <li><a href="secciones/03-cantidad-calidad/index.html">3. Cantidad y calidad</a></li>
+          <li><a href="secciones/04-parametros/index.html">4. Parámetros</a></li>
+          <li><a href="secciones/05-otros-parametros/index.html">5. Otros parámetros</a></li>
+          <li><a href="secciones/06-normatividad/index.html">6. Normatividad</a></li>
+          <li><a href="calculadoras.html">🧮 Calculadoras</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <div class="contenedor">
+        <span class="etiqueta">Herramientas</span>
+        <h1>Calculadoras del agua</h1>
+        <p>Cada calculadora muestra la fórmula, la sustitución de los datos y el resultado, paso a paso.</p>
+      </div>
+    </section>
+
+    <section class="bloque" id="lista">
+      <div class="contenedor">
+        <div class="parrafo">
+          <p>Para empezar, cada calculadora parte de datos de laboratorio, como los mililitros gastados en una titulación o los gramos que pesa una cápsula. Además, junto a cada una está el laboratorio virtual que explica de dónde salen esos datos. Por eso, conviene recorrer primero la página del parámetro y luego usar la calculadora con datos propios.</p>
+        </div>
+        <h2 style="margin-top:32px">Cantidad de agua</h2>
+        <div class="enlaces">
+          <a class="enlace" href="secciones/03-cantidad-calidad/index.html#calc-caudal"><span class="icono" aria-hidden="true">🪣</span><strong>Caudal con el método del balde</strong><span>Volumen ÷ tiempo, en L/s, L/día y m³/día.</span></a>
+        </div>
+        <h2 style="margin-top:32px">pH y conductividad</h2>
+        <div class="enlaces">
+          <a class="enlace" href="secciones/04-parametros/ph-conductividad.html#calc-ph"><span class="icono" aria-hidden="true">🧪</span><strong>De [H⁺] a pH</strong><span>pH = −log[H⁺] paso a paso.</span></a>
+        </div>
+        <h2 style="margin-top:32px">Color y turbiedad</h2>
+        <div class="enlaces">
+          <a class="enlace" href="secciones/04-parametros/color.html#calc-color"><span class="icono" aria-hidden="true">🎨</span><strong>Color con curva de calibración</strong><span>Absorbancia ÷ pendiente × dilución.</span></a>
+          <a class="enlace" href="secciones/04-parametros/turbiedad.html#calc-turb"><span class="icono" aria-hidden="true">🌫️</span><strong>Turbiedad de una dilución</strong><span>Lectura × factor de dilución.</span></a>
+        </div>
+        <h2 style="margin-top:32px">Titulaciones</h2>
+        <div class="enlaces">
+          <a class="enlace" href="secciones/04-parametros/alcalinidad-acidez.html#calc-alc"><span class="icono" aria-hidden="true">🛡️</span><strong>Alcalinidad total</strong><span>(V × N × 50 000) ÷ Vm.</span></a>
+          <a class="enlace" href="secciones/04-parametros/alcalinidad-acidez.html#calc-acid"><span class="icono" aria-hidden="true">⚔️</span><strong>Acidez total</strong><span>(V × N × 50 000) ÷ Vm.</span></a>
+          <a class="enlace" href="secciones/04-parametros/dureza.html#calc-dureza"><span class="icono" aria-hidden="true">🧼</span><strong>Dureza total o cálcica</strong><span>(V × M × 100 090) ÷ Vm.</span></a>
+          <a class="enlace" href="secciones/04-parametros/dureza.html#calc-magnesica"><span class="icono" aria-hidden="true">➖</span><strong>Dureza magnésica</strong><span>Total − cálcica.</span></a>
+          <a class="enlace" href="secciones/05-otros-parametros/oxigeno-disuelto.html#calc-od"><span class="icono" aria-hidden="true">🐟</span><strong>Oxígeno disuelto (Winkler)</strong><span>(V × N × 8000) ÷ Vm.</span></a>
+          <a class="enlace" href="secciones/05-otros-parametros/iones.html#calc-cloruros"><span class="icono" aria-hidden="true">🧂</span><strong>Cloruros (Mohr)</strong><span>(A − B) × N × 35 450 ÷ V.</span></a>
+        </div>
+        <h2 style="margin-top:32px">Sólidos y materia orgánica</h2>
+        <div class="enlaces">
+          <a class="enlace" href="secciones/04-parametros/solidos.html#calc-st"><span class="icono" aria-hidden="true">⚖️</span><strong>Sólidos totales</strong><span>(B − A) × 1 000 000 ÷ V.</span></a>
+          <a class="enlace" href="secciones/04-parametros/solidos.html#calc-sv"><span class="icono" aria-hidden="true">🔥</span><strong>Sólidos volátiles</strong><span>(B − C) × 1 000 000 ÷ V.</span></a>
+          <a class="enlace" href="secciones/05-otros-parametros/index.html#calc-dbo"><span class="icono" aria-hidden="true">🦠</span><strong>DBO₅ con dilución</strong><span>(OD₀ − OD₅) ÷ P.</span></a>
+          <a class="enlace" href="secciones/05-otros-parametros/index.html#calc-dqo"><span class="icono" aria-hidden="true">⚗️</span><strong>DQO por titulación</strong><span>(A − B) × M × 8000 ÷ V.</span></a>
+          <a class="enlace" href="secciones/05-otros-parametros/index.html#calc-bio"><span class="icono" aria-hidden="true">♻️</span><strong>Índice de biodegradabilidad</strong><span>DBO₅ ÷ DQO.</span></a>
+        </div>
+        <h2 style="margin-top:32px">Otros parámetros de la norma</h2>
+        <div class="enlaces">
+          <a class="enlace" href="secciones/05-otros-parametros/cloro-residual.html#calc-cloro"><span class="icono" aria-hidden="true">🧴</span><strong>Cloro para un tanque</strong><span>Dosis × volumen.</span></a>
+          <a class="enlace" href="secciones/05-otros-parametros/microbiologicos.html#calc-ufc"><span class="icono" aria-hidden="true">🔬</span><strong>Colonias a UFC/100 mL</strong><span>Colonias × 100 ÷ volumen filtrado.</span></a>
+          <a class="enlace" href="secciones/05-otros-parametros/iones.html#calc-hierro"><span class="icono" aria-hidden="true">🧲</span><strong>Hierro con curva de calibración</strong><span>Absorbancia ÷ pendiente.</span></a>
+        </div>
+        <h2 style="margin-top:32px">Indicadores de calidad</h2>
+        <div class="enlaces">
+          <a class="enlace" href="secciones/06-normatividad/index.html#calc-irca"><span class="icono" aria-hidden="true">📊</span><strong>IRCA: riesgo del agua para beber</strong><span>Puntajes de la Resolución 2115 y nivel de riesgo.</span></a>
+          <a class="enlace" href="secciones/06-normatividad/index.html#calc-ica"><span class="icono" aria-hidden="true">🏞️</span><strong>ICA: calidad de un río (IDEAM)</strong><span>Subíndices de OD, SST, DQO, CE, pH y NT/PT.</span></a>
+          <a class="enlace" href="secciones/05-otros-parametros/index.html#calc-carga"><span class="icono" aria-hidden="true">🏭</span><strong>Carga contaminante de un vertimiento</strong><span>C × Q × 0,0864 = kg/día.</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

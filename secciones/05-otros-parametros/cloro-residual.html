@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cloro residual libre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/estilos.css">
+  <script src="../../js/enciclopedia.js" defer></script>
+  <script src="../../js/laboratorio.js" defer></script>
+</head>
+<body>
+
+  <header class="barra">
+    <div class="contenedor">
+      <a class="marca" href="../../index.html">💧 Enciclopedia del Agua</a>
+      <nav aria-label="Secciones">
+        <ul class="menu">
+          <li><a href="../01-introduccion/index.html">1. Introducción</a></li>
+          <li><a href="../02-hidrosfera-ciclos/index.html">2. Hidrosfera y ciclos</a></li>
+          <li><a href="../03-cantidad-calidad/index.html">3. Cantidad y calidad</a></li>
+          <li><a href="../04-parametros/index.html">4. Parámetros</a></li>
+          <li><a href="index.html" aria-current="page">5. Otros parámetros</a></li>
+          <li><a href="../06-normatividad/index.html">6. Normatividad</a></li>
+          <li><a href="../../calculadoras.html">🧮 Calculadoras</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <div class="contenedor">
+        <a class="volver" href="index.html">← Otros parámetros</a><br><span class="etiqueta">Sección 5 · Parámetro de la norma</span>
+        <h1>Cloro residual libre</h1>
+        <p>El guardián que viaja con el agua.</p>
+      </div>
+    </section>
+
+    <section class="bloque" id="que-es">
+      <div class="contenedor">
+        <h2>¿Qué es el cloro residual?</h2>
+        <div class="duo">
+          <div class="parrafo">
+            <p>Para empezar, el cloro se agrega en las plantas de tratamiento para matar los microbios del agua, igual que el jabón elimina los gérmenes de las manos. Sin embargo, no basta con agregarlo en la planta: debe quedar un poco de cloro en el agua hasta que llega a la llave, porque el camino por las tuberías es largo. Ese sobrante se llama cloro residual libre y funciona como un guardián que viaja con el agua.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/05-otros-parametros/cl-p1.mp3" hidden>🔊 Escuchar</button>
+          </div>
+          <figure class="ilustracion-explicada"><div class="imagen" data-pendiente="Imagen pendiente"><img src="../../assets/images/05-otros-parametros/cloro-dpd.webp" alt="Junto a una llave, dos viales: uno con agua clara y otro rosado tras agregar un reactivo; al lado, un colorímetro."></div><figcaption>Con el reactivo DPD, el agua con cloro se vuelve rosada.</figcaption></figure>
+        </div>
+        <div style="margin-top:20px"><div class="parrafo">
+            <p>Por eso, la Resolución 2115 de 2007 pide que el agua de la llave tenga entre 0,3 y 2,0 miligramos de cloro residual libre por litro. Con menos de 0,3, los microbios podrían sobrevivir; con más de 2,0, el agua tendría un sabor y un olor fuertes. Además, se mide fácilmente con el método DPD: un reactivo que tiñe el agua de rosado, más intenso cuanto más cloro hay.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/05-otros-parametros/cl-p2.mp3" hidden>🔊 Escuchar</button>
+          </div></div>
+        <div style="margin-top:20px"><div class="tabla-desplazable"><table class="tabla-datos"><thead><tr><th>Unidad</th><th>Método estándar</th><th>Qué dice la norma</th></tr></thead><tbody><tr><td>mg Cl₂/L</td><td>Colorimétrico DPD (SM 4500-Cl G)</td><td>Resolución 2115 de 2007: entre 0,3 y 2,0 mg/L en cualquier punto de la red.</td></tr></tbody></table></div></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="laboratorio">
+      <div class="contenedor">
+        <h2>Laboratorio virtual: medir el cloro</h2>
+        <p class="instruccion">Sigue los pasos con el botón azul.</p>
+        <div class="lab" id="lab-cloro"><script type="application/json">{"escena": "caja", "equipo": "Colorímetro de cloro (DPD)", "pasos": [{"titulo": "Tomar la muestra", "texto": "Se deja correr el agua de la llave durante un minuto y se llena un vial de 10 mL.", "boton": "Llenar el vial", "vaso": ["Vial: 10 mL de", "agua de la llave"], "liquido": "#eef8fc", "pantalla": "---"}, {"titulo": "Ajustar el cero", "texto": "Se coloca el vial sin reactivo en el colorímetro y se oprime «Zero».", "boton": "Ajustar el cero", "pantalla": "0,00"}, {"titulo": "Agregar DPD", "texto": "Se agrega un sobre de reactivo DPD y se agita 20 segundos: si hay cloro, el agua se vuelve rosada.", "boton": "Agregar DPD", "vaso": ["10 mL", "+ reactivo DPD"], "liquido": "#f6b3cc"}, {"titulo": "Leer", "texto": "Se lee antes de un minuto, porque con el tiempo el color cambia.", "boton": "Leer", "animar": {"de": 0, "a": 0.8, "decimales": 2}, "registro": ["Cloro residual libre", "0,80 mg/L"]}, {"titulo": "Interpretar", "texto": "Se compara con el rango de la Resolución 2115.", "boton": "Interpretar", "resultado": "0,80 mg/L está entre 0,3 y 2,0: <strong>cumple<\/strong>. El agua llega a la llave con suficiente cloro para seguir protegida contra los microbios."}], "final": "Práctica terminada.", "unidad": "mg/L de cloro", "vaso": ["Vial vacío"]}</script></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="calculadora">
+      <div class="contenedor">
+        <h2>Calculadora de cloro para un tanque</h2>
+        <div class="calculadora" id="calc-cloro"><script type="application/json">{"titulo": "¿Cuánto cloro puro necesita un tanque?", "entradas": [{"id": "D", "etiqueta": "Dosis deseada", "unidad": "mg/L", "valor": 2, "paso": 0.1}, {"id": "V", "etiqueta": "Volumen del tanque", "unidad": "L", "valor": 1000, "paso": 10}], "pasos": ["Cloro = dosis × volumen", "Cloro = {D} mg/L × {V} L = {=D*V} mg", "En gramos: {=D*V} mg ÷ 1000 = {=D*V/1000} g de cloro puro"], "resultado": {"expr": "D*V/1000", "etiqueta": "Cloro puro necesario", "unidad": "g", "decimales": 2}, "interpretar": []}</script></div><p class="instruccion" style="margin-top:10px">Los productos comerciales traen cloro diluido; por eso, la cantidad real del producto depende de su concentración y de la etiqueta.</p>
+      </div>
+    </section>
+
+    <section class="bloque" id="reto">
+      <div class="contenedor">
+        <h2>Mini-reto</h2>
+        <div class="reto">
+          <p class="pregunta">En la llave se mide 0,1 mg/L de cloro residual. El rango de la norma es de 0,3 a 2,0. ¿Cumple?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. 0,1 es menor que el mínimo de 0,3.">Sí.</button>
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! Los microbios podrían sobrevivir en la tubería.">No: tiene muy poco cloro para proteger el agua.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="contenedor entre-parametros">
+      <a class="btn-siguiente" href="oxigeno-disuelto.html">← Oxígeno disuelto</a>
+      <a class="btn-siguiente" href="microbiologicos.html">Coliformes y E. coli →</a>
+    </div>
+  </main>
+
+</body>
+</html>

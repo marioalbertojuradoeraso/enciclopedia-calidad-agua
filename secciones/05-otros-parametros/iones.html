@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cloruros, hierro y otros iones</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/estilos.css">
+  <script src="../../js/enciclopedia.js" defer></script>
+  <script src="../../js/laboratorio.js" defer></script>
+</head>
+<body>
+
+  <header class="barra">
+    <div class="contenedor">
+      <a class="marca" href="../../index.html">💧 Enciclopedia del Agua</a>
+      <nav aria-label="Secciones">
+        <ul class="menu">
+          <li><a href="../01-introduccion/index.html">1. Introducción</a></li>
+          <li><a href="../02-hidrosfera-ciclos/index.html">2. Hidrosfera y ciclos</a></li>
+          <li><a href="../03-cantidad-calidad/index.html">3. Cantidad y calidad</a></li>
+          <li><a href="../04-parametros/index.html">4. Parámetros</a></li>
+          <li><a href="index.html" aria-current="page">5. Otros parámetros</a></li>
+          <li><a href="../06-normatividad/index.html">6. Normatividad</a></li>
+          <li><a href="../../calculadoras.html">🧮 Calculadoras</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="progreso" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <div class="contenedor">
+        <a class="volver" href="index.html">← Otros parámetros</a><br><span class="etiqueta">Sección 5 · Parámetro de la norma</span>
+        <h1>Cloruros, hierro y otros iones</h1>
+        <p>Partículas pequeñas con efectos grandes.</p>
+      </div>
+    </section>
+
+    <section class="bloque" id="que-son">
+      <div class="contenedor">
+        <h2>Los iones del agua</h2>
+        <div class="parrafo">
+            <p>Para empezar, el agua lleva disueltos varios iones, que son partículas con carga eléctrica, como los cloruros, los sulfatos, el hierro, los nitritos y los nitratos. En pequeñas cantidades son normales, porque vienen de las rocas y del suelo. Sin embargo, en exceso cambian el sabor, manchan la ropa o afectan la salud. Por eso, la Resolución 2115 fija un máximo para cada uno.</p>
+            <button class="btn-audio" type="button" data-audio="../../assets/audio/05-otros-parametros/io-p1.mp3" hidden>🔊 Escuchar</button>
+          </div><div style="margin-top:24px"><div class="tabla-desplazable"><table class="tabla-datos"><thead><tr><th>Ion</th><th>Qué causa en exceso</th><th>Máximo (Res. 2115)</th><th>Método estándar</th><th>Cómo se ve en el laboratorio</th></tr></thead><tbody><tr><td>Cloruros (Cl⁻)</td><td>Sabor salado y corrosión de tuberías</td><td>250 mg/L</td><td>Mohr (SM 4500-Cl⁻ B)</td><td>Titulación con nitrato de plata; el cromato pasa de amarillo a rojo ladrillo</td></tr><tr><td>Sulfatos (SO₄²⁻)</td><td>Sabor amargo y efecto laxante</td><td>250 mg/L</td><td>Turbidimétrico (SM 4500-SO₄²⁻ E)</td><td>Con cloruro de bario se forma una nube blanca que se lee a 420 nm</td></tr><tr><td>Hierro total (Fe)</td><td>Color rojizo, manchas en la ropa y sabor metálico</td><td>0,3 mg/L</td><td>Fenantrolina (SM 3500-Fe B)</td><td>Color naranja rojizo que se lee a 510 nm</td></tr><tr><td>Nitritos (NO₂⁻)</td><td>Peligro para los bebés</td><td>0,1 mg/L</td><td>Colorimétrico (SM 4500-NO₂⁻ B)</td><td>Color rosado magenta que se lee a 543 nm</td></tr><tr><td>Nitratos (NO₃⁻)</td><td>Peligro para los bebés; señal de abonos o aguas residuales</td><td>10 mg/L</td><td>Ultravioleta (SM 4500-NO₃⁻ B)</td><td>Lectura de luz ultravioleta a 220 nm</td></tr></tbody></table></div><p class="instruccion" style="margin-top:8px">Los métodos con color usan una curva de calibración, igual que la del color del agua en la sección 4.</p></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="laboratorio">
+      <div class="contenedor">
+        <h2>Laboratorio virtual: cloruros por el método de Mohr</h2>
+        <p class="instruccion">Sigue los pasos con el botón azul.</p>
+        <div class="lab" id="lab-cloruros"><script type="application/json">{"escena": "titulacion", "equipo": "Cloruros por el método de Mohr", "pasos": [{"titulo": "Llenar la bureta", "texto": "Se llena la bureta con nitrato de plata 0,0141 N y se enrasa en 0,00 mL.", "boton": "Llenar y enrasar", "volumen": 0}, {"titulo": "Medir la muestra", "texto": "Se miden 100 mL de muestra.", "boton": "Medir 100 mL", "vaso": ["Erlenmeyer:", "100 mL de muestra"], "liquido": "#eef6fa", "registro": ["Volumen de muestra (V)", "100 mL"]}, {"titulo": "Indicador", "texto": "Se agrega 1 mL de cromato de potasio: la muestra se vuelve amarilla.", "boton": "Agregar cromato", "vaso": ["100 mL de muestra", "+ cromato de potasio"], "liquido": "#f5d130"}, {"titulo": "Titular", "texto": "Se agrega nitrato de plata: primero forma un sólido blanco con los cloruros; cuando se acaban, aparece un color rojo ladrillo.", "boton": "Titular", "titular": {"hasta": 9.2, "colorCerca": "#e8b04a", "colorFinal": "#c0602f"}}, {"titulo": "Blanco", "texto": "Se repite con agua destilada para saber cuánto gasta el indicador solo.", "boton": "Titular el blanco", "registro": ["Muestra (A)", "9,2 mL"]}, {"titulo": "Calcular", "texto": "Se resta el blanco y se aplica la fórmula.", "boton": "Calcular", "registro": ["Blanco (B)", "0,2 mL"], "resultado": "Cloruros = (A − B) × N × 35 450 ÷ V = (9,2 − 0,2) × 0,0141 × 35 450 ÷ 100 = <strong>45 mg/L<\/strong>. Cumple el máximo de 250 mg/L."}], "final": "Práctica terminada: los residuos con plata se guardan en un recipiente especial.", "titulante": "Nitrato de plata 0,0141 N", "indicadores": ["Cromato de potasio 5 %"], "vaso": ["Erlenmeyer vacío"], "liquido": "#f3f6f8"}</script></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="calculadoras">
+      <div class="contenedor">
+        <h2>Calculadoras de iones</h2>
+        <div class="duo" style="align-items:start"><div class="calculadora" id="calc-cloruros"><script type="application/json">{"titulo": "Cloruros (método de Mohr)", "entradas": [{"id": "A", "etiqueta": "Nitrato de plata gastado con la muestra", "unidad": "mL", "valor": 9.2, "paso": 0.1}, {"id": "B", "etiqueta": "Gastado con el blanco", "unidad": "mL", "valor": 0.2, "paso": 0.1}, {"id": "N", "etiqueta": "Normalidad del nitrato de plata", "unidad": "N", "valor": 0.0141, "paso": 0.0001}, {"id": "V", "etiqueta": "Volumen de muestra", "unidad": "mL", "valor": 100, "paso": 1}], "pasos": ["Cloruros = (A − B) × N × 35 450 ÷ V", "= ({A} − {B}) × {N} × 35 450 ÷ {V}", "= {=(A-B)*N*35450/V} mg/L", "Nota: 35 450 es la masa del cloro, 35,45 g/mol, escrita en mg."], "resultado": {"expr": "(A-B)*N*35450/V", "etiqueta": "Cloruros", "unidad": "mg/L", "decimales": 1}, "interpretar": [{"hasta": 250, "texto": "Cumple el máximo de 250 mg/L."}, {"hasta": null, "texto": "Supera el máximo de 250 mg/L: sabor salado."}]}</script></div><div class="calculadora" id="calc-hierro"><script type="application/json">{"titulo": "Hierro con curva de calibración", "entradas": [{"id": "Abs", "etiqueta": "Absorbancia a 510 nm", "unidad": "", "valor": 0.08, "paso": 0.001}, {"id": "m", "etiqueta": "Pendiente de la curva", "unidad": "por mg/L", "valor": 0.199, "paso": 0.001}], "pasos": ["Hierro = absorbancia ÷ pendiente", "= {Abs} ÷ {m}", "= {=Abs/m} mg/L"], "resultado": {"expr": "Abs/m", "etiqueta": "Hierro total", "unidad": "mg/L", "decimales": 2}, "interpretar": [{"hasta": 0.3, "texto": "Cumple el máximo de 0,3 mg/L."}, {"hasta": null, "texto": "Supera 0,3 mg/L: el agua puede manchar la ropa y saber a metal."}]}</script></div></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="reto">
+      <div class="contenedor">
+        <h2>Mini-reto</h2>
+        <div class="reto">
+          <p class="pregunta">Un agua tiene 0,5 mg/L de hierro. El máximo es 0,3 mg/L. ¿Qué problema puede causar?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! Además, supera el máximo de la norma.">Manchas rojizas en la ropa y sabor metálico.</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. El máximo es 0,3, y 0,5 lo supera.">Ninguno, porque es menos de 1 mg/L.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div><div class="reto">
+          <p class="pregunta">En la titulación de Mohr, ¿qué color indica que se acabaron los cloruros?</p>
+          <div class="opciones">
+            <button class="opcion" type="button" data-correcta="true" data-retro="¡Correcto! Aparece cuando el nitrato de plata ya no encuentra cloruros.">Rojo ladrillo.</button>
+            <button class="opcion" type="button" data-correcta="false" data-retro="No del todo. El azul es el final de la dureza con EDTA.">Azul.</button>
+          </div>
+          <p class="retro" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="contenedor entre-parametros">
+      <a class="btn-siguiente" href="microbiologicos.html">← Coliformes y E. coli</a>
+      <a class="btn-siguiente" href="../06-normatividad/index.html">Normatividad →</a>
+    </div>
+  </main>
+
+</body>
+</html>
